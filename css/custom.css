@@ -145,7 +145,7 @@
     line-height: 6.5rem;
     color: #222; }
   .navbar-link.active {
-    color: #33C3F0; }
+    color: #c22a39; }
   .has-docked-nav .navbar {
     position: fixed;
     top: 0;
@@ -219,10 +219,10 @@
     border-bottom-width: 0; }
   .popover-link:hover {
     color: #fff;
-    background: #33C3F0; }
+    background: #c22a39; }
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
-    border-bottom-color: #33C3F0; }
+    border-bottom-color: #c22a39; }
 /*}*/
 
 .welcome, .address {
