@@ -228,7 +228,7 @@
 .welcome, .address {
 padding-top: 4rem;
 }
-.small-hide, .medium-hide {
+.tiny-hide, .small-hide, .medium-hide {
      display: none;
 }
 .address {
@@ -251,7 +251,9 @@ display: none;
 }
 /* Larger than mobile */
 @media (min-width: 400px) {
-
+   .tiny-hide {
+     display: block;
+   }
 }
 
 /* Larger than phablet */
