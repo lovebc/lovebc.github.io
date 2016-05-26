@@ -22,13 +22,7 @@ permalink: blog
             
             <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
             <h6 class="docs-header">Tweets</h6>         
-            <a class="twitter-timeline" data-tweet-limit="3"
-            data-chrome="noheader nofooter noborders noscrollbar transparent"
-            height = "600" href="https://twitter.com/DrLoveBC" data-widget-id="735848882727424001" 
-            >Tweets by @DrLoveBC</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            <a href="https://twitter.com/DrLoveBC" style = "text-decoration:none; color: #bbb; float: right;">
-              View on Twitter</a>
+                  {% include twitter.html %}
             </div>
             
             
