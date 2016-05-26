@@ -1,0 +1,65 @@
+<div class="navbar-spacer"></div>
+
+<nav class="navbar">
+  <div class="container">
+    <ul class="navbar-list">
+
+      <li class="navbar-item"> <!-- link to top(-ish) of page -->
+        <a class="navbar-link" href="{{ site.baseurl }}">Home</a>
+      </li>
+      
+      <li class="navbar-item"> <!-- this makes it make a cool drop-down thing -->
+        <a class="navbar-link" href="#" data-popover="#codeNavPopover">Lab</a>
+        <div id="codeNavPopover" class="popover">
+          <ul class="popover-list">
+            <li class="popover-item">
+              <a class="popover-link" href="{{ site.baseurl }}/lab">About</a>
+            </li>
+            <li class="popover-item">
+              <a class="popover-link" href="{{ site.baseurl }}/lab/people">People</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      
+      <li class="navbar-item">
+        <a class="navbar-link" href="{{ site.baseurl }}/blog">Blog</a>
+      </li>
+
+      <li class="navbar-item">
+        <a class="navbar-link tiny-hide" href="#publications">Publications</a>
+      </li>
+
+      <li class="navbar-item">
+        <a class="navbar-link medium-hide" href="#cv">CV</a>
+      </li>
+        
+      <li class="navbar-item">
+        <a class="navbar-link medium-hide" 
+        href="mailto:&#98;&#46;&#108;&#111;&#118;&#101;&#64;&#117;&#99;&#108;&#46;&#97;&#99;&#46;&#117;&#107;">
+          Contact</a>
+      </li>
+      
+      <li class="navbar-item">
+            <a class="navbar-link medium-and-below" href="#" data-popover="#moreNavPopover"
+            style="font-family:Monospace; font-size:2rem">+</a>
+            <div id="moreNavPopover" class="popover">
+              <ul class="popover-list">
+
+                <li class="popover-item">
+                  <a class="popover-link medium-and-below" href="#cv">CV</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link medium-and-below"
+                  href="mailto:&#98;&#46;&#108;&#111;&#118;&#101;&#64;&#117;&#99;&#108;&#46;&#97;&#99;&#46;&#117;&#107;">
+                    Contact</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link tiny-and-below" href="#publications">Publications</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+    </ul>
+  </div>
+</nav>
