@@ -379,6 +379,13 @@ p a:hover {
   transition: all 0.4s ease-out;
  }
  
+a {
+    color: #c22a39;
+    
+ }
+a:hover {  color: #000;
+
+ } 
  button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
