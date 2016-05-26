@@ -230,14 +230,14 @@
   }
 /* Larger than mobile */
 @media (min-width: 400px) {
-  .banner {
-    display: block;
-  }
+
 }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-
+  .banner {
+    display: block;
+  }
 }
 
 /* Larger than tablet */
