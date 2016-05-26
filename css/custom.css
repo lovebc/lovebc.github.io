@@ -224,6 +224,14 @@
     border-bottom-color: #33C3F0; }
 }
 
+.welcome, .address {
+padding-top: 4rem;
+}
+
+.address {
+  font-size: 1.25rem;
+}
+
 /* Mobile first queries */
   .banner {
     display: none;
