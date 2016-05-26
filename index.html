@@ -2,17 +2,12 @@
 layout: test
 ---
 
-  <div class="container" id = "intro">
-    
+<div class="container" id = "intro">
 
-	{% include header.html %}
+  {% include header.html %}
         
-        {% include navigation.html %}
-  
+  {% include navigation.html %}
 
-    
-
-  
   <div class="section intro">
       <div class="row">
         <div class="three columns address">
@@ -36,34 +31,19 @@ layout: test
             height = "600" href="https://twitter.com/DrLoveBC" data-widget-id="513078909043089409"  data-chrome="nofooter noheader" >Tweets by @DrLoveBC</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
-    
-            
-
         </div>
+        
         <div class="nine columns welcome" >
           <p>
              Welcome. I am Professor of Cognitive and Decision Sciences in Experimental Psychology at UCL and a fellow at the Alan Turing Institute for data science. My lab's research centers around human learning and decision making, integrating behavioural, computational, and neuroscience perspectives. The lab consists of a lab manager, four postdocs, five PhD students, and a number MSc and BS students. My apologies for the perestroika kitsch.
             <p>
-            <h4>Availability</h4>
-            <p>Meeting Times: T-Th 12-8 PM, when available. I've already hit my PhD viva quota for 2015-2016 academic year. Feel free to try me for ad hoc reviews, but two editing jobs lead to a low accept rate, sorry. </p>
-
-          <h4>Our Work in the Media</h4>
-          <ul>
-              <li>Reinforcement Learning: <a href="http://www.businessweek.com/lifestyle/content/healthday/637632.html">BusinessWeek</a>, <a href="http://www.sciencedaily.com/releases/2010/03/100331091138.htm">ScienceDaily</a>,
-<a href="media/Love_Fox7_Interview.mp4">Fox7 News (video)</a>.</li>
-              <li>Category Learning: <a href="http://www.utexas.edu/cola/public-affairs/news/O13722"> UT Public Affairs</a>, <a href="http://www.psychologytoday.com/blog/ulterior-motives/201101/what-you-do-affects-what-you-learn"> Psychology Today.</a></li>
-              <li>Improving Prediction/Cleaning Memory: <a href="http://www.dailymail.co.uk/sciencetech/article-2313428/Bad-news-bookies-Experts-claim-brain-trained-accurate-predicting-sports-games.html?ito=feeds-newsxml">Daily Mail</a>, <a href="http://www.sciencedaily.com/releases/2013/04/130422154923.htm?utm_source=rss1.0&utm_medium=feed&utm_campaign=Feed%3A+sciencedaily+%28ScienceDaily%3A+Latest+Science+News%29">ScienceDaily</a>, <a href="http://www.cbc.ca/news/technology/story/2013/04/26/science-brain-winner-prediction.html">CBC News (audio)</a>, <a href="http://www.abc.es/ciencia/20130423/abci-recuerdos-dificultan-toma-objetiva-201304221821.html">ABC (Spain)</a>, <a href="http://veja.abril.com.br/noticia/ciencia/informacoes-distorcidas-podem-levar-a-previsoes-mais-corretas">Veja (Brazil)</a>, <a href="http://news.sciencenet.cn/sbhtmlnews/2013/4/272189.shtm">ScienceNet (China)</a>.</li>
-             <li>Video Gaming and Cognitive Ability: <a href="http://www.huffingtonpost.com/2013/08/24/video-games-brain-starcraft-cognitive-flexibility_n_3790610.html"> Huffington Post</a>, <a href="media/BrianNBCnews.mov"> NBC Nightly News (Video)</a>, <a href="http://www.psychologytoday.com/blog/ulterior-motives/201308/can-video-games-make-you-smart-or-least-more-flexible"> Psychology Today</a>, <a href="http://games.slashdot.org/story/13/08/12/2357251/playing-starcraft-could-boost-your-cognitive-flexibility"> Slashdot</a>, <a href="http://www.cnet.com.au/want-to-train-your-brain-play-starcraft-339345158.htm"> CNET Australia</a>, <a href="http://www.pcr-online.biz/news/read/playing-starcraft-is-good-for-the-mind-study-suggests/031627"> PCR</a>, <a href="http://www.sciencedaily.com/releases/2013/08/130821094924.htm"> ScienceDaily</a>, <a href="http://news.cnet.com/8301-11386_3-57600089-76/study-40-hours-of-complex-starcraft-is-good-for-the-brain/"> CNET</a>, <a href="media/plosOneAdditionalMedia.html"> and more...</a> Visit <a href="http://PlayIQ.com"> PlayIQ.com</a> to evaluate yourself!</a></li>
-             <li>Sky News (23-8-2013) "Is the internet destroying our brains?" Answer: <a href="http://www.sciencemag.org/content/333/6043/776.abstract"> Not exactly</a>. <a href="media/SkyNewsSwipe.mov"> Video snippet</a> from Swipe segment.</li>
-             <li> Brain Basis of Category Learning: <a href="http://www.sciencedaily.com/releases/2013/11/131108112144.htm">ScienceDaily</a>, <a href="http://neurosciencenews.com/medial-temporal-lobe-memory-fmri-1081/">Neuroscience News</a>.</li>
-             <li>Developing Brain and Gaming: <a href="media/brazilTV.mp4"> R7 Brazil (Video with Portuguese audio)</a>.</li>
-             <li>Optimism Bias: <a href="http://www.minnpost.com/second-opinion/2015/09/why-football-fans-are-unrealistically-optimistic-and-why-it-matters"> MinnPost</a>, <a href="http://www.newsweek.com/nfl-fans-and-reporters-overly-optimistic-about-teams-prospects-370447"> Newsweek</a>, <a href="http://phys.org/news/2015-09-nfl-fans-espn-overly-optimistic.html">PHYS ORG</a>, <a href="http://www.csmonitor.com/Science/2015/0909/NFL-scores-Your-team-is-probably-less-invincible-than-you-imagine"> C.S. Monitor</a>.</li>
-          </ul>
+          {% include availability.md %}
           
+          {% include media.md %}
           
         </div>
       </div>
       
     </div>
-  </div>
+</div>
 
