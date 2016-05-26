@@ -228,7 +228,9 @@
 .welcome, .address {
 padding-top: 4rem;
 }
-
+.small-hide {
+     display: none;
+}
 .address {
   font-size: 1.25rem;
 }
@@ -269,6 +271,9 @@ display: none;
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+   .small-hide {
+     display: block;
+   }
     .social {
      font-size: 2.5rem;
     }
