@@ -365,8 +365,18 @@ p a:hover {
 
 a {
     color: #c22a39;
+    
+  -webkit-transition: opacity 0.4s linear;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
  }
 a:hover {  color: #000;
+
+  -webkit-transition: opacity 0.4s linear;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
  }
  
  button.button-primary:focus,
@@ -377,12 +387,3 @@ input[type="button"].button-primary:focus {
   background-color: #c22a39;
   border-color: #c22a39; }
 
- p ul {
-    list-style: none;
-}
-
-
-p li:before {
-    content: "■ ";
-    color: #bbb; /* or whatever color you prefer */
-}
