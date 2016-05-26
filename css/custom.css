@@ -254,6 +254,9 @@ display: none;
    .tiny-hide {
      display: block;
    }
+   .tiny-and-below {
+     display:none;
+   }
 }
 
 /* Larger than phablet */
@@ -278,6 +281,10 @@ display: none;
 @media (min-width: 750px) {
    .medium-hide {
      display: block;
+   }
+   .medium-and-below
+   {
+     display: none;
    }
     .social {
      font-size: 2.5rem;
