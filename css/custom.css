@@ -324,3 +324,36 @@ display: none;
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 }
+
+.funding-top img, .funding-bottom img {
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale");
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6+ */
+  filter: grayscale(100%);
+  /* Current draft standard */
+  -webkit-filter: grayscale(100%);
+  /* New WebKit */
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%); }
+
+.funding-top  a:hover img, .funding-bottom  a:hover  img {
+
+  -webkit-transition: opacity 0.4s linear;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  filter: none;
+  /* Firefox 3.5+ */
+  filter: grayscale(0);
+  /* Current draft standard */
+  -webkit-filter: grayscale(0);
+  /* New WebKit */
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0); }
+
