@@ -57,6 +57,10 @@ layout: test
           <h5>Our Work in the Media</h5>
           {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
           
+          <div class="docs-section examples" id="cv">
+          <h4>CV</h4>
+          </div>
+          
           <div class="docs-section examples" id="publications">
           <h4>Publications</h4>
           {% capture publications %}{% include publications.md %}{% endcapture %}{{ publications | markdownify }}
