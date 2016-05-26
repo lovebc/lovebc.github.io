@@ -2,7 +2,7 @@
 layout: default
 ---
 <div id="header">
-<a href="/">Olivia Guest</a> 
+<a href="/">Bradley C. Love</a> 
 </div>
 
 <div class="posts">
