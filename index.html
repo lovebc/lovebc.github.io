@@ -57,6 +57,8 @@ layout: test
           <h4>Our Work in the Media</h4>
           {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
           
+          <h4 id="publications">Publications</h4>
+          
           <div class = "funding-bottom"> <!--appears here on smaller screens -->
             <h4>Funded by</h4>
                {% include funding.html %}
