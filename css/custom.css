@@ -17,6 +17,9 @@
   border-top: 1px solid #eee;
   padding: 4rem 0;
   margin-bottom: 0;}
+.docs-section .top {
+ border: 0;
+}
 .value-img {
   display: block;
   text-align: center;
