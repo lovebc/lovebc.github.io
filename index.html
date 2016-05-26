@@ -42,7 +42,10 @@ layout: test
           {% include availability.md %}
           
           <h4>Our Work in the Media</h4>
-          {% include media.md %}
+         <!-- {% include media.md %} -->
+          
+          {% capture my-include %}{% include media.md %}{% endcapture %}
+{{ my-include | markdownify }}
           
         </div>
       </div>
