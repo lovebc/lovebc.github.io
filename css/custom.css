@@ -383,6 +383,6 @@ input[type="button"].button-primary:focus {
 
 
 li:before {
-    content: "▪ ";
+    content: "■ ";
     color: #bbb; /* or whatever color you prefer */
 }
