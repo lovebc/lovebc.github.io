@@ -249,6 +249,10 @@ padding-top: 4rem;
 display: none;
   
 }
+.funding-top {
+    display:none;
+  }
+
 
 #moreNavPopover.popover { /*disgusting hack? */
          left: -120% !important;
@@ -283,7 +287,12 @@ display: none;
   .small-hide {
     display: block;
   }
-  
+  .funding-top {
+    display:block;
+  }
+  .funding-bottom {
+    display: none;
+  }
 
 }
 
