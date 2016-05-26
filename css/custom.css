@@ -363,3 +363,11 @@ a {
  }
 a:hover {  color: #000;
  }
+ 
+ button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #c22a39;
+  border-color: #c22a39; }
