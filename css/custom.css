@@ -377,3 +377,4 @@ input[type="button"].button-primary:focus {
   background-color: #c22a39;
   border-color: #c22a39; }
 
+ul{list-style-type: square; color: #bbb;}
