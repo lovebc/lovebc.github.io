@@ -249,6 +249,11 @@ padding-top: 4rem;
 display: none;
   
 }
+
+#moreNavPopover.popover { /*disgusting hack? */
+         left: -120% !important;
+
+   }
 /* Larger than mobile */
 @media (min-width: 400px) {
    .tiny-hide {
@@ -258,7 +263,7 @@ display: none;
      display:none;
    }
    
-   #moreNavPopover .popover {
+   #moreNavPopover.popover {/*disgusting hack? */
          left: -85% !important;
 
    }
