@@ -1,22 +1,82 @@
 ---
 layout: test
 ---
-<div id="header">
-<a href="/">Bradley C. Love</a> 
+
+
+<div class="container" id = "intro">
+
+  {% include header.html %}
+        
+  {% include navigation.html %}
+
+  <div class="section main">
+      <div class="row">
+        <div class="three columns address">
+            <p><a href="mailto:&#98;&#46;&#108;&#111;&#118;&#101;&#64;&#117;&#99;&#108;&#46;&#97;&#99;&#46;&#117;&#107;"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            Bradley C. Love<br>
+            University College London<br>
+            Experimental Psychology<br>
+            <a href="{{ site.baseurl}}/images/BradLoveOffice.jpg">26 Bedford Way, Room 228</a><br>
+            WC1H 0AP<br>
+            London, UK 
+            </p>
+            <p class = "social">
+              <a href="https://twitter.com/DrLoveBC"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href= "https://www.researchgate.net/profile/Bradley_Love"><i class="ai ai-researchgate"></i></a>
+              <a href= "https://scholar.google.co.uk/citations?user=H8dnlegAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>
+              <a href="http://orcid.org/0000-0002-7883-7076"><i class="ai ai-orcid"></i></a>
+            </p>
+            
+            <div class = "funding-top"> <!-- giving it own class because we need to move to bottom on smaller screens -->
+              <h6 class="docs-header">Funded by</h6>
+                  {% include funding.html %}
+            </div>
+            
+            <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
+            <h6 class="docs-header">Tweets</h6>         
+            <a class="twitter-timeline" data-tweet-limit="3"
+            data-chrome="noheader nofooter noborders noscrollbar transparent"
+            height = "600" href="https://twitter.com/DrLoveBC" data-widget-id="735848882727424001" 
+            >Tweets by @DrLoveBC</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <a href="https://twitter.com/DrLoveBC" style = "text-decoration:none; color: #bbb; float: right;">
+              View on Twitter</a>
+            </div>
+            
+            
+                       
+        </div>
+        
+        <div class="nine columns" >
+                      
+              <div class="posts">
+                {% for post in site.posts %}
+                  <article class="post">
+                    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                    <div class="entry">
+                      {{ post.content | truncatewords:50}}
+                    </div>
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+                  </article>
+                {% endfor %}
+                
+               <!-- {% for repository in site.github.public_repositories %}
+                  * [{{ repository.name }}]({{ repository.html_url }})
+                {% endfor %} -->
+              </div>
+          
+        </div>
+      </div>
+
+
+          
+    </div>
 </div>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <div class="entry">
-        {{ post.content | truncatewords:50}}
+      <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+        <a href="/license" style="text-decoration: none; color: #888; padding:auto">Bradley C. Love 2016<!-- 2016–{{ site.time | date: '%y' }}--></a>
+        </footer>
       </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-  
- <!-- {% for repository in site.github.public_repositories %}
-    * [{{ repository.name }}]({{ repository.html_url }})
-  {% endfor %} -->
-</div>
+      </div>
