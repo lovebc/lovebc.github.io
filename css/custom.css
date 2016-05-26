@@ -81,9 +81,10 @@
   right: 5px;
   bottom: 5px;
   left: 5px; }
+  /*
 .navbar {
   display: none; }
-
+*/
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {
