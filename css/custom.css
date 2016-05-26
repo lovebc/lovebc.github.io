@@ -225,20 +225,27 @@
 }
 
 /* Mobile first queries */
-
+  .banner {
+    display: none;
+  }
 /* Larger than mobile */
 @media (min-width: 400px) {
   .banner {
-    display: none;
   }
   
 }
 
 /* Larger than phablet */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+    .banner {
+  }
+}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+
+  }
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
