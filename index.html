@@ -27,12 +27,12 @@ layout: test
             </p>
             
             <div class = "funding-top"> <!-- giving it own class because we need to move to bottom on smaller screens -->
-              <h5>Funded by</h5>
+              <h6>Funded by</h6>
                   {% include funding.html %}
             </div>
             
             <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
-            <h5>Tweets</h5>         
+            <h6>Tweets</h6>         
             <a class="twitter-timeline" data-tweet-limit="3"
             data-chrome="noheader nofooter noborders noscrollbar transparent"
             height = "600" href="https://twitter.com/DrLoveBC" data-widget-id="735848882727424001" 
@@ -51,10 +51,10 @@ layout: test
              I am Professor of Cognitive and Decision Sciences in Experimental Psychology at UCL and a fellow at the Alan Turing Institute for data science. My lab's research centers around human learning and decision making, integrating behavioural, computational, and neuroscience perspectives. The lab consists of a lab manager, four postdocs, five PhD students, and a number MSc and BS students. My apologies for the perestroika kitsch.
             <p>
               
-          <h4>Availability</h4>
+          <h5>Availability</h5>
           {% capture availability %}{% include availability.md %}{% endcapture %}{{ availability | markdownify }}
           
-          <h4>Our Work in the Media</h4>
+          <h5>Our Work in the Media</h5>
           {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
           
           <div class="docs-section examples" id="publications">
