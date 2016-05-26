@@ -27,7 +27,7 @@ layout: test
             </p>
             
             <div class = "funding-top"> <!-- giving it own class because we need to move to bottom on smaller screens -->
-              <h5>Funded by</h5><p>
+              <h5>Funded by</h5>
                   {% include funding.html %}
             </div>
             
@@ -52,7 +52,7 @@ layout: test
           {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
           
           <div class = "funding-bottom"> <!--appears here on smaller screens -->
-            <h4>Funded by</h4><p>
+            <h4>Funded by</h4>
                {% include funding.html %}
           </div>
           
