@@ -363,7 +363,7 @@ p a:hover {
   transition: all 0.4s ease-out;
 }
 
-.container a {
+.main a {
     color: #c22a39;
     
   -webkit-transition: opacity 0.4s linear;
@@ -371,7 +371,7 @@ p a:hover {
   -moz-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
  }
-.container a:hover {  color: #000;
+.main a:hover {  color: #000;
 
   -webkit-transition: opacity 0.4s linear;
   -webkit-transition: all 0.4s ease-out;
