@@ -328,12 +328,20 @@ display: none;
 .funding-top img, .funding-bottom img {
   opacity: 0.4;
   filter: alpha(opacity=40); /* For IE8 and earlier */
+  -webkit-transition: opacity 0.4s linear;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 
 }
 
 .funding-top  a:hover img, .funding-bottom  a:hover  img {
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */
+  -webkit-transition: opacity 0.4s linear;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
   
 a, a:hover {
