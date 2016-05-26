@@ -344,14 +344,14 @@ display: none;
   transition: all 0.4s ease-out;
 }
   
-a {
+p a {
   color: #c22a39;
   -webkit-transition: opacity 0.4s linear;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
 }
-a:hover {
+p a:hover {
   color: #000;
   -webkit-transition: opacity 0.4s linear;
   -webkit-transition: all 0.4s ease-out;
