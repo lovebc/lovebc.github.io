@@ -232,6 +232,12 @@ padding-top: 4rem;
   font-size: 1.25rem;
 }
 
+
+.social {
+  font-size: 3rem;
+    color: #bbb;
+}
+
 /* Mobile first queries */
   .banner-large {
     display: none;
@@ -255,7 +261,7 @@ display: none;
   }
     .social {
     font-size: 2rem;
-}
+  }
   
 
 }
@@ -263,31 +269,21 @@ display: none;
 /* Larger than tablet */
 @media (min-width: 750px) {
     .social {
-    font-size: 2.5rem;
-}
+     font-size: 2.5rem;
+    }
   
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
     .tweets {
-display: block;
-  
-}
+      display: block;
+    }
   .social {
     font-size: 3rem;
-}
-  
+    }
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-
-  
 }
-
-.social {
-  font-size: 3rem;
-    color: #bbb;
-}
-
