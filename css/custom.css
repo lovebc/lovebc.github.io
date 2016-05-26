@@ -236,9 +236,12 @@ padding-top: 4rem;
 }
 
 
-.social {
+.social, a.social {
   font-size: 3rem;
     color: #bbb;
+}
+a:hover .social {
+    color: #c22a39;
 }
 
 /* Mobile first queries */
