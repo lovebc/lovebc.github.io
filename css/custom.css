@@ -228,7 +228,7 @@
 .welcome, .address {
 padding-top: 4rem;
 }
-.small-hide {
+.small-hide, .medium-hide {
      display: none;
 }
 .address {
@@ -265,13 +265,16 @@ display: none;
     .social {
     font-size: 2rem;
   }
+  .small-hide {
+    display: block;
+  }
   
 
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-   .small-hide {
+   .medium-hide {
      display: block;
    }
     .social {
