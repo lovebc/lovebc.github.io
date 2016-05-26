@@ -1,4 +1,3 @@
-<h4>Our Work in the Media</h4>
 <ul>
     <li>Reinforcement Learning: <a href="http://www.businessweek.com/lifestyle/content/healthday/637632.html">BusinessWeek</a>, <a href="http://www.sciencedaily.com/releases/2010/03/100331091138.htm">ScienceDaily</a>,
 <a href="media/Love_Fox7_Interview.mp4">Fox7 News (video)</a>.</li>
