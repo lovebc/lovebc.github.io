@@ -253,10 +253,7 @@ display: none;
   .banner-small {
     display: none;
   }
-  .tweets {
-display: block;
-  
-}
+
 }
 
 /* Larger than tablet */
@@ -266,7 +263,12 @@ display: block;
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+    .tweets {
+display: block;
+  
+}
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
