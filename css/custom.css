@@ -325,7 +325,7 @@ display: none;
 @media (min-width: 1200px) {
 }
 
-.funding-top img, .funding-bottom img {
+.funding-top img, .funding-bottom img, a{
   opacity: 0.4;
   filter: alpha(opacity=40); /* For IE8 and earlier */
   -webkit-transition: opacity 0.4s linear;
@@ -334,7 +334,7 @@ display: none;
   transition: all 0.4s ease-out;
 }
 
-.funding-top  a:hover img, .funding-bottom  a:hover  img {
+.funding-top  a:hover img, .funding-bottom  a:hover  img, a:hover {
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */
   -webkit-transition: opacity 0.4s linear;
