@@ -236,13 +236,7 @@ padding-top: 4rem;
 }
 
 
-.social, a.social {
-  font-size: 3rem;
-    color: #bbb;
-}
-a:hover .social {
-    color: #c22a39;
-}
+
 
 /* Mobile first queries */
   .banner-large {
@@ -374,3 +368,11 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #c22a39;
   border-color: #c22a39; }
+  
+  .social, a.social {
+  font-size: 3rem;
+    color: #bbb;
+}
+a:hover .social {
+    color: #c22a39;
+}
