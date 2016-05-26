@@ -393,4 +393,12 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #c22a39;
   border-color: #c22a39; }
+  
+.wrapper-footer {
+  margin-top: 1rem; }
 
+footer {
+  padding: 1rem 0;
+  text-align: center;
+  bottom: 0;
+ }
