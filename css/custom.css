@@ -269,10 +269,12 @@ display: block;
 }
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {.social {
+    font-size: 3rem;
+}}
 
 .social {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #bbb;
 }
 
