@@ -253,11 +253,19 @@ display: none;
   .banner-small {
     display: none;
   }
+    .social {
+    font-size: 2rem;
+}
+  
 
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+    .social {
+    font-size: 2.5rem;
+}
+  
 }
 
 /* Larger than desktop */
@@ -266,15 +274,20 @@ display: none;
 display: block;
   
 }
+  .social {
+    font-size: 3rem;
+}
+  
 }
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {.social {
-    font-size: 3rem;
-}}
+@media (min-width: 1200px) {
+
+  
+}
 
 .social {
-    font-size: 2rem;
+  font-size: 3rem;
     color: #bbb;
 }
 
