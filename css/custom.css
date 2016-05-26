@@ -233,7 +233,7 @@ padding-top: 4rem;
 }
 
 /* Mobile first queries */
-  .banner {
+  .banner-large {
     display: none;
   }
 /* Larger than mobile */
@@ -243,8 +243,11 @@ padding-top: 4rem;
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  .banner {
+  .banner-large {
     display: block;
+  }
+  .banner-small {
+    display: none;
   }
 }
 
