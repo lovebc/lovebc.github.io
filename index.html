@@ -58,6 +58,8 @@ layout: test
           {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
           
           <h4 id="publications">Publications</h4>
+          {% capture publications %}{% include publications.md %}{% endcapture %}{{ publications | markdownify }}
+
           
           <div class = "funding-bottom"> <!--appears here on smaller screens -->
             <h4>Funded by</h4>
