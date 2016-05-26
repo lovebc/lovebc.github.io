@@ -377,4 +377,12 @@ input[type="button"].button-primary:focus {
   background-color: #c22a39;
   border-color: #c22a39; }
 
-ul{list-style-type: square; color: #bbb;}
+ ul {
+    list-style: none;
+}
+
+
+li:before {
+    content: "▪ ";
+    color: #bbb; /* or whatever color you prefer */
+}
