@@ -35,7 +35,8 @@ layout: test
         <ul class="navbar-list">
           
           <li class="navbar-item"> <!-- link to top(-ish) of page -->
-            <a class="navbar-link" href="#intro">Intro</a></li>
+            <a class="navbar-link" href="#intro">Intro</a>
+          </li>
           
           <li class="navbar-item"> <!-- this makes it make a cool drop-down thing -->
             <a class="navbar-link" href="#" data-popover="#codeNavPopover">Lab</a>
@@ -47,21 +48,27 @@ layout: test
                 <li class="popover-item">
                   <a class="popover-link" href="{{ site.baseurl}}/lab/people">People</a>
                 </li>
-                
               </ul>
             </div>
           </li>
           
           <li class="navbar-item">
-            <a class="navbar-link" href="/blog">Blog</a></li>
+            <a class="navbar-link" href="/blog">Blog</a>
+          </li>
+
           <li class="navbar-item">
+            <a class="navbar-link" href="#publications">Publications</a>
+          </li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="#cv">CV</a>
+          </li>
             
           <li class="navbar-item">
-            <a class="navbar-link" href="#publications">Publications</a></li>
-          <li class="navbar-item">
-            
-          <li class="navbar-item">
-            <a class="navbar-link" href="#cv">CV</a></li>
+            <a class="navbar-link" 
+            href="mailto:&#98;&#46;&#108;&#111;&#118;&#101;&#64;&#117;&#99;&#108;&#46;&#97;&#99;&#46;&#117;&#107;">
+              Contact</a>
+          </li>
           
         </ul>
       </div>
@@ -71,7 +78,7 @@ layout: test
   <div class="section intro">
       <div class="row">
         <div class="three columns address">
-            Bradley C. Love (<a href="mailto:&#98;&#46;&#108;&#111;&#118;&#101;&#64;&#117;&#99;&#108;&#46;&#97;&#99;&#46;&#117;&#107;">email</a>)<br>
+            Bradley C. Love <a href="mailto:&#98;&#46;&#108;&#111;&#118;&#101;&#64;&#117;&#99;&#108;&#46;&#97;&#99;&#46;&#117;&#107;"><i class="fa fa-envelope" aria-hidden="true"></i></a><br>
             University College London<br>
             Experimental Psychology<br>
             <a href="{{ site.baseurl}}/images/BradLoveOffice.jpg">26 Bedford Way, Room 228</a><br>
