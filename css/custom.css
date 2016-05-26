@@ -257,6 +257,11 @@ display: none;
    .tiny-and-below {
      display:none;
    }
+   
+   #moreNavPopover .popover {
+         left: -85% !important;
+
+   }
 }
 
 /* Larger than phablet */
