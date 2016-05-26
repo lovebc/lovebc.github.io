@@ -236,6 +236,10 @@ padding-top: 4rem;
   .banner-large {
     display: none;
   }
+  .tweets {
+display: none;
+  
+}
 /* Larger than mobile */
 @media (min-width: 400px) {
 
@@ -249,6 +253,10 @@ padding-top: 4rem;
   .banner-small {
     display: none;
   }
+  .tweets {
+display: block;
+  
+}
 }
 
 /* Larger than tablet */
@@ -267,3 +275,4 @@ padding-top: 4rem;
     font-size: 3rem;
     color: #bbb;
 }
+
