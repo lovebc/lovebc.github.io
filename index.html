@@ -43,9 +43,12 @@ layout: test
           {% capture availability %}{% include availability.md %}{% endcapture %}{{ availability | markdownify }}
           
           <h4>Our Work in the Media</h4>
-         <!-- {% include media.md %} -->
-          
           {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
+          
+          <h4>Funded by</h4>
+          <a href="http://www.wellcome.ac.uk"><img src="{{ site.baseurl }}/images/Wellcome.gif" height="50"></a> 
+          <a href="http://www.leverhulme.ac.uk/"><img src="{{ site.baseurl }}/images/LevTrust.jpg" height="50"></a>      
+
           
         </div>
       </div>
