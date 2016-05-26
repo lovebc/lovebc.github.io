@@ -262,3 +262,8 @@ padding-top: 4rem;
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+.social {
+    font-size: 3rem;
+    color: #888;
+}
