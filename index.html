@@ -39,13 +39,12 @@ layout: test
             <p>
               
           <h4>Availability</h4>
-          {% include availability.md %}
+          {% capture availability %}{% include availability.md %}{% endcapture %}{{ availability | markdownify }}
           
           <h4>Our Work in the Media</h4>
          <!-- {% include media.md %} -->
           
-          {% capture my-include %}{% include media.md %}{% endcapture %}
-{{ my-include | markdownify }}
+          {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
           
         </div>
       </div>
