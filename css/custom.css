@@ -17,9 +17,7 @@
   border-top: 1px solid #eee;
   padding: 4rem 0;
   margin-bottom: 0;}
-.top {
- border: 0;
-}
+
 .value-img {
   display: block;
   text-align: center;
@@ -301,6 +299,9 @@ display: none;
   .funding-bottom {
     display: none;
   }
+  .top {
+ border: 0;
+}
 
 }
 
