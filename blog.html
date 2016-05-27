@@ -37,6 +37,7 @@ permalink: blog
                               {% else %}
                                   <div class="docs-section examples" id="posts">
                               {% endif %}
+                              <p>
                               <article class="post">
                               <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
                               <div class="entry">
@@ -44,6 +45,7 @@ permalink: blog
                               </div>
                               <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
                             </article>
+                            </p>
                           {% endfor %}
 
 
