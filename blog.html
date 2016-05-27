@@ -2,7 +2,9 @@
 layout: test
 permalink: blog
 ---
-
+---
+layout: test
+---
 
 <div class="container" id = "intro">
 
@@ -13,7 +15,8 @@ permalink: blog
   <div class="section main">
       <div class="row">
         <div class="three columns address">
-            {% include address.html %}
+          
+           {% include address.html %}
             
             <div class = "funding-top"> <!-- giving it own class because we need to move to bottom on smaller screens -->
               <h6 class="docs-header">Funded by</h6>
@@ -22,30 +25,26 @@ permalink: blog
             
             <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
             <h6 class="docs-header">Tweets</h6>         
-                  {% include twitter.html %}
+                 {% include twitter.html %}
             </div>
-            
-            
-                       
+
         </div>
         
         <div class="nine columns" >
-                      
-              <div class="posts">
-                {% for post in site.posts %}
-                  <article class="post">
-                    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-                    <div class="entry">
-                      {{ post.content | truncatewords:50}}
-                    </div>
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-                  </article>
-                {% endfor %}
-                
-               <!-- {% for repository in site.github.public_repositories %}
-                  * [{{ repository.name }}]({{ repository.html_url }})
-                {% endfor %} -->
-              </div>
+          <div class="docs-section examples top" id="posts">
+            
+                          {% for post in site.posts %}
+                            <article class="post">
+                              <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+                              <div class="entry">
+                                {{ post.content | truncatewords:50}}
+                              </div>
+                              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+                            </article>
+                          {% endfor %}
+
+
+
           
         </div>
       </div>
@@ -55,10 +54,10 @@ permalink: blog
     </div>
 </div>
 
-      <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-        <a href="/license" style="text-decoration: none; color: #888; padding:auto">Bradley C. Love 2016<!-- 2016–{{ site.time | date: '%y' }}--></a>
-        </footer>
-      </div>
-      </div>
+<div class="wrapper-footer">
+<div class="container">
+  <footer class="footer">
+  <a href="/license" style="text-decoration: none; color: #888; padding:auto">Bradley C. Love 2016<!-- 2016–{{ site.time | date: '%y' }}--></a>
+  </footer>
+</div>
+</div>
