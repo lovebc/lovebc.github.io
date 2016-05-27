@@ -46,20 +46,18 @@ layout: test
           <h4>Publications</h4>
           {% capture publications %}{% include publications.md %}{% endcapture %}{{ publications | markdownify }}
           </div>
-          
-          <div class = "funding-bottom"> <!--appears here on smaller screens -->
-            <h4>Funded by</h4>
-               {% include funding.html %}
-          </div>
-          
+
          <div class="docs-section examples" id="cv">
           <h4>CV</h4>
             <p>
             [ <a href="vita.pdf">pdf</a>, <a href="vita.html">html</a> ] vita
-            
             </p>
           </div>
-          
+
+          <div class = "funding-bottom"> <!--appears here on smaller screens -->
+            <h4>Funded by</h4>
+               {% include funding.html %}
+          </div>
         </div>
       </div>
 
