@@ -261,9 +261,15 @@ display: none;
 
 
 #moreNavPopover.popover { /*disgusting hack? */
-         left: -120% !important;
+         left: -150% !important;
 
    }
+   
+#codeNavPopover.popover {/*disgusting hack? */
+         left: -60% !important;
+
+   }
+}
 /* Larger than mobile */
 @media (min-width: 400px) {
    .tiny-hide {
@@ -273,11 +279,7 @@ display: none;
      display:none;
    }
    
-   #moreNavPopover.popover {/*disgusting hack? */
-         left: -85% !important;
 
-   }
-}
 
 /* Larger than phablet */
 @media (min-width: 550px) {
