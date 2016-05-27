@@ -40,13 +40,7 @@ layout: test
           <h5>Our Work in the Media</h5>
           {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
           
-          <div class="docs-section examples" id="cv">
-          <h4>CV</h4>
-          <p>
-          [ <a href="vita.pdf">pdf</a>, <a href="vita.html">html</a> ] vita
-          
-          </p>
-          </div>
+
           
           <div class="docs-section examples" id="publications">
           <h4>Publications</h4>
@@ -56,6 +50,14 @@ layout: test
           <div class = "funding-bottom"> <!--appears here on smaller screens -->
             <h4>Funded by</h4>
                {% include funding.html %}
+          </div>
+          
+         <div class="docs-section examples" id="cv">
+          <h4>CV</h4>
+            <p>
+            [ <a href="vita.pdf">pdf</a>, <a href="vita.html">html</a> ] vita
+            
+            </p>
           </div>
           
         </div>
