@@ -279,6 +279,9 @@ display: none;
      display:none;
    }
    
+   .nav-bar-link {
+     margin-right:  15px;
+   }
 }
 
 /* Larger than phablet */
