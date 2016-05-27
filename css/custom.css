@@ -261,7 +261,7 @@ display: none;
 
 
 #moreNavPopover.popover { /*disgusting hack? */
-         left: -150%;
+         left: -180%;
 
    }
    
