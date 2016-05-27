@@ -261,12 +261,12 @@ display: none;
 
 
 #moreNavPopover.popover { /*disgusting hack? */
-         left: -150% !important;
+         left: -150%;
 
    }
    
 #labNavPopover.popover {/*disgusting hack? */
-         left: -60% !important;
+         left: -60%;
 
    }
 
