@@ -265,7 +265,7 @@ display: none;
 
    }
    
-#codeNavPopover.popover {/*disgusting hack? */
+#labNavPopover.popover {/*disgusting hack? */
          left: -60% !important;
 
    }
@@ -340,8 +340,11 @@ display: none;
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-      .navbar-link{
+   .navbar-link{
       margin-right: 40px;
+    }
+    #labNavPopover.popover {
+      left: -50%;
     }
 }
 
