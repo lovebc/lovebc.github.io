@@ -3,65 +3,22 @@ layout: default
 permalink: blog
 ---
 
-<div class="container" id = "intro">
+{% for post in site.posts %}
 
-  {% include header.html %}
-        
-  {% include navigation.html %}
+      {% if forloop.first == true %}
+          <div class="docs-section examples top" id="posts">
+      {% else %}
+          <div class="docs-section examples" id="posts">
+      {% endif %}
 
-  <div class="section main">
-      <div class="row">
-        <div class="three columns address">
-          
-           {% include address.html %}
-            
-            <div class = "funding-top"> <!-- giving it own class because we need to move to bottom on smaller screens -->
-              <h6 class="docs-header">Funded by</h6>
-                  {% include funding.html %}
-            </div>
-            
-            <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
-            <h6 class="docs-header">Tweets</h6>         
-                 {% include twitter.html %}
-            </div>
-
+      <article class="post">
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+       
+        <div class="entry">
+          {{ post.content | truncatewords:50}}
         </div>
-        
-        <div class="nine columns" > 
-
-                    {% for post in site.posts %}
-
-                           
-                              {% if forloop.first == true %}
-                                  <div class="docs-section examples top" id="posts">
-                              {% else %}
-                                  <div class="docs-section examples" id="posts">
-                              {% endif %}
-
-                              <article class="post">
-                              <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-                              <div class="entry">
-                                {{ post.content | truncatewords:50}}
-                              </div>
-                              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-                            </article>
-                          {% endfor %}
-
-
-
-          
-        </div>
-      </div>
-
-
-          
-    </div>
-</div>
-
-<div class="wrapper-footer">
-<div class="container">
-  <footer class="footer">
-  <a href="/license" style="text-decoration: none; color: #888; padding:auto">Bradley C. Love 2016<!-- 2016–{{ site.time | date: '%y' }}--></a>
-  </footer>
-</div>
-</div>
+       
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
+      
+{% endfor %}
