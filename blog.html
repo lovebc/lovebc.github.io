@@ -28,12 +28,17 @@ permalink: blog
         </div>
         
         <div class="nine columns" > 
-        {% for post in site.posts %}
 
-          <div class="docs-section examples top" id="posts">
-            
+                    {% for post in site.posts %}
+
                             <article class="post">
                               <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+                              {% if forloop.first == true %}
+                                  <div class="docs-section examples top" id="posts">
+                              {% else %}
+                                  <div class="docs-section examples" id="posts">
+                              {% endif %}
+
                               <div class="entry">
                                 {{ post.content | truncatewords:50}}
                               </div>
