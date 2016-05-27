@@ -2,15 +2,47 @@
 layout: default
 ---
 
-<article class="page">
+<div class="container" id = "intro">
 
-<div id="header">
-<a href="/">Olivia Guest</a> 
+  {% include header.html %}
+        
+  {% include navigation.html %}
+
+  <div class="section main">
+      <div class="row">
+        <div class="three columns address">
+          
+           {% include address.html %}
+            
+            <div class = "funding-top"> <!-- giving it own class because we need to move to bottom on smaller screens -->
+              <h6 class="docs-header">Funded by</h6>
+                  {% include funding.html %}
+            </div>
+            
+            <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
+            <h6 class="docs-header">Tweets</h6>         
+                 {% include twitter.html %}
+            </div>
+
+        </div>
+        
+        <div class="nine columns" > 
+
+          {{ content }}
+
+          
+        </div>
+      </div>
+
+
+          
+    </div>
 </div>
 
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-</article>
+<div class="wrapper-footer">
+<div class="container">
+  <footer class="footer">
+  <a href="/license" style="text-decoration: none; color: #888; padding:auto">Bradley C. Love 2016<!-- 2016–{{ site.time | date: '%y' }}--></a>
+  </footer>
+</div>
+</div>
