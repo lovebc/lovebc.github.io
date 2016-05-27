@@ -27,10 +27,11 @@ permalink: blog
 
         </div>
         
-        <div class="nine columns" >
+        <div class="nine columns" > 
+        {% for post in site.posts %}
+
           <div class="docs-section examples top" id="posts">
             
-                          {% for post in site.posts %}
                             <article class="post">
                               <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
                               <div class="entry">
