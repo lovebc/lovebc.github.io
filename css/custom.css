@@ -141,7 +141,7 @@
     font-size: 11px;
     font-weight: 600;
     letter-spacing: .2rem;
-    margin-right: 25px;
+    margin-right: 20px;
     text-decoration: none;
     line-height: 6.5rem;
     color: #222; }
@@ -319,6 +319,9 @@ display: none;
     .social {
      font-size: 2.5rem;
     }
+    .navbar-link{
+      margin-right: 30px;
+    }
   
 }
 
@@ -330,10 +333,16 @@ display: none;
   .social {
     font-size: 3rem;
     }
+    .navbar-link{
+      margin-right: 35px;
+    }
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
+      .navbar-link{
+      margin-right: 40px;
+    }
 }
 
 .funding-top img, .funding-bottom img {
