@@ -444,3 +444,8 @@ margin-bottom: 2.5rem;
 .read-more {
     text-transform: uppercase;
 }
+
+.post h4 a {
+    color: #222 !important;
+    text-decoration: none;
+}
