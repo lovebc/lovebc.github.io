@@ -272,9 +272,11 @@ display: none;
 
 /* Larger than mobile */
 @media (min-width: 400px) {
+  
    .tiny-hide {
      display: block;
    }
+   
    .tiny-and-below {
      display:none;
    }
@@ -282,6 +284,15 @@ display: none;
    .navbar-link {
      margin-right:  15px;
    }
+   
+   labNavPopover.popover {
+     left: -70%;
+   }
+   
+   moreNavPopover.popover {
+     left: -170%;
+   }
+   
 }
 
 /* Larger than phablet */
