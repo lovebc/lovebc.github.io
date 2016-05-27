@@ -295,6 +295,12 @@ display: none;
    
 }
 
+@media (min-width: 490px) {
+    .small-hide {
+    display: block;
+  }
+}
+
 /* Larger than phablet */
 @media (min-width: 550px) {
   .banner-large {
@@ -306,9 +312,7 @@ display: none;
     .social {
     font-size: 2rem;
   }
-  .small-hide {
-    display: block;
-  }
+
   .funding-top {
     display:block;
   }
