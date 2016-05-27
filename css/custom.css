@@ -436,3 +436,7 @@ footer {
   text-align: center;
   bottom: 0;
  }
+
+article {
+margin-bottom: 2.5rem;
+}
