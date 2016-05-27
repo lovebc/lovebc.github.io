@@ -269,7 +269,7 @@ display: none;
          left: -60% !important;
 
    }
-}
+
 /* Larger than mobile */
 @media (min-width: 400px) {
    .tiny-hide {
@@ -279,7 +279,7 @@ display: none;
      display:none;
    }
    
-
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {
