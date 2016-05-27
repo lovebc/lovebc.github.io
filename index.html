@@ -1,75 +1,24 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="container" id = "intro">
-
-  {% include header.html %}
-        
-  {% include navigation.html %}
-
-  <div class="section main">
-      <div class="row">
-        <div class="three columns address">
+<div class="docs-section examples top" id="publications">
+      <h4>Welcome</h4>
+        <p>I am Professor of Cognitive and Decision Sciences in Experimental Psychology at UCL and a fellow at the Alan Turing Institute for data science. My lab's research centers around human learning and decision making, integrating behavioural, computational, and neuroscience perspectives. The lab consists of a lab manager, four postdocs, five PhD students, and a number MSc and BS students. My apologies for the perestroika kitsch.</p>
           
-           {% include address.html %}
-            
-            <div class = "funding-top"> <!-- giving it own class because we need to move to bottom on smaller screens -->
-              <h6 class="docs-header">Funded by</h6>
-                  {% include funding.html %}
-            </div>
-            
-            <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
-            <h6 class="docs-header">Tweets</h6>         
-                 {% include twitter.html %}
-            </div>
-
-        </div>
-        
-        <div class="nine columns" >
-          <div class="docs-section examples top" id="welcome">
-
-          <h4>Welcome</h4>
-          <p>
-             I am Professor of Cognitive and Decision Sciences in Experimental Psychology at UCL and a fellow at the Alan Turing Institute for data science. My lab's research centers around human learning and decision making, integrating behavioural, computational, and neuroscience perspectives. The lab consists of a lab manager, four postdocs, five PhD students, and a number MSc and BS students. My apologies for the perestroika kitsch.
-            <p>
-              
-          <h5>Availability</h5>
-          {% capture availability %}{% include availability.md %}{% endcapture %}{{ availability | markdownify }}
-          
-          <h5>Our Work in the Media</h5>
-          {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
-          
-
-          
-          <div class="docs-section examples" id="publications">
-          <h4>Publications</h4>
-          {% capture publications %}{% include publications.md %}{% endcapture %}{{ publications | markdownify }}
-          </div>
-
-         <div class="docs-section examples" id="cv">
-          <h4>CV</h4>
-            <p>
-            [ <a href="vita.pdf">pdf</a>, <a href="vita.html">html</a> ] vita
-            </p>
-          </div>
-
-          <div class = "funding-bottom"> <!--appears here on smaller screens -->
-            <h4>Funded by</h4>
-               {% include funding.html %}
-          </div>
-        </div>
-      </div>
-
-
-          
-    </div>
+      <h5>Availability</h5>
+        {% capture availability %}{% include availability.md %}{% endcapture %}{{ availability | markdownify }}
+      
+      <h5>Our Work in the Media</h5>
+        {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
+</div>
+      
+<div class="docs-section examples" id="publications">
+      <h4>Publications</h4>
+      {% capture publications %}{% include publications.md %}{% endcapture %}{{ publications | markdownify }}
 </div>
 
-      <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-        <a href="/license" style="text-decoration: none; color: #888; padding:auto">Bradley C. Love 2016<!-- 2016–{{ site.time | date: '%y' }}--></a>
-        </footer>
-      </div>
-      </div>
+<div class="docs-section examples" id="cv">
+      <h4>CV</h4>
+        <p>[ <a href="vita.pdf">pdf</a>, <a href="vita.html">html</a> ] vita</p>
+</div>
