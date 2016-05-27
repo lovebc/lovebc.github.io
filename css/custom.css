@@ -285,11 +285,11 @@ display: none;
      margin-right:  15px;
    }
    
-   labNavPopover.popover {
+   #labNavPopover.popover {
      left: -70%;
    }
    
-   moreNavPopover.popover {
+   #moreNavPopover.popover {
      left: -170%;
    }
    
