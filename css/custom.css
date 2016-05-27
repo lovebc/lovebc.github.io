@@ -296,9 +296,13 @@ display: none;
 }
 
 @media (min-width: 490px) {
-    .small-hide {
-    display: block;
-  }
+      .medium-hide {
+     display: block;
+   }
+   .medium-and-below
+   {
+     display: none;
+   }
 }
 
 /* Larger than phablet */
@@ -327,13 +331,7 @@ display: none;
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-   .medium-hide {
-     display: block;
-   }
-   .medium-and-below
-   {
-     display: none;
-   }
+
     .social {
      font-size: 2.5rem;
     }
