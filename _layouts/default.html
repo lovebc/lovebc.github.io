@@ -12,6 +12,10 @@ Cheers,
 Olivia
 -->
 
+{% if page.url == "/publications" or page.url == "/publications/"  or page.url == "/publications.html" %}
+    <meta http-equiv="refresh" content="0; url={{ site.baseurl }}#publications">
+{% endif %}
+
 <html lang="en">
 <head>
 
