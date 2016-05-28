@@ -11,19 +11,21 @@ if you need help with anything! :)
 Cheers,
 Olivia
 -->
-# test = site.baseurl | append: "/publications"
-# test2 = site.baseurl | append: "#publications"
-{% if page.url ==  test %}
-     {% redirect = test2 %}
-{% endif %}
 
 <html lang="en">
 <head>
+     
+  {% if page.url == "/404.html" %}
+   <meta http-equiv="refresh" content="3; url={{ site.baseurl }}">
+  {% endif %}
+  {% if page.url == site.baseurl | append: "/publications" %}
+   <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/">
+  {% endif %}
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Bradley C. Love</title>
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.name }}</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
