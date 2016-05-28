@@ -1,6 +1,6 @@
 ---
 published: true
-layout: page
+layout: post
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus nunc eu mauris tincidunt, ac facilisis sem porta. Pellentesque ut sollicitudin lacus. Donec cursus blandit enim, ut suscipit dui eleifend finibus. Nam tristique nec lectus a pulvinar. Aliquam gravida ultrices eleifend. Mauris fringilla risus id erat consequat placerat. Phasellus viverra pulvinar metus at fermentum. Quisque maximus eget velit tincidunt tincidunt. Mauris id diam a ligula gravida blandit vitae et dolor. Etiam hendrerit blandit justo vitae dapibus. Integer in dui ut erat mattis efficitur a in lectus. Suspendisse feugiat nulla ut ante posuere, eu porta massa convallis.
 
