@@ -12,8 +12,8 @@ Cheers,
 Olivia
 -->
 
-{% if page.url == {{ site.baseurl | append: "/publications" }} -%}
-     {% redirect = {{ site.baseurl | append: "#publications" }}  -%}
+{% if page.url == site.baseurl | append: "/publications" -%}
+     {% redirect = site.baseurl | append: "#publications"  -%}
 {% endif -%}
 
 <html lang="en">
