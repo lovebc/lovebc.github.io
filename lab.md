@@ -3,11 +3,8 @@ layout: page
 permalink: lab
 ---
 
- <div class="docs-section examples top" id="posts">
  ####Lab
   The UCL Love Lab is a learning and decision making lab based at UCL Experimental Psychology department and headed by Prof. Brad Love.
 
   We are interested in understanding how humans learn and make decisions through formal modelling and behavioural approaches combined with functional neuroimaging. For more information, see Our research
 
-
- </div>
