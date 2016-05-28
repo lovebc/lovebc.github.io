@@ -12,9 +12,9 @@ Cheers,
 Olivia
 -->
 
-{% if page.url == "{{ site.baseurl }}/publications" %}
-    <meta http-equiv="refresh" content="0; url={{ site.baseurl }}#publications">
-{% endif %}
+{% if page.url == site.baseurl"/publications" -%}
+     {% redirect = site.baseurl"#publications" -%}
+{% endif -%}
 
 <html lang="en">
 <head>
