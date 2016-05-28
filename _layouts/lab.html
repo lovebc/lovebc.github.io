@@ -1,0 +1,40 @@
+---
+layout: base
+---
+
+<div class="container" id = "intro">
+
+ {% include lab_header.html %}
+       
+ {% include ;ab_navigation.html %}
+
+ <div class="section main">
+     <div class="row">
+       <div class="three columns address">
+         
+          {% include lab_address.html %}
+           
+           <div class = "funding-top"> <!-- giving it own class because we need to move to bottom on smaller screens -->
+             <h6 class="docs-header">Funded by</h6>
+                 {% include funding.html %}
+           </div>
+           
+           <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
+           <h6 class="docs-header">Tweets</h6>         
+                {% include twitter.html %}
+           </div>
+
+       </div>
+       
+       <div class="nine columns" > 
+
+         {{ content }}
+
+         
+       </div>
+     </div>
+
+
+         
+   </div>
+</div>
