@@ -11,9 +11,10 @@ if you need help with anything! :)
 Cheers,
 Olivia
 -->
-
-{% if page.url == site.baseurl | append: "/publications" %}
-     {% redirect = site.baseurl | append: "#publications" %}
+# test = site.baseurl | append: "/publications"
+# test2 = site.baseurl | append: "#publications"
+{% if page.url ==  test %}
+     {% redirect = test2 %}
 {% endif %}
 
 <html lang="en">
