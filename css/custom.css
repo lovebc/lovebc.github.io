@@ -449,3 +449,12 @@ margin-bottom: 2.5rem;
     color: #222 !important;
     text-decoration: none;
 }
+
+.entry {
+    text-align: justify;
+}
+
+.date {
+    margin-bottom: 1rem;
+
+}
