@@ -64,9 +64,51 @@ Olivia
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+     
+     <div class="container" id = "intro">
+     
+       {% include header.html %}
+             
+       {% include navigation.html %}
+     
+       <div class="section main">
+           <div class="row">
+             <div class="three columns address">
+               
+                {% include address.html %}
+                 
+                 <div class = "funding-top"> <!-- giving it own class because we need to move to bottom on smaller screens -->
+                   <h6 class="docs-header">Funded by</h6>
+                       {% include funding.html %}
+                 </div>
+                 
+                 <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
+                 <h6 class="docs-header">Tweets</h6>         
+                      {% include twitter.html %}
+                 </div>
+     
+             </div>
+             
+             <div class="nine columns" > 
+     
+               {{ content }}
+     
+               
+             </div>
+           </div>
+     
+     
+               
+         </div>
+     </div>
 
-
-   {{ content }}
+     <div class="wrapper-footer">
+     <div class="container">
+       <footer class="footer">
+       <a href="{{ site.baseurl }}/license" style="text-decoration: none; color: #888; padding:auto">Bradley C. Love 2016<!-- 2016–{{ site.time | date: '%y' }}--></a>
+       </footer>
+     </div>
+     </div>
 
 
 <!-- Note: columns can be nested, but it's not recommended since Skeleton's grid has %-based gutters, meaning a nested grid results in variable with gutters (which can end up being *really* small on certain browser/device sizes) -->
