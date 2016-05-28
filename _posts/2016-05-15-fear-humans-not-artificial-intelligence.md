@@ -1,7 +1,6 @@
 ---
 published: true
 title: Fear Humans, Not Artificial Intelliegence
-layout: page
 ---
 
 
