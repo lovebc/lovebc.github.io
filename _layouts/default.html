@@ -12,9 +12,7 @@ Cheers,
 Olivia
 -->
 
-{% if page.url == "{{ site.baseurl }}/publications"
-   or page.url == "{{ site.baseurl }}/publications/"
-   or page.url == "{{ site.baseurl }}/publications.html" %}
+{% if page.url == "{{ site.baseurl }}/publications" %}
     <meta http-equiv="refresh" content="0; url={{ site.baseurl }}#publications">
 {% endif %}
 
