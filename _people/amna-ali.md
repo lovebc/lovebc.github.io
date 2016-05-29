@@ -9,4 +9,3 @@ decision making with an emphasis on brain imaging analysis techniques. My most r
 choice judgments on the brain, using multivariate representational similarity models to see patterns of face-selection when
 forming first impressions. In the past, I have also worked on drug testing and how different hormones affect the brain.
 My interests in cognitive neuroscience expand over fMRI, MEG and eye-tracking experiments.</p>
-Status API Training Shop Blog About
