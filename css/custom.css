@@ -506,3 +506,6 @@ span.name {
     margin-top: 2rem;
     display: block;
 }
+.person {
+    min-height: 25rem;
+}
