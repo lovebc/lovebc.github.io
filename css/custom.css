@@ -502,4 +502,7 @@ img.profilepic {
 span.name {
     font-weight: 900;
     font-size: 2rem;
+    
+    margin-top: 2rem;
+    display: block;
 }
