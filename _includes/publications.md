@@ -116,7 +116,7 @@ Gureckis, T.M., &amp; Love, B.C. (in press). Computational Reinforcement Learnin
 
 
 <p>
-[ <a href="http://www.pnas.org/content/early/2013/04/17/1219674110.abstract">link to pdf</a>  ]  Gigu�re, G. &amp; Love, B.C. (2013). Limits in decision making arise from limits in memory retrieval. <em>Proceedings of the National Academy of Sciences of the United States of America (PNAS)</em>, 110 (19), 7613-7618. 
+[ <a href="http://www.pnas.org/content/early/2013/04/17/1219674110.abstract">link to pdf</a>  ]  Giguère, G. &amp; Love, B.C. (2013). Limits in decision making arise from limits in memory retrieval. <em>Proceedings of the National Academy of Sciences of the United States of America (PNAS)</em>, 110 (19), 7613-7618. 
 </p>
 
 
@@ -166,47 +166,47 @@ Newly Acquired Category Representations. <em>Learning &amp; Memory</em>, 19, 325
 </p>
 
 <p>
-[ <a href="papers/DavisLovePreston2012.pdf">pdf</a> ] Davis, T., Love, B.C., &amp; Preston, A.R. (2012).�Striatal and Hippocampal Entropy and Recognition Signals in Category Learning: Simultaneous Processes Revealed by Model-based fMRI. <em>	Journal of
+[ <a href="papers/DavisLovePreston2012.pdf">pdf</a> ] Davis, T., Love, B.C., &amp; Preston, A.R. (2012). Striatal and Hippocampal Entropy and Recognition Signals in Category Learning: Simultaneous Processes Revealed by Model-based fMRI. <em>	Journal of
 Experimental Psychology: Learning, Memory, and Cognition</em>, 38,821-839. (special issue on Theory and data in categorization: Integrating computational, behavioral, and cognitive neuroscience approaches).
 </p>
 
 <p>
-[ <a href="http://www.frontiersin.org/cognitive_science/10.3389/fpsyg.2011.00398/abstract">link to pdf</a> ] Knox,  W.B.,  Otto, A.R., Stone, P., &amp;  Love, B.C. (2012).�The Nature of Belief-Directed Exploratory Choice in Human Decision-Making. <em>	Frontiers in Psychology</em>,2,398. doi: 10.3389/fpsyg.2011.00398
+[ <a href="http://www.frontiersin.org/cognitive_science/10.3389/fpsyg.2011.00398/abstract">link to pdf</a> ] Knox,  W.B.,  Otto, A.R., Stone, P., &amp;  Love, B.C. (2012). The Nature of Belief-Directed Exploratory Choice in Human Decision-Making. <em>	Frontiers in Psychology</em>,2,398. doi: 10.3389/fpsyg.2011.00398
 </p>
 
 
 <p>
-[ <a href="papers/otto_etal_2012.pdf">pdf</a> ] Otto, A.R., Markman, A.B., &amp; Love, B.C. (2012).�Taking More, Now: The Optimality of Impulsive Choice Hinges on Environment Structure. <em>	Social Psychological and Personality Science</em>, 3(2), 131-138.
+[ <a href="papers/otto_etal_2012.pdf">pdf</a> ] Otto, A.R., Markman, A.B., &amp; Love, B.C. (2012). Taking More, Now: The Optimality of Impulsive Choice Hinges on Environment Structure. <em>	Social Psychological and Personality Science</em>, 3(2), 131-138.
 </p>
 
 <p>
-[ <a href="papers/Davis_etal_2012.pdf">pdf</a> ] Davis, T., Love, B.C., &amp; Preston, A.R. (2012).� Learning the Exception to the Rule: Model-Based fMRI Reveals Specialized Representations for Surprising Category Members. <em>Cerebral Cortex</em>, 22, 260-273. (<a href="papers/Davis_etal_supplement_2012.pdf">supplement</a>).
+[ <a href="papers/Davis_etal_2012.pdf">pdf</a> ] Davis, T., Love, B.C., &amp; Preston, A.R. (2012). Learning the Exception to the Rule: Model-Based fMRI Reveals Specialized Representations for Surprising Category Members. <em>Cerebral Cortex</em>, 22, 260-273. (<a href="papers/Davis_etal_supplement_2012.pdf">supplement</a>).
 </p>
 
 
 <p>
-[ <a href="papers/JonesLove2011all.pdf">pdf</a> ] Jones, M. &amp; Love, B.C. (2011).�Bayesian Fundamentalism or Enlightenment?  On the Explanatory Status and Theoretical Contributions of Bayesian Models of Cognition. <em>Behavioral and Brain Sciences</em>, 34, 169-231. (target article, commentaries, response).
+[ <a href="papers/JonesLove2011all.pdf">pdf</a> ] Jones, M. &amp; Love, B.C. (2011). Bayesian Fundamentalism or Enlightenment?  On the Explanatory Status and Theoretical Contributions of Bayesian Models of Cognition. <em>Behavioral and Brain Sciences</em>, 34, 169-231. (target article, commentaries, response).
 </p>
 
 
  
 
 <p>
-[ <a href="papers/JonesLoveInPress.pdf">pdf</a> ] Jones, M. &amp; Love, B.C. (2011).�Bayesian Fundamentalism or Enlightenment?  On the Explanatory Status and Theoretical Contributions of Bayesian Models of Cognition. <em>Behavioral and Brain Sciences</em> (target article).
+[ <a href="papers/JonesLoveInPress.pdf">pdf</a> ] Jones, M. &amp; Love, B.C. (2011). Bayesian Fundamentalism or Enlightenment?  On the Explanatory Status and Theoretical Contributions of Bayesian Models of Cognition. <em>Behavioral and Brain Sciences</em> (target article).
 </p>
 
 
 <p>
-[ <a href="papers/JonesLoveInPressB.pdf">pdf</a> ] Jones, M. &amp; Love, B.C. (2011).�Pinning Down the Theoretical Commitments of Bayesian Cognitive Models. <em>Behavioral and Brain Sciences</em> (response to commentaries).
+[ <a href="papers/JonesLoveInPressB.pdf">pdf</a> ] Jones, M. &amp; Love, B.C. (2011). Pinning Down the Theoretical Commitments of Bayesian Cognitive Models. <em>Behavioral and Brain Sciences</em> (response to commentaries).
 </p>
 
 <p>
-[ <a href="papers/Goldwater_etal_2011.pdf">pdf</a> ] Goldwater, M.B., Tomlinson, M.T., Echols, C.H., &amp; Love, B.C. (2011).�Structural Priming as Structure-Mapping: Children Use Analogies from Previous Utterances To�Guide Sentence Production. <em>Cognitive Science</em>, 35, 156-170.
+[ <a href="papers/Goldwater_etal_2011.pdf">pdf</a> ] Goldwater, M.B., Tomlinson, M.T., Echols, C.H., &amp; Love, B.C. (2011). Structural Priming as Structure-Mapping: Children Use Analogies from Previous Utterances To Guide Sentence Production. <em>Cognitive Science</em>, 35, 156-170.
 </p>
 
 
 <p>
-[ <a href="papers/TomlinsonLove2010.pdf">pdf</a> ] Tomlinson, M.T., &amp; Love, B.C. (2010).�When Learning to Classify by Relations Is Easier Than by Features. <em>Thinking &amp; Reasoning</em>,16, 372-401.
+[ <a href="papers/TomlinsonLove2010.pdf">pdf</a> ] Tomlinson, M.T., &amp; Love, B.C. (2010). When Learning to Classify by Relations Is Easier Than by Features. <em>Thinking &amp; Reasoning</em>,16, 372-401.
 </p>
 
 <p>
@@ -220,19 +220,19 @@ Learning.  In Denis Mareschal, Paul Quinn, Stephen Lea (Eds.), The Making of Hum
 </p>
 
 <p>
-[ <a href="papers/SakamotoLove2010.pdf">pdf</a> ] Sakamoto, Y., &amp; Love, B.C. (2010).�Learning and Retention through 
+[ <a href="papers/SakamotoLove2010.pdf">pdf</a> ] Sakamoto, Y., &amp; Love, B.C. (2010). Learning and Retention through 
 Predictive Inference and Classification. <em>Journal of Experimental 
 Psychology: Applied</em>, 16, 361-377.
 </p>
 
 
 <p>
-[ <a href="papers/otto_markman_gureckis_love.pdf">pdf</a> ] Otto, A.R., Gureckis, T.M., Markman, A.B., &amp; Love, B.C. (2010).�Regulatory Fit and Systematic Exploration in a Dynamic Decision-Making Environment. <em>Journal of Experimental Psychology: Learning, Memory, &amp; Cognition</em>,36(3), 797-804.
+[ <a href="papers/otto_markman_gureckis_love.pdf">pdf</a> ] Otto, A.R., Gureckis, T.M., Markman, A.B., &amp; Love, B.C. (2010). Regulatory Fit and Systematic Exploration in a Dynamic Decision-Making Environment. <em>Journal of Experimental Psychology: Learning, Memory, &amp; Cognition</em>,36(3), 797-804.
 </p>
 
 
 <p>
-[ <a href="papers/otto_love.pdf">pdf</a> ] Otto, A.R., &amp; Love, B.C. (2010).�You Don't Want To Know What You're Missing: When Information about Forgone Rewards Impedes Dynamic Decision Making. <em>Judgment and Decision Making</em>, 5, 1-10.
+[ <a href="papers/otto_love.pdf">pdf</a> ] Otto, A.R., &amp; Love, B.C. (2010). You Don't Want To Know What You're Missing: When Information about Forgone Rewards Impedes Dynamic Decision Making. <em>Judgment and Decision Making</em>, 5, 1-10.
 </p>
 
 <p>
