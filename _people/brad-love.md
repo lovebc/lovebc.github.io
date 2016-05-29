@@ -1,5 +1,6 @@
 ---
-name: Bradley C. Love
+firstname: Bradley C.
+surname: Love
 role: pi
 order: 1
 
