@@ -1,5 +1,6 @@
 ---
-name: Johan Carlin
+firstname: Johan
+surname: Carlin
 role: postdocs
 order: 3
 
