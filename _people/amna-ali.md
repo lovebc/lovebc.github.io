@@ -6,12 +6,6 @@ order: 2
 
 email: a.ali@ucl.ac.uk
 
-website: 
-twitter:
-researchgate:
-impactstory:
-orcid:
-github:
 
 image_path: /images/people/love_lab_pic.jpg
 
