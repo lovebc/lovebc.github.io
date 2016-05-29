@@ -55,30 +55,30 @@ layout: lab
                               <i class="fa fa-github"></i></a></li> 
       		      {% endif %}
       		      
-      		      {% if person.twitter != empty %}
-                  	<li><a href="//twitter.com/{{ person.twitter }}" title="Follow {{ person.name }} on Twitter" style="text-decoration:none">
-                        <i class="fa fa-twitter"></i></a></li>
+      		      {% if person.twitter != nil %}
+                  	      <li><a href="//twitter.com/{{ person.twitter }}" title="Follow {{ person.name }} on Twitter" style="text-decoration:none">
+                              <i class="fa fa-twitter"></i></a></li>
       		      {% endif %}
 
-      		      {% if person.impactstory != empty %}
-                        <li><a href="//impactstory.org/u/{{ person.impactstory }}" title="View {{ person.name }}'s Impactstory" style="text-decoration:none">
-                        <i class="ai ai-impactstory"></i></a></li>
+      		      {% if person.impactstory != nil %}
+                           <li><a href="//impactstory.org/u/{{ person.impactstory }}" title="View {{ person.name }}'s Impactstory" style="text-decoration:none">
+                              <i class="ai ai-impactstory"></i></a></li>
       		      {% endif %}
       		      
-      		      {% if person.orcid != empty %}
-                        <li><a href="//orcid.org/{{ person.orcid }}" title="View {{ person.name }}'s ORCID profile" style="text-decoration:none">
-                        <i class="ai ai-orcid"></i></a></li>        
+      		      {% if person.orcid != nil %}
+                              <li><a href="//orcid.org/{{ person.orcid }}" title="View {{ person.name }}'s ORCID profile" style="text-decoration:none">
+                              <i class="ai ai-orcid"></i></a></li>        
       		      {% endif %}
       		      
-      		      {% if person.researchgate != empty %}
-                        <li><a href="//www.researchgate.net/profile/{{ person.researchgate }}" title="Follow {{ person.name }} on ResearchGate" style="text-decoration:none">
-                        <i class="ai ai-researchgate"></i></a></li>
+      		      {% if person.researchgate != nil %}
+                              <li><a href="//www.researchgate.net/profile/{{ person.researchgate }}" title="Follow {{ person.name }} on ResearchGate" style="text-decoration:none">
+                              <i class="ai ai-researchgate"></i></a></li>
       		      {% endif %}
       		      
-      		      {% if person.website != empty %}
-                        <li><a
-                        href="{{ person.website }}" title="Visit {{ person.name }}'s website" style="text-decoration:none">
-                        <i class="fa fa-external-link"></i></a></li>
+      		      {% if person.website != nil %}
+                              <li><a
+                              href="{{ person.website }}" title="Visit {{ person.name }}'s website" style="text-decoration:none">
+                              <i class="fa fa-external-link"></i></a></li>
       		      {% endif %}
                         </ul>
 
