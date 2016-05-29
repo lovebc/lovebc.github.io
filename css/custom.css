@@ -476,12 +476,12 @@ img.profilepic {
 }
 
 
-.article li {
+.person li {
   list-style: none;
   
 }
 
-.article ul {
+.person ul {
   padding: 1rem;
   font-size: 2rem;
 } 
