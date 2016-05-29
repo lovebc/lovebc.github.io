@@ -44,13 +44,13 @@ layout: lab
       		      
       		      <span class="name">{{ person.firstname }} {{ person.surname}}</span>
       		      <ul>
-      		      {% if person.email != empty %}
+      		      {% if person.email != blank %}
       		      <li><a href="mailto:{{ person.email }}" title="Email {{ person.name }}" style="text-decoration:none">
       		      <i class="fa fa-envelope"></i></a></li>
       		      </li>
       		      {% endif %}
       		      
-      		      {% if person.github != empty %}
+      		      {% if person.github != blank %}
                         <li><a href="//github.com/{{ person.github}}" title="Fork {{ person.name }} on GitHub" style="text-decoration:none">
                         <i class="fa fa-github"></i></a></li> 
       		      {% endif %}
