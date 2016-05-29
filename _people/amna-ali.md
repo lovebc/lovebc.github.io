@@ -1,7 +1,7 @@
 ---
 name: Amna Ali
 role: lab-manager
-order:2
+order: 2
 
 email: a.ali@ucl.ac.uk
 
