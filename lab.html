@@ -20,7 +20,7 @@ layout: lab
       		      
       		      <h5>{{ person.name }}</h5>
       		      <ul>
-      		      {% if person.email == true %}
+      		      {% if person.email != empty %}
       		      <li><a href="mailto:{{ person.email }}" title="Email {{ person.name }}" style="text-decoration:none">
       		      <i class="fa fa-envelope"></i></a></li>
       		      </li>
