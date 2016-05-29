@@ -15,7 +15,29 @@ layout: lab
       
       <div class="people">
       	{% for person in site.people %}
+      	
       		<div class="person">
+      		      
+      		      <h5>{{ person.name }}</h5>
+      		      <ul>
+      		      <li><a href="mailto:{{ person.email }}" title="Email {{ person.name }}" style="text-decoration:none><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+      		      </li>
+                        <li><a href="//github.com/{{ person.github}}" title="Fork {{ person.name }} on GitHub" style="text-decoration:none">
+                        <i class="fa fa-github"></i></a></li> 
+                  	
+                  	<li><a href="//twitter.com/{{ person.twitter }}" title="Follow {{ person.name }} on Twitter" style="text-decoration:none">
+                        <i class="fa fa-twitter"></i></a></li>
+                        
+                        <li><a href="//impactstory.org/u/{{ person.impactstory} }" title="View {{ person.name }}'s Impactstory" style="text-decoration:none">
+                        <i class="ai ai-impactstory"></i></a></li>
+                        
+                        <li><a href="//orcid.org/{{ person.orcid }}" title="View {{ person.name }}'s ORCID profile" style="text-decoration:none">
+                        <i class="ai ai-orcid"></i></a></li>        
+            
+                        <li><a href="//www.researchgate.net/profile/{{ person.researchgate }}" title="Follow {{ person.name }} on ResearchGate" style="text-decoration:none">
+                        <i class="ai ai-researchgate"></i></a></li>
+                        </ul>
+                        
       			<div class="image">
       				<img src="{{ site.baseurl }}/{{ person.image_path }}" alt="{{ person.name }}"
       				/>
