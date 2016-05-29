@@ -11,8 +11,10 @@ layout: base
  <div class="section main">
      <div class="row">
        <div class="three columns address">
-         
-          {% include address.html %}
+                 
+          {% if page.url == site.baseurl %}
+            {% include address.html %}
+          {% endif %}
            
            <div class = "funding top-column1"> <!-- giving it own class because we need to move to bottom on smaller screens -->
              <h6 class="docs-header">Funded by</h6>
