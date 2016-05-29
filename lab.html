@@ -22,13 +22,13 @@ layout: lab
       	{% for person in people %}
 
       		<div class="person">
-      		      {% if person.role == 'lab-manager' and lab-manager-done == false%}
+      		      {% if person.role == 'lab-manager' and lab-manager-done == false %}
       		            <h5 class="docs-header" id ="{{ person.role }}">Lab Manager</h5>
       		            {% assign lab-manager-done = true %}
       		      
       		      {% elsif person.role == 'phd-students' and phd-students-done == false %}
       		            <h5 class="docs-header" id ="{{ person.role }}">PhD Students</h5>
-      		            {% assign lab-manager-done = true %}
+      		            {% assign phd-students-done = true %}
 
       		      {% elsif person.role == 'pi' and pi-done == false%}
       		            <h5 class="docs-header" id ="{{ person.role }}">Principal Investigator</h5>
