@@ -479,7 +479,7 @@ img.profilepic {
 .person li {
   list-style: none;
 
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 2rem;
       display: inline;
 
