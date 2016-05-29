@@ -478,10 +478,9 @@ img.profilepic {
 
 .person li {
   list-style: none;
-  
-}
 
-.person ul {
   padding: 1rem;
   font-size: 2rem;
+      display: inline;
+
 } 
