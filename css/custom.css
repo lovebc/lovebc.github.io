@@ -484,3 +484,12 @@ img.profilepic {
       display: inline;
 
 } 
+
+.person img {
+    float: right;
+    border: 0;
+    width: 12rem;
+    float: right;
+    padding-left: 3rem;
+    clear: both;
+}
