@@ -458,3 +458,8 @@ footer {
     margin-bottom: 1rem;
 
 }
+
+
+p:last-of-type {
+    margin-bottom: 0;
+}
