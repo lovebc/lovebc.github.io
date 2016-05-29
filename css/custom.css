@@ -12,7 +12,9 @@
   text-transform: uppercase;
   font-size: 1.4rem;
   letter-spacing: .2rem;
-  font-weight: 600; }
+  font-weight: 600; 
+  margin-top: 2.5rem;
+}
 .docs-section {
   border-top: 1px solid #eee;
   padding: 4rem 0;
