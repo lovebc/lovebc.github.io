@@ -1,6 +1,7 @@
 ---
 name: Takao Noguchi
 role: postdocs
+order: 3
 
 email: t.noguchi@ucl.ac.uk
 
