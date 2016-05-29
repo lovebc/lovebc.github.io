@@ -1,5 +1,6 @@
 ---
-name: Lukasz Kopec
+firstname: Lukasz
+surname: Kopec
 role: phd-students
 order: 4
 
