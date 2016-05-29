@@ -1,5 +1,6 @@
 ---
-name: Peter Sebastian Riefer
+firstname: Peter Sebastian
+surname: Riefer
 role: phd-students
 order: 4
 
