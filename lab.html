@@ -30,12 +30,14 @@ layout: lab
       		            <h5 class="docs-header" id ="{{ person.role }}">PhD Students</h5>
       		            {% assign phd-students-done = true %}
 
-      		      {% elsif person.role == 'pi' and pi-done == false%}
+      		      {% elsif person.role == 'pi' and pi-done == false %}
       		            <h5 class="docs-header" id ="{{ person.role }}">Principal Investigator</h5>
                               {% assign pi-done = true %}
 
-      		      {% elsif person.role == 'postdocs' %}
-      		      <h5 class="docs-header" id ="{{ person.role }}">Postdocs</h5>
+      		      {% elsif person.role == 'postdocs' and postdocs-done == false %}
+      	      	      <h5 class="docs-header" id ="{{ person.role }}">Postdocs</h5>
+                              {% assign postdocs-done = true %}
+
       		      {% endif %}
       		      
       		      <span class="name">{{ person.name }}</span>
