@@ -20,9 +20,11 @@ layout: lab
       		      
       		      <h5>{{ person.name }}</h5>
       		      <ul>
+      		      {% if person.email %}
       		      <li><a href="mailto:{{ person.email }}" title="Email {{ person.name }}" style="text-decoration:none">
       		      <i class="fa fa-envelope"></i></a></li>
       		      </li>
+      		      {% end if %}
                         <li><a href="//github.com/{{ person.github}}" title="Fork {{ person.name }} on GitHub" style="text-decoration:none">
                         <i class="fa fa-github"></i></a></li> 
                   	
