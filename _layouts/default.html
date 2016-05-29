@@ -19,7 +19,7 @@ layout: base
                  {% include funding.html %}
            </div>
            
-           <div class = "tweets top"> <!-- giving it own class because we need to hide it on smaller screens -->
+           <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
            <h6 class="docs-header">Tweets</h6>         
                 {% include twitter.html %}
            </div>
@@ -29,11 +29,6 @@ layout: base
        <div class="nine columns" > 
 
          {{ content }}
-
-         <div class = "tweets bottom"> <!-- giving it own class because we need to hide it on smaller screens -->
-           <h4>Tweets</h4>         
-                {% include twitter.html %}
-           </div>
 
          <div class = "funding bottom"> <!-- giving it own class because we need to move to bottom on smaller screens -->
              <h4>Funded by</h4>
