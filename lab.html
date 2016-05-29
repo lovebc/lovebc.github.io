@@ -12,10 +12,11 @@ layout: lab
       
 <div class="docs-section examples" id="people">
       <h4>People</h4>
-      
+      {% assign people = site.people | sort: 'role' %}
+    
       <div class="people">
-      	{% for person in site.people %}
-      	
+      	{% for person in people %}
+
       		<div class="person">
       		      {% if person.role == 'lab-manager'%}
       		      <h5 class="docs-header" id ="{{ person.role }}">Lab Manager</h5>
