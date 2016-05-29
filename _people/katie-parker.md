@@ -1,5 +1,6 @@
 ---
-name: Katie Parker
+firstname: Katie
+surname: Parker
 role: phd-students
 order: 4
 
