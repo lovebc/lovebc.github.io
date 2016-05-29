@@ -485,7 +485,9 @@ img.profilepic {
 
 } 
 .person ul {
-  padding-bottom: 0;
+    padding: 0;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 .person img {
     float: right;
