@@ -1,5 +1,6 @@
 ---
-name: Takao Noguchi
+firstname: Takao
+surname: Noguchi
 role: postdocs
 order: 3
 
