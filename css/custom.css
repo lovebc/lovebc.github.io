@@ -493,3 +493,8 @@ img.profilepic {
     padding-left: 3rem;
     clear: both;
 }
+
+span.name {
+    font-weight: 900;
+    font-size: 2rem;
+}
