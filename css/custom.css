@@ -258,7 +258,7 @@ padding-top: 4rem;
 display: none;
   
 }
-.top {
+.top-column1 {
     display:none;
   }
 
@@ -320,10 +320,10 @@ display: none;
     font-size: 2rem;
   }
 
-  .top {
+  .top-column1 {
     display:block;
   }
-  .bottom {
+  .bottom-column2 {
     display: none;
   }
   .top {
