@@ -1,60 +1,4 @@
 
-<ul>
-  <li>
-  
-  <div data-badge-popover="left" data-badge-type="donut" data-doi="10.1371/journal.pone.0137685" data-hide-no-mentions="true" data-hide-less-than="20" class="altmetric-embed" style="float:right"></div>
-  
-  Love, B. C., Kopeć, Ł., <b>Guest, O.</b> (2015). <a href="//dx.doi.org/10.1371/journal.pone.0137685">Optimism Bias in Fans and Sports Reporters.</a> <em>PLoS ONE</em>, 10 (9). doi:<a href="//dx.doi.org/10.1371/journal.pone.0137685">10.1371/journal.pone.0137685</a>. <a href="//www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0137685&representation=PDF"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-  <p style = "margin-top:0.5em">
-  Open Science Framework Project: <b>Guest, O.</b>, Love, B., & Kopeć, Ł. (2015, June 28). Optimism Bias. Retrieved from <a href="//osf.io/3xrfa/">osf.io/3xrfa</a>. <a href="//osf.io/3xrfa/"><i class="ai ai-osf" aria-hidden="true"></i></a>
-  </p>
-  </li>
-
- </ul>
- 
- <span class="title">papers on my mind lately</span>  
-<div class="sectionbody">
-<div class="boxed">
-<p>
-[ <a href="papers/Patil_etal_2014.pdf"> pdf </a>  ]
-Patil, K., Zhu, X., Kopec, L., &amp; Love, B.C. (2014). Optimal Teaching for Limited-Capacity Human Learners. In <i>Advances in Neural Information Processing Systems (NIPS)</i>. <a href="http://nips.cc/Conferences/2014/Program/event.php?ID=4421">Spotlight presentation</a>.  <a href="data/Patil_etal_data.zip"> (raw data and teaching sets)</a> 
-</p>
-
-<p>
-[ <a href="papers/mack_etal_2013.pdf">pdf</a>  ]  Mack, M.L., Preston, A.R. &amp; Love, B.C. (2013). Decoding the Brain's Algorithm for Categorization from its Neural Implementation. <em>Current Biology</em>, 23, 2023-2027. <a href="papers/mack_etal_2013_supp.pdf">supplemental</a>
-</p>
-
-<p>
-[ <a href="http://www.pnas.org/content/early/2013/04/17/1219674110.abstract">link to pdf</a>  ]  Gigu�re, G. &amp; Love, B.C. (2013). Limits in decision making arise from limits in memory retrieval. <em>Proceedings of the National Academy of Sciences of the United States of America (PNAS)</em>, 110 (19), 7613-7618. 
-</p>
-
-<p>
-[ <a href="papers/Davis_etal_2012.pdf">pdf</a> ] Davis, T., Love, B.C., &amp; Preston, A.R. (2012).� Learning the Exception to the Rule: Model-Based fMRI Reveals Specialized Representations for Surprising Category Members. <em>Cerebral Cortex</em>, 22, 260-273. (<a href="papers/Davis_etal_supplement_2012.pdf">supplement</a>).
-</p>
-
-<p>
-
-  [ <a href="papers/love_etal_2004.pdf">pdf</a> ] Love, B. C., Medin, D. L., &amp; Gureckis, T. M. (2004). SUSTAIN: A network model of category learning.<i> Psychological Review</i>, <i>111</i>, 309-332.<br>
- </p></div> 
-<p></p>
-
-</div>
-<!-- end body -->
-
-</div>
-<!-- end section on papers -->
-<!-- ********************************************** -->
-
-
-<!-- list of papers and links to papers and abstracts and things -->
-<a name="papers"></a>
-<div class="section">
-<span class="title">all papers</span>  / <span class="description"> <a href="http://scholar.google.co.uk/citations?user=H8dnlegAAAAJ&amp;hl=en"> published </a> and in press<!--</span-->
-
-<!-- begin body -->
-
-<div class="sectionbody">
-
 <p>
 [ <a href="papers/love_2016.pdf"> pdf </a> ]
 Love, B.C. (in press). Cognitive Models as Bridge between Brain and Behavior. <i>Trends in Cognitive Science (TiCS)</i>.
@@ -240,10 +184,6 @@ Experimental Psychology: Learning, Memory, and Cognition</em>, 38,821-839. (spec
 </p>
 
 
-
-<!-- ******************************************** -->
-<div class="boxed">
-
 <p>
 [ <a href="papers/JonesLove2011all.pdf">pdf</a> ] Jones, M. &amp; Love, B.C. (2011).�Bayesian Fundamentalism or Enlightenment?  On the Explanatory Status and Theoretical Contributions of Bayesian Models of Cognition. <em>Behavioral and Brain Sciences</em>, 34, 169-231. (target article, commentaries, response).
 </p>
@@ -259,10 +199,6 @@ Experimental Psychology: Learning, Memory, and Cognition</em>, 38,821-839. (spec
 <p>
 [ <a href="papers/JonesLoveInPressB.pdf">pdf</a> ] Jones, M. &amp; Love, B.C. (2011).�Pinning Down the Theoretical Commitments of Bayesian Cognitive Models. <em>Behavioral and Brain Sciences</em> (response to commentaries).
 </p>
-
-</div>
-
-<!-- ******************************************** -->
 
 <p>
 [ <a href="papers/Goldwater_etal_2011.pdf">pdf</a> ] Goldwater, M.B., Tomlinson, M.T., Echols, C.H., &amp; Love, B.C. (2011).�Structural Priming as Structure-Mapping: Children Use Analogies from Previous Utterances To�Guide Sentence Production. <em>Cognitive Science</em>, 35, 156-170.
