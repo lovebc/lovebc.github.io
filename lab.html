@@ -13,17 +13,27 @@ layout: lab
 <div class="docs-section examples" id="people">
       <h4>People</h4>
       {% assign people = site.people | sort: 'order' %}
-    
+      {% assign lab-manager-done = false %}
+      {% assign phd-students-done = false %}
+      {% assign postdocs-done = false %}
+      {% assign pi-done = false %}
+
       <div class="people">
       	{% for person in people %}
 
       		<div class="person">
-      		      {% if person.role == 'lab-manager'%}
-      		      <h5 class="docs-header" id ="{{ person.role }}">Lab Manager</h5>
-      		      {% elsif person.role == 'phd-students' %}
-      		      <h5 class="docs-header" id ="{{ person.role }}">PhD Students</h5>
-      		      {% elsif person.role == 'pi' %}
-      		      <h5 class="docs-header" id ="{{ person.role }}">Principal Investigator</h5>
+      		      {% if person.role == 'lab-manager' and lab-manager-done == false%}
+      		            <h5 class="docs-header" id ="{{ person.role }}">Lab Manager</h5>
+      		            {% assign lab-manager-done = true %}
+      		      
+      		      {% elsif person.role == 'phd-students' and phd-students-done == false %}
+      		            <h5 class="docs-header" id ="{{ person.role }}">PhD Students</h5>
+      		            {% assign lab-manager-done = true %}
+
+      		      {% elsif person.role == 'pi' and pi-done == false%}
+      		            <h5 class="docs-header" id ="{{ person.role }}">Principal Investigator</h5>
+                              {% assign pi-done = true %}
+
       		      {% elsif person.role == 'postdocs' %}
       		      <h5 class="docs-header" id ="{{ person.role }}">Postdocs</h5>
       		      {% endif %}
