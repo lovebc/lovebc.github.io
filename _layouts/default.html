@@ -14,12 +14,12 @@ layout: base
          
           {% include address.html %}
            
-           <div class = "funding-top"> <!-- giving it own class because we need to move to bottom on smaller screens -->
+           <div class = "funding top"> <!-- giving it own class because we need to move to bottom on smaller screens -->
              <h6 class="docs-header">Funded by</h6>
                  {% include funding.html %}
            </div>
            
-           <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
+           <div class = "tweets top"> <!-- giving it own class because we need to hide it on smaller screens -->
            <h6 class="docs-header">Tweets</h6>         
                 {% include twitter.html %}
            </div>
@@ -30,10 +30,16 @@ layout: base
 
          {{ content }}
 
-         <div class = "funding-bottom"> <!-- giving it own class because we need to move to bottom on smaller screens -->
+         <div class = "tweets bottom"> <!-- giving it own class because we need to hide it on smaller screens -->
+           <h4>Tweets</h4>         
+                {% include twitter.html %}
+           </div>
+
+         <div class = "funding bottom"> <!-- giving it own class because we need to move to bottom on smaller screens -->
              <h4>Funded by</h4>
                  {% include funding.html %}
          </div>
+
        </div>
      </div>
 
