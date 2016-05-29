@@ -474,3 +474,14 @@ img.profilepic {
     float: right;
     padding-left: 3rem;
 }
+
+
+.article li {
+  list-style: none;
+  
+}
+
+.article ul {
+  padding: 1rem;
+  font-size: 2rem;
+} 
