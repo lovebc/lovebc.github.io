@@ -1,5 +1,6 @@
 ---
-name: Amna Ali
+firstname: Amna
+surname: Ali
 role: lab-manager
 order: 2
 
