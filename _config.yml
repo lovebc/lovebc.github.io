@@ -36,7 +36,7 @@ baseurl: "/bradlove.org"
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:month-:day-:year-:title
+permalink: /:title
 
 
 # Set the Sass partials directory, as we're using @imports
