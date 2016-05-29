@@ -18,13 +18,13 @@ layout: lab
       	
       		<div class="person">
       		      {% if person.role == 'lab-manager'%}
-      		      <h6 id ="person.role">Lab Manager</h6>
+      		      <h6 id ="{{ person.role }}">Lab Manager</h6>
       		      {% elsif person.role == 'phd-students' %}
-      		      <h6 id ="person.role">PhD Students</h6>
+      		      <h6 id ="{{ person.role }}">PhD Students</h6>
       		      {% elsif person.role == 'pi' %}
-      		      <h6 id ="person.role">Principal Investigator</h6>
+      		      <h6 id ="{{ person.role }}">Principal Investigator</h6>
       		      {% elsif person.role == 'postdocs' %}
-      		      <h6 id ="person.role">Postdocs</h6>
+      		      <h6 id ="{{ person.role }}">Postdocs</h6>
       		      {% endif %}
       		      
       		      <h5>{{ person.name }}</h5>
