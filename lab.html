@@ -12,6 +12,8 @@ layout: lab
       
 <div class="docs-section examples" id="people">
       <h4>People</h4>
+      {% assign people = site.people | sort: 'surname' %}
+
       {% assign people = site.people | sort: 'order' %}
       {% assign lab-manager-done = false %}
       {% assign phd-students-done = false %}
