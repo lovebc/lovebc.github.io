@@ -258,7 +258,7 @@ padding-top: 4rem;
 display: none;
   
 }
-.funding-top {
+.top {
     display:none;
   }
 
@@ -320,10 +320,10 @@ display: none;
     font-size: 2rem;
   }
 
-  .funding-top {
+  .top {
     display:block;
   }
-  .funding-bottom {
+  .bottom {
     display: none;
   }
   .top {
@@ -367,7 +367,7 @@ display: none;
     }
 }
 
-.funding-top img, .funding-bottom img {
+.funding img {
   opacity: 0.4;
   filter: alpha(opacity=40); /* For IE8 and earlier */
   -webkit-transition: opacity 0.4s linear;
@@ -377,7 +377,7 @@ display: none;
 
 }
 
-.funding-top  a:hover img, .funding-bottom  a:hover  img {
+.funding  a:hover img {
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */
   -webkit-transition: opacity 0.4s linear;
