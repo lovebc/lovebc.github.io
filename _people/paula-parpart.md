@@ -1,5 +1,6 @@
 ---
-name: Paula Parpart
+firstname: Paula
+surname: Parpart
 role: phd-students
 order: 4
 
