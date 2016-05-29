@@ -465,10 +465,12 @@ footer {
 p:last-of-type {
     margin-bottom: 0;
 }
-
+p {
+  text-align: justify;
+}
 img.profilepic {
     border: 0;
     width: 10rem;
-    float: left;
-    padding-right: 3rem;
+    float: right;
+    padding-left: 3rem;
 }
