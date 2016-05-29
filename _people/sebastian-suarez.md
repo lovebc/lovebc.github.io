@@ -1,5 +1,6 @@
 ---
-name: Sebastian Bobadilla Suarez
+firstname: Sebastian Bobadilla
+surname: Suarez
 role: phd-students
 order: 4
 
