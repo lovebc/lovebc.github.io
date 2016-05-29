@@ -42,7 +42,7 @@ layout: lab
 
       		      {% endif %}
       		      
-      		      <span class="name">{{ person.name }}</span>
+      		      <span class="name">{{ person.firstname }} {{ person.surname}}</span>
       		      <ul>
       		      {% if person.email != empty %}
       		      <li><a href="mailto:{{ person.email }}" title="Email {{ person.name }}" style="text-decoration:none">
