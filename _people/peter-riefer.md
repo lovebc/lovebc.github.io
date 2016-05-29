@@ -1,6 +1,7 @@
 ---
 name: Peter Sebastian Riefer
 role: phd-students
+order: 4
 
 email: peter@peterriefer.net
 
