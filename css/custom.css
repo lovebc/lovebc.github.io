@@ -494,7 +494,8 @@ img.profilepic {
     border: 0;
     width: 12rem;
     float: right;
-    padding-left: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
     clear: both;
 }
 
