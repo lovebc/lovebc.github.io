@@ -6,11 +6,14 @@ published: true
 <script>
      window.onload = choosePic;
 
-     var myPix = new Array("{{ site.baseurl }}/images/walk.png",
-                      "{{ site.baseurl }}/images/wellcome.png",
-                      "{{ site.baseurl }}/images/brad.png");
+     var myPix = new Array(
+                      "{{ site.baseurl }}/images/header/dark/mack_etal_2013.png",
+                      "{{ site.baseurl }}/images/header/light/TomlinsonLove2010.png",
+                      "{{ site.baseurl }}/images/header/light/ 	love_etal_2004.png",
+                      );
 
      function choosePic() {
+       
        var randomNum = Math.floor(Math.random() * myPix.length);
         document.getElementById("myPicture").src = myPix[randomNum];
      }
