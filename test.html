@@ -19,14 +19,13 @@ published: true
           var style = str_before.concat(myPix[randomNum]);
           style = style.concat(str_after)
           var n = style.search("dark"); 
-          if (n == -1) { 
-               /* it's light - so we want the black banner*/
+          /*if (n == -1) { 
                document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-black.png";
 
           } else { 
-               /* it's dark - so we want the white banner*/
+               
                document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-white.png";
-          }
+          }*/
           document.getElementById("myPicture").style = style;
         
      }
