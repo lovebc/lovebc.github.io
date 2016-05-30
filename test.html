@@ -17,15 +17,15 @@ published: true
           var str_after = ") center center black;";
           var randomNum = Math.floor(Math.random() * myPix.length);
           var style = str_before.concat(myPix[randomNum]);
-          style = style.concat(str_after)
+          style = style.concat(str_after);
           var n = style.search("dark"); 
-          /*if (n == -1) { 
+          if (n == -1) { /*image is light, so black banner*/
                document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-black.png";
 
           } else { 
                
                document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-white.png";
-          }*/
+          }
           document.getElementById("myPicture").style = style;
         
      }
