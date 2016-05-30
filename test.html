@@ -21,3 +21,14 @@ published: true
 
      <img src="{{ site.baseurl }}images/spacer.gif" class="u-max-full-width" id="myPicture" alt="some image">
 
+<!-- First, your background image is a DIV with a background 
+     image style applied, not a IMG tag. -->
+<div style="background-image:(url={{ site.baseurl }}/images/header/dark/mack_etal_2013.png);">
+    <!-- Second, create a placeholder div to assist in positioning 
+         the other images. This is relative to the background div. -->
+    <div style="position: relative; left: 0; top: 0;">
+    	<!-- Now you can place your IMG tags, and position them relative 
+    	     To the container we just made -->	 
+    	<img src="{{ site.baseurl }}/images/ucl-black.png" style="position: relative; top: 0; left: 0;"/>
+    </div>
+</div>
