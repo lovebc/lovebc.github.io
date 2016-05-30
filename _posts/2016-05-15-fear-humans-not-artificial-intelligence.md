@@ -2,6 +2,7 @@
 published: true
 title: Fear Humans, Not Artificial Intelliegence
 layout: post
+author: Bradley C. Love
 ---
 
 
