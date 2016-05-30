@@ -341,7 +341,7 @@ display: none;
     display: none;
   }
     .social {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .top-column1 {
@@ -354,6 +354,12 @@ display: none;
  border: 0;
 }
 
+}
+
+@media (min-wdith: 560px) {
+      .social {
+    font-size: 1.5rem;
+  }
 }
 
 /* Larger than tablet */
