@@ -520,3 +520,15 @@ span.name {
 .popover-item a:hover {
     color: #222;
 }
+
+.button.button-primary, button.button-primary, input.button-primary[type="submit"], input.button-primary[type="reset"], input.button-primary[type="button"] {
+    color: #FFF;
+    background-color: #c22a39;
+    border-color: #c22a39;
+}
+
+.button.button-primary:hover, button.button-primary:hover, input.button-primary[type="submit"]:hover, input.button-primary[type="reset"]:hover, input.button-primary[type="button"]:hover, .button.button-primary:focus, button.button-primary:focus, input.button-primary[type="submit"]:focus, input.button-primary[type="reset"]:focus, input.button-primary[type="button"]:focus {
+    color: #FFF;
+    background-color: #000;
+    border-color: #000;
+}
