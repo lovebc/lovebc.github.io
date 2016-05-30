@@ -5,11 +5,13 @@ title: Contact
 ---
 
 <!-- The above form looks like this -->
-<form action="http://formspree.io/guest.olivia@gmail.com">
+<form action="http://formspree.io/guest.olivia@gmail.com"
+method="POST">
+  
   <div class="row">
     <div class="six columns">
       <label for="exampleEmailInput">Your email</label>
-      <input class="u-full-width" placeholder="test@mailbox.com" id="exampleEmailInput" type="email">
+      <input class="u-full-width" placeholder="test@mailbox.com" id="exampleEmailInput" type="email" name="_replyto">
     </div>
     <div class="six columns">
       <label for="exampleRecipientInput">Reason for contacting</label>
@@ -25,7 +27,7 @@ title: Contact
     <input type="checkbox">
     <span class="label-body">Send a copy to yourself</span>
   </label>
-  <input class="button-primary" value="Submit" type="submit">
+  <input class="button-primary" value="Send" type="submit">
 </form>
 
 <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
