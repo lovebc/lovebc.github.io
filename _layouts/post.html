@@ -5,8 +5,8 @@ layout: blog
 <div class="docs-section examples top">
 <article class="post">
   <h4>{{ page.title }}</h4>
-  <div class ="date">Published on <a href="{{ page.url }}">{{ page.date | date: "%B %e, %Y" }}</a>, by {{ page.author }}
-  — <a href="{{ page.url }}#disqus_thread">Comments</a>
+  <div class ="date">Published on <a href="{{ site.baseurl }}/{{ page.url }}">{{ page.date | date: "%B %e, %Y" }}</a>, by {{ page.author }}
+  — <a href="{{ site.baseurl }}/{{ page.url }}#disqus_thread">Comments</a>
 </div>
 
   <div class="entry">
