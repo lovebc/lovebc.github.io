@@ -4,8 +4,43 @@
    <div class="row">
      
     <div class="twelve columns"> <!-- this is the banner -->
-      <img class="u-max-full-width" src="{{ site.baseurl }}/images/ucl-black.png">
-    </div>
+
+        <script>
+             window.onload = choosePic;
+             var myPix = new Array(
+                              "{{ site.baseurl }}/images/header/dark/mack_etal_2013.png",
+                              "{{ site.baseurl }}/images/header/light/TomlinsonLove2010.png",
+                              "{{ site.baseurl }}/images/header/light/love_etal_2004.png"
+                              );
+        
+             function choosePic() {
+                  var str_before = "background:URL(";
+                  var str_after = ") center center black;";
+                  var randomNum = Math.floor(Math.random() * myPix.length);
+                  var style = str_before.concat(myPix[randomNum]);
+                  style = style.concat(str_after);
+                  var n = style.search("dark"); 
+                  if (n == -1) { /*image is light, so black banner*/
+                       document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-black.png";
+        
+                  } else { 
+                       
+                       document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-white.png";
+                  }
+                  document.getElementById("myPicture").style = style;
+                
+             }
+        </script>
+        
+            <!-- <img src="{{ site.baseurl }}images/spacer.gif" class="u-max-full-width" id="myPicture" alt="some image">-->
+        
+        <a href="#">
+             <img  class="u-max-full-width"
+                   src="{{ site.baseurl }}/images/header/banner-black.png" border="0"
+                   style="background:URL({{ site.baseurl }}/images/header/banner-black.png) center center black;" id="myPicture" />
+        </a>
+        
+        </div>
     
   </div>
 </section>
