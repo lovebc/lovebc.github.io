@@ -9,7 +9,7 @@ published: true
   {{ file.path }}<br><br>
   {% if file.path contains pageurl %}
     {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG'  or file.extname == '.png' %}
-    <img src="{{ file.path }}" />
+    <img src="{{site.baseurl}}{{ file.path }}" />
     {% endif %}
   {% endif %}
 {% endfor %}
