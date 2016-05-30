@@ -19,6 +19,9 @@ layout: lab
       	{% endfor %}
 
       {% assign people = people | sort: 'order' %}
+            	{% for person in people %}
+      		{{ person.name }}{{person.surname}}
+      	{% endfor %}
       {% assign lab-manager-done = false %}
       {% assign phd-students-done = false %}
       {% assign postdocs-done = false %}
