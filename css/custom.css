@@ -285,7 +285,18 @@ display: none;
          left: -60%;
 
    }
-
+  .teeny-hide {
+    display: none;
+  }
+/* Larger than mobile */
+@media (min-width: 330px) {
+  .teeny-hide {
+    display: block;
+  }
+  .teeny-and-below {
+    display: none;
+  }
+}
 /* Larger than mobile */
 @media (min-width: 400px) {
   
