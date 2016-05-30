@@ -276,7 +276,7 @@ display: none;
 
    }
    
-#labMoreNavPopover.popover { /*disgusting hack? */
+#moreLabNavPopover.popover { /*disgusting hack? */
          left: -170%;
 
    }
