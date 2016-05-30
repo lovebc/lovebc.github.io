@@ -356,9 +356,9 @@ display: none;
 
 }
 
-@media (min-wdith: 560px) {
+@media (min-wdith: 575px) {
       .social {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 }
 
