@@ -5,7 +5,7 @@
      
     <div class="twelve columns"> <!-- this is the banner -->
 
-        <script>
+      <!--  <script>
              window.onload = choosePic;
              var myPix = new Array(
                               "{{ site.baseurl }}/images/header/dark/mack_etal_2013.png",
@@ -38,15 +38,13 @@
                   document.getElementById("myPicture").style = style;
                 
              }
-        </script>
+        </script> -->
         
             <!-- <img src="{{ site.baseurl }}images/spacer.gif" class="u-max-full-width" id="myPicture" alt="some image">-->
         
-        <a href="#">
              <img  class="u-max-full-width"
                    src="{{ site.baseurl }}/images/header/banner-white.png" border="0"
-                   style="background: black;" id="myPicture" />
-        </a>
+                   style="background: URL({{ site.baseurl }}/images/header/dark/mack_etal_2013.png) black;" id="myPicture" />
         
         </div>
     
