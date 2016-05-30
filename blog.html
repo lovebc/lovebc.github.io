@@ -13,7 +13,8 @@ permalink: blog/
 
       <article class="post">
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-       
+         <span class ="author">by {{ post.author }}</span>
+
         <div class="entry">
           {{ post.content | truncatewords:50}}
         </div>
