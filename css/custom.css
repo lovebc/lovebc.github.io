@@ -457,8 +457,9 @@ footer {
 }
 
 .date {
-    margin-bottom: 1rem;
-
+    margin-bottom: 1.5rem;
+    font-weight: 100;
+    color: #666;
 }
 
 
