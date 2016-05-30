@@ -15,7 +15,7 @@ layout: lab
       The Love Lab consists of a <a href="#lab-manager">lab manager</a>, <a href="#postdocs">postdocs</a>, and <a href="#phd-students">PhD students</a>. See below for more details.
       {% assign people = site.people | sort: 'surname' %}
       	{% for person in people %}
-      		{{ person }}
+      		{{ person.name }}{{person.surname}}
       	{% endfor %}
 
       {% assign people = people | sort: 'order' %}
