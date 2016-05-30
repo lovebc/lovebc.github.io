@@ -19,25 +19,31 @@ layout: lab
       {% assign phd-students-done = false %}
       {% assign postdocs-done = false %}
       {% assign pi-done = false %}
-
+      {% assign prev_role = fasle %}
       <div class="people">
       	{% for person in people %}
+      	
+                  {% if person.role != prev_role and prev_role != false %}
+                        </div>
+                  {% endif %}
+                  {% assign prev_role = person.role %}
+
 
       		<div class="person">
       		      {% if person.role == 'lab-manager' and lab-manager-done == false %}
-      		            <div id ="{{ person.role }}"><h5 class="docs-header">Lab Manager</h5></div>
+      		            <div id ="{{ person.role }}"><h5 class="docs-header">Lab Manager</h5>
       		            {% assign lab-manager-done = true %}
       		      
       		      {% elsif person.role == 'phd-students' and phd-students-done == false %}
-      		            <h5 class="docs-header" id ="{{ person.role }}">PhD Students</h5>
+      		            <div id ="{{ person.role }}"><h5 class="docs-header">PhD Students</h5>
       		            {% assign phd-students-done = true %}
 
       		      {% elsif person.role == 'pi' and pi-done == false %}
-      		            <h5 class="docs-header" id ="{{ person.role }}">Principal Investigator</h5>
+      		            <div id ="{{ person.role }}"><h5 class="docs-header">Principal Investigator</h5>
                               {% assign pi-done = true %}
 
       		      {% elsif person.role == 'postdocs' and postdocs-done == false %}
-      	      	      <h5 class="docs-header" id ="{{ person.role }}">Postdocs</h5>
+      	      	      <div id ="{{ person.role }}"><h5 class="docs-header">Postdocs</h5>
                               {% assign postdocs-done = true %}
 
       		      {% endif %}
@@ -87,6 +93,7 @@ layout: lab
       				/>
       			</div>
       			<p>{{ person.bio }}</p>
+      			
       		</div>
       	{% endfor %}
       </div>
