@@ -12,6 +12,25 @@ layout: lab
       
 <div class="docs-section examples" id="people">
       <h4>People</h4>
+      	<ul class="navbar-list">
+
+	      <li class="navbar-item"> <!-- link to top(-ish) of page -->
+	        <a class="navbar-link" href="#pi">PI</a>
+	      </li>
+	      
+	      <li class="navbar-item"> 
+	        <a class="navbar-link" href="#lab-manager">Lab Manager</a>
+	      </li>
+	      
+	      <li class="navbar-item">
+	        <a class="navbar-link" href="#postdocs">Postdocs</a>
+	      </li>
+	      
+	      <li class="navbar-item">
+	        <a class="navbar-link" href="#phd-students">PhD Students</a>
+	      </li>
+	</ul>
+    
       {% assign people = site.people | sort: 'surname' %}
 
       {% assign people = people | sort: 'order' %}
