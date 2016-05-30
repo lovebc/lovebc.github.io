@@ -358,6 +358,12 @@ display: none;
 
 @media (min-width: 575px) {
       .social {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 700px) {
+      .social {
     font-size: 2rem;
   }
 }
