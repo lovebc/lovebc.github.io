@@ -242,7 +242,7 @@ padding-top: 4rem;
 }
 
  p.social {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem !important;
 } 
 .social{
         font-size: 3rem;
