@@ -7,6 +7,7 @@ published: true
   {% assign pageurl = page.url | replace: 'test.html', '' %}
   {{ pageurl }}
   {{ page.url }}
+  {{ file.path }}
   {% if file.path contains pageurl %}
     {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG'  or file.extname == '.png' %}
     <img src="{{ file.path }}" />
