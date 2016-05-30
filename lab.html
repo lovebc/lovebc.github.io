@@ -96,5 +96,10 @@ layout: lab
       		</div>
       	{% endfor %}
       </div>
+      
+      <div class="docs-section examples" id="publications">
+      <h4>Publications</h4>
+       {% capture publications %}{% include publications.md %}{% endcapture %}{{ publications | markdownify }}
+      </div>
 </div>
      
