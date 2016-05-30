@@ -1,10 +1,11 @@
 ---
 layout: page
 published: true
+permalink: test
 ---
 
 {% for file in site.static_files %}
-  {% assign pageurl = page.url | replace: 'test', '' %}
+  {% assign pageurl = page.url | replace: page.permalink '' %}
   {{ pageurl }}<br>
   {{ file.path }}<br><br>
   {% if file.path contains pageurl %}
