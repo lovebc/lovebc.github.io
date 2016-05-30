@@ -3,5 +3,17 @@ layout: lab
 published: true
 ---
 
-     <img src="images/spacer.gif" width="305" height="312" id="myPicture" alt="some image">
+<script>
+     window.onload = choosePic;
+
+var myPix = new Array("{{ site.baseurl }}images/walk.png",
+                      "{{ site.baseurl }}images/wellcome.png",
+                      "{{ site.baseurl }}images/brad.png");
+
+function choosePic() {
+     var randomNum = Math.floor(Math.random() * myPix.length);
+     document.getElementById("myPicture").src = myPix[randomNum];
+</script>
+
+     <img src="{{ site.baseurl }}images/spacer.gif" width="305" height="312" id="myPicture" alt="some image">
 
