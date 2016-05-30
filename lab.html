@@ -14,9 +14,26 @@ layout: lab
       <h4>People</h4>
       The Love Lab consists of a <a href="#lab-manager">lab manager</a>, <a href="#postdocs">postdocs</a>, and <a href="#phd-students">PhD students</a>. See below for more details.
       {% assign people = site.people | sort: 'surname' %}
+      {% assign postdocs = site.array %}
+      {% assign pi = site.array %}
+      {% assign phd-students = site.array %}
+      {% assign lab-manager = site.array %}
+
       	{% for person in people %}
-      		{{ person.firstname }} {{person.surname}}: {{person.role}}<br>
-      	
+	      {% if person.role == 'lab-manager' %}
+	            {% assign lab-manager = lab-manager | push: person %}
+      			  {{ person.firstname }} {{person.surname}}: {{person.role}}<br>
+
+	     <!-- {% elsif person.role == 'phd-students' %}
+
+
+	      {% elsif person.role == 'pi' %}
+
+
+	      {% elsif person.role == 'postdocs' %} -->
+
+
+	      {% endif %}
       	{% endfor %}
       	
 
