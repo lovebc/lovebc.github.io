@@ -266,6 +266,10 @@ display: none;
     display:none;
   }
 
+#peopleNavPopover.popover {
+    left: -40%;
+
+}
 
 #moreNavPopover.popover { /*disgusting hack? */
          left: -180%;
