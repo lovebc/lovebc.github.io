@@ -4,7 +4,7 @@ published: true
 ---
 
 {% for file in site.static_files %}
-  {% assign pageurl = page.url | replace: 'test.html', '' %}
+  {% assign pageurl = page.url | replace: 'test', '' %}
   {{ page.url }}<br>
   {{ file.path }}<br><br>
   {% if file.path contains pageurl %}
