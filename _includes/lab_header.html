@@ -18,19 +18,24 @@
                               );
         
              function choosePic() {
-                  var str_before = "background:URL(";
-                  var str_after = ") center center black;";
+
                   var randomNum = Math.floor(Math.random() * myPix.length);
-                  var style = str_before.concat(myPix[randomNum]);
-                  style = style.concat(str_after);
-                  var n = style.search("dark"); 
+                  var random_image = myPix[randomNum];
+                  var n = random_image.search("dark"); 
                   if (n == -1) { /*image is light, so black banner*/
                        document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-black.png";
-        
+                       var str_after = ") center center white;";
+
                   } else { 
                        
                        document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-white.png";
+                       var str_after = ") center center black;";
+
                   }
+                  var str_before = "background:URL(";
+                  var style = str_before.concat(random_image);
+                  style = style.concat(str_after);
+
                   document.getElementById("myPicture").style = style;
                 
              }
