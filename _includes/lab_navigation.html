@@ -37,10 +37,21 @@
             </div>
           </li>
                 
-      <li class="navbar-item"> 
-        <a class="navbar-link" href="#publications">Publications</a>
+
+      <li class="navbar-item">
+        <a class="navbar-link tiny-hide" href="#publications">Publications</a>
       </li>
-      
+      <li class="navbar-item"> <!-- this makes it make a cool drop-down thing -->
+      <a class="navbar-link tiny-and-below" href="#" data-popover="#moreNavPopover"
+      style="font-family:Monospace; font-size:2rem">+</a>
+      <div id="moreNavPopover" class="popover">
+        <ul class="popover-list">
+          <li class="popover-item">
+            <a class="popover-link tiny-and-below" href="#publications">Publications</a>
+          </li>
+        </ul>
+      </div>
+    </li>
     </ul>
   </div>
 </nav>
