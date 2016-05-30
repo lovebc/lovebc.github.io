@@ -241,12 +241,12 @@ padding-top: 4rem;
   font-size: 1.25rem;
 }
 
-  
+ p.social {
+    margin-bottom: 2.5rem;
+} 
 .social{
         font-size: 3rem;
-p.social {
-    margin-bottom: 2.5rem;
-}
+
     }
 .social a {
     color: #bbb;
