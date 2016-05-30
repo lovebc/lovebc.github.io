@@ -5,7 +5,8 @@ layout: blog
 <div class="docs-section examples top">
 <article class="post">
   <h4>{{ page.title }}</h4>
-  <div class ="author">by {{ page.author }}  <div class ="date"><a href="{{ page.url }}">{{ page.date | date: "%B %e, %Y" }}</a></div>
+  <div class ="date">Published on <a href="{{ page.url }}">{{ page.date | date: "%B %e, %Y" }}</a>, by {{ page.author }}
+  — <a href="{{ page.url }}#disqus_thread">Comments</a>
 </div>
 
   <div class="entry">
@@ -15,3 +16,4 @@ layout: blog
   {% include disqus.html %}
 </article>
 </div>
+<script id="dsq-count-scr" src="//bradove.disqus.com/count.js" async></script>
