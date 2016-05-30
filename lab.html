@@ -25,7 +25,7 @@ layout: lab
 
       		<div class="person">
       		      {% if person.role == 'lab-manager' and lab-manager-done == false %}
-      		            <div id ="{{ person.role }}><h5 class="docs-header" ">Lab Manager</h5></div>
+      		            <div id ="{{ person.role }}"><h5 class="docs-header">Lab Manager</h5></div>
       		            {% assign lab-manager-done = true %}
       		      
       		      {% elsif person.role == 'phd-students' and phd-students-done == false %}
