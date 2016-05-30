@@ -14,6 +14,9 @@ layout: lab
       <h4>People</h4>
       The Love Lab consists of a <a href="#lab-manager">lab manager</a>, <a href="#postdocs">postdocs</a>, and <a href="#phd-students">PhD students</a>. See below for more details.
       {% assign people = site.people | sort: 'surname' %}
+      	{% for person in people %}
+      		{{ person }}
+      	{% endfor %}
 
       {% assign people = people | sort: 'order' %}
       {% assign lab-manager-done = false %}
