@@ -2,6 +2,7 @@
 published: true
 title: Licensing
 layout: default
+permalink: license
 ---
 <div class="docs-section examples top">
 <h4>Website Design</h4>
