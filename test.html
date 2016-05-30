@@ -13,9 +13,15 @@ published: true
                       );
 
      function choosePic() {
-       
+       var str_before = "background:URL("
+       var str_after = ") center center black;";
        var randomNum = Math.floor(Math.random() * myPix.length);
-        document.getElementById("myPicture").src = myPix[randomNum];
+
+       var style = str_before.concat(myPix[randomNum]);
+       style = style.concat(str_after)
+        /*document.getElementById("myPicture").src = myPix[randomNum];*/
+        document.getElementById("myPicture").style = style;
+        
      }
 </script>
 
