@@ -276,6 +276,11 @@ display: none;
 
    }
    
+#labMoreNavPopover.popover { /*disgusting hack? */
+         left: -170%;
+
+   }
+   
 #labNavPopover.popover {/*disgusting hack? */
          left: -60%;
 
