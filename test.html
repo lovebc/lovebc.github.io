@@ -5,7 +5,7 @@ published: true
 
 <script>
      window.onload = choosePic;
-
+     var 
      var myPix = new Array(
                       "{{ site.baseurl }}/images/header/dark/mack_etal_2013.png",
                       "{{ site.baseurl }}/images/header/light/TomlinsonLove2010.png",
@@ -13,14 +13,19 @@ published: true
                       );
 
      function choosePic() {
-       var str_before = "background:URL("
-       var str_after = ") center center black;";
-       var randomNum = Math.floor(Math.random() * myPix.length);
+          var str_before = "background:URL("
+          var str_after = ") center center black;";
+          var randomNum = Math.floor(Math.random() * myPix.length);
+          var style = str_before.concat(myPix[randomNum]);
+          style = style.concat(str_after)
+          var n = style.search("dark"); 
+          if (n == -1) { /* it's light - so we want the black banner*/
+               document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-black.png";
 
-       var style = str_before.concat(myPix[randomNum]);
-       style = style.concat(str_after)
-        /*document.getElementById("myPicture").src = myPix[randomNum];*/
-        document.getElementById("myPicture").style = style;
+          } else { /* it's dark - so we want the white banner*/
+               document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-white.png";
+          }
+          document.getElementById("myPicture").style = style;
         
      }
 </script>
