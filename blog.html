@@ -6,14 +6,10 @@ title: Recent Blog Posts
 
 {% for post in site.posts %}
  
-      {% if forloop.first == true %}
-          <div class="docs-section examples top" id="posts">
-      {% else %}
-          <div class="docs-section examples" id="posts">
-      {% endif %}
+      <div id="posts">
 
       <article class="post">
-        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
         <div class ="date">Published on <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a>,
          by {{ post.author }}
   — <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
