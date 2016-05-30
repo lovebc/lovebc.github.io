@@ -24,12 +24,12 @@
                   var n = random_image.search("dark"); 
                   if (n == -1) { /*image is light, so black banner*/
                        document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-black.png";
-                       var str_after = ") center center white;";
+                       var str_after = ") no-repeat right top white";
 
                   } else { 
                        
                        document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-white.png";
-                       var str_after = ") center center black;";
+                       var str_after = ") no-repeat right top black";
 
                   }
                   var str_before = "background:URL(";
