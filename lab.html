@@ -24,14 +24,17 @@ layout: lab
 	            {% assign lab-manager = lab-manager | push: person %}
       			  {{ person.firstname }} {{person.surname}}: {{person.role}}<br>
 
-	     <!-- {% elsif person.role == 'phd-students' %}
-
+	      {% elsif person.role == 'phd-students' %}
+	            {% assign phd-students = phd-students | push: person %}
+      			  {{ person.firstname }} {{person.surname}}: {{person.role}}<br>
 
 	      {% elsif person.role == 'pi' %}
+	            {% assign pi = pi | push: person %}
+      			  {{ person.firstname }} {{person.surname}}: {{person.role}}<br>
 
-
-	      {% elsif person.role == 'postdocs' %} -->
-
+	      {% elsif person.role == 'postdocs' %} 
+	            {% assign postdocs = postdocs | push: person %}
+      			  {{ person.firstname }} {{person.surname}}: {{person.role}}<br>
 
 	      {% endif %}
       	{% endfor %}
