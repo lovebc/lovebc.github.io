@@ -57,3 +57,5 @@ exclude:
     
 collections:
   people:
+  
+array: []
