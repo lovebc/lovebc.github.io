@@ -12,9 +12,30 @@
         <a class="navbar-link" href="#about">About</a>
       </li>
       
-      <li class="navbar-item">
-        <a class="navbar-link" href="#people">People</a>
-      </li>
+    <li class="navbar-item"> <!-- this makes it make a cool drop-down thing -->
+            <a class="navbar-link" href="#" data-popover="#moreNavPopover">People</a>
+            <div id="moreNavPopover" class="popover">
+              <ul class="popover-list">
+
+                <li class="popover-item">
+                  <a class="popover-link" href="#people">All</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#pi">PI</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#lab-manager">Lab Manager</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#postdocs">Postdocs</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#phd-students">PhD Students</a>
+                </li>
+
+              </ul>
+            </div>
+          </li>
     </ul>
   </div>
 </nav>
