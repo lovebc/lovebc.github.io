@@ -16,6 +16,7 @@ permalink: blog/
         <div class ="date">Published on <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a>,
          by {{ post.author }}
   — <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
+        </div>
 
         <div class="entry">
           {{ post.content | truncatewords:50}}
