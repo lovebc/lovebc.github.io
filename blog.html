@@ -13,8 +13,9 @@ permalink: blog/
 
       <article class="post">
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-         <span class ="author">by {{ post.author }}</span>
-         <div class ="date"><a href="{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a></div>
+        <div class ="date">Published on <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a>,
+         by {{ post.author }}
+  — <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">Comments</a>
 
         <div class="entry">
           {{ post.content | truncatewords:50}}
