@@ -516,3 +516,7 @@ span.name {
 .person {
     min-height: 25rem;
 }
+
+.popover-item a:hover {
+    color: #222;
+}
