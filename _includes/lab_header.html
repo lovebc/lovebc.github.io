@@ -1,49 +1,45 @@
 <section class="header" >
   <h1><a href="{{ site.baseurl }}/lab" style = "text-decoration: none; color: #222">Love Lab</a></h1>
-  
-   <div class="row">
-     
+  <div class="row">
     <div class="twelve columns"> <!-- this is the banner -->
-
-      <script>
-             window.onload = choosePic;
-             var Vertical = new Array(
-                              "top",
-                              "center",
-                              "bottom"
-                              );
-             var Horizontal = new Array(
-                              "left ",
-                              "center ",
-                              "right "
-                              );
-        
-             function choosePic() {
-
-                  var randomVer = Math.floor(Math.random() * Vertical.length);
-                  var randomHor = Math.floor(Math.random() * Horizontal.length);
-                  var random_location = Horizontal[randomHor].concat(Vertical[randomVer]);
-
-
-                  var str_before = "background: URL({{ site.baseurl }}/images/mack_etal_2013.png) ";
-                  var style = str_before.concat(random_location);
-                  var str_after = " #0a0b06;"
-                  style = style.concat(str_after);
-
-                  document.getElementById("myPicture").style = style;
-                
-             }
-        </script>
-        
-            <!-- <img src="{{ site.baseurl }}images/spacer.gif" class="u-max-full-width" id="myPicture" alt="some image">-->
-             <a href="{{site.baseurl}}/lab">
-             <img  class="u-max-full-width"
-                   src="{{ site.baseurl }}/images/header/banner-white.png" border="0"
-                   style="URL({{ site.baseurl }}/images/mack_etal_2013.png) background: #0a0b06;" id="myPicture" 
-                   title ="UCL Love Lab"/>
-            </a>
-        
-        </div>
+    <!-- Just to be cute I randomise the location of the header image -->
+    <script type="text/javascript">
     
+           window.onload = choosePic;
+           var Vertical = new Array(
+                            "top",
+                            "center",
+                            "bottom"
+                            );
+           var Horizontal = new Array(
+                            "left ",
+                            "center ",
+                            "right "
+                            );
+      
+           function choosePic() {
+    
+                var randomVer = Math.floor(Math.random() * Vertical.length);
+                var randomHor = Math.floor(Math.random() * Horizontal.length);
+                var random_location = Horizontal[randomHor].concat(Vertical[randomVer]);
+    
+    
+                var str_before = "background: URL({{ site.baseurl }}/images/mack_etal_2013.png) ";
+                var style = str_before.concat(random_location);
+                var str_after = " #0a0b06;"
+                style = style.concat(str_after);
+    
+                document.getElementById("myPicture").style = style;
+              
+           }
+      </script>
+
+      <a href="{{site.baseurl}}/lab">
+        <img  class="u-max-full-width"
+             src="{{ site.baseurl }}/images/header/banner-white.png" border="0"
+             style="URL({{ site.baseurl }}/images/mack_etal_2013.png) background: #0a0b06;" id="myPicture" 
+             title ="UCL Love Lab"/>
+      </a>
+    </div>
   </div>
 </section>
