@@ -1,3 +1,5 @@
+Selected mainstream media article on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
+
 * Reinforcement Learning: <a href="http://www.businessweek.com/lifestyle/content/healthday/637632.html">BusinessWeek</a>, <a href="http://www.sciencedaily.com/releases/2010/03/100331091138.htm">ScienceDaily</a>,
 <a href="media/Love_Fox7_Interview.mp4">Fox7 News (video)</a>.
 * Category Learning: <a href="http://www.utexas.edu/cola/public-affairs/news/O13722"> UT Public Affairs</a>, <a href="http://www.psychologytoday.com/blog/ulterior-motives/201101/what-you-do-affects-what-you-learn"> Psychology Today.</a>
