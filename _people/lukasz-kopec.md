@@ -6,7 +6,7 @@ order: 4
 
 email: 
 
-website: ://lukaszkopec.com
+website: //lukaszkopec.com
 twitter:
 researchgate:
 impactstory:
