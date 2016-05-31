@@ -13,17 +13,17 @@
                               "down"
                               );
              var Horizontal = new Array(
-                              "left",
-                              "center",
-                              "down"
+                              "left ",
+                              "center ",
+                              "down "
                               );
         
              function choosePic() {
 
-                  /*var randomNum = Math.floor(Math.random() * myPix.length);
-                  var random_location = myLoc[randomNum];*/
-                  var random_location = "left top"
-                  
+                  var randomVer = Math.floor(Math.random() * Vertical.length);
+                  var randomHor = Math.floor(Math.random() * Horizontal.length);
+                  var random_location = Horizontal[randomHor].concat(Vertical[randomVer]);
+
 
                   var str_before = "background: URL({{ site.baseurl }}/images/header/dark/mack_etal_2013.png) ";
                   var style = str_before.concat(random_location);
