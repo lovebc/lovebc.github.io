@@ -12,7 +12,9 @@ Cheers,
 Olivia
 -->
 
-<html lang="en">
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
 <head>
      
   <!-- Redirect for when page not found
@@ -54,6 +56,14 @@ Olivia
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/megaphone.png">
+  
+    <!-- Facebook
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  {% if page.url == '/lab' %}
+     <meta property="og:image" content="{{site.baseurl}}images/header/dark/mack_etal_2013.png" />
+  {% else %}
+       <meta property="og:image" content="{{site.baseurl}}images/banner.png" />
+  {% endif %}
   
   <!-- XML Feed
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
