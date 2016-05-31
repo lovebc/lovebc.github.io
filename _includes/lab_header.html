@@ -5,40 +5,35 @@
      
     <div class="twelve columns"> <!-- this is the banner -->
 
-      <!--  <script>
+      <script>
              window.onload = choosePic;
-             var myPix = new Array(
-                              "{{ site.baseurl }}/images/header/dark/mack_etal_2013.png",
-                              "{{ site.baseurl }}/images/header/dark/HornsbyLoveInPress.png",
-                              "{{ site.baseurl }}/images/header/dark/Davis_etal_2014.png",
-                              "{{ site.baseurl }}/images/header/light/TomlinsonLove2010.png",
-                              "{{ site.baseurl }}/images/header/light/love_etal_2004.png",
-                              "{{ site.baseurl }}/images/header/light/Davis_etal_2014b.png"
+             var Vertical = new Array(
+                              "up",
+                              "center",
+                              "down"
+                              );
+             var Horizontal = new Array(
+                              "left",
+                              "center",
+                              "down"
                               );
         
              function choosePic() {
 
-                  var randomNum = Math.floor(Math.random() * myPix.length);
-                  var random_image = myPix[randomNum];
-                  var n = random_image.search("dark"); 
-                  if (n == -1) { /*image is light, so black banner*/
-                       document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-black.png";
-                       var str_after = ") repeat center center white";
+                  /*var randomNum = Math.floor(Math.random() * myPix.length);
+                  var random_location = myLoc[randomNum];*/
+                  var random_location = "center center"
+                  
 
-                  } else { 
-                       
-                       document.getElementById("myPicture").src = "{{ site.baseurl }}/images/header/banner-white.png";
-                       var str_after = ") repeat center center black";
-
-                  }
-                  var str_before = "background:URL(";
-                  var style = str_before.concat(random_image);
+                  var str_before = "background: URL({{ site.baseurl }}/images/header/dark/mack_etal_2013.png) ";
+                  var style = str_before.concat(random_location);
+                  var str_after = " black;"
                   style = style.concat(str_after);
 
                   document.getElementById("myPicture").style = style;
                 
              }
-        </script> -->
+        </script>
         
             <!-- <img src="{{ site.baseurl }}images/spacer.gif" class="u-max-full-width" id="myPicture" alt="some image">-->
              <a href="{{site.baseurl}}/lab">
