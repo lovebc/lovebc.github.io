@@ -543,7 +543,7 @@ span.name {
     display: block;
 }
 .person {
-    min-height: 25rem;
+    min-height: 15rem;
 }
 
 .popover-item a:hover {
