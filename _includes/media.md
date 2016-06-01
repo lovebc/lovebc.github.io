@@ -1,4 +1,4 @@
-Selected mainstream media article on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
+Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
 
 * Reinforcement Learning: <a href="http://www.businessweek.com/lifestyle/content/healthday/637632.html">BusinessWeek</a>, <a href="http://www.sciencedaily.com/releases/2010/03/100331091138.htm">ScienceDaily</a>,
 <a href="media/Love_Fox7_Interview.mp4">Fox7 News (video)</a>.
@@ -9,4 +9,4 @@ Selected mainstream media article on the <a href="{{site.baseurl}}/lab">Love Lab
 * Brain Basis of Category Learning: <a href="http://www.sciencedaily.com/releases/2013/11/131108112144.htm">ScienceDaily</a>, <a href="http://neurosciencenews.com/medial-temporal-lobe-memory-fmri-1081/">Neuroscience News</a>.
 * Developing Brain and Gaming: <a href="media/brazilTV.mp4"> R7 Brazil (Video with Portuguese audio)</a>.
 * Optimism Bias: <a href="http://www.minnpost.com/second-opinion/2015/09/why-football-fans-are-unrealistically-optimistic-and-why-it-matters"> MinnPost</a>, <a href="http://www.newsweek.com/nfl-fans-and-reporters-overly-optimistic-about-teams-prospects-370447"> Newsweek</a>, <a href="http://phys.org/news/2015-09-nfl-fans-espn-overly-optimistic.html">PHYS ORG</a>, <a href="http://www.csmonitor.com/Science/2015/0909/NFL-scores-Your-team-is-probably-less-invincible-than-you-imagine"> C.S. Monitor</a>.
-<p>For more details see the <a href="{{ site.baseurl }}/lab#publications">Love Lab's publications</a>.</p>
+<p>See the <a href="#publications">Publications</a> section for more details.</p>
