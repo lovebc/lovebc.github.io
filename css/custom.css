@@ -530,7 +530,7 @@ img.profilepic {
     border: 0;
     width: 12rem;
 
-    clear: both;
+    clear: right;
     clip: rect(0,12rem,12rem,0);
     position: absolute;
 }
@@ -544,6 +544,7 @@ span.name {
 }
 .person {
     min-height: 15rem;
+    clear: right;
 }
 
 .popover-item a:hover {
