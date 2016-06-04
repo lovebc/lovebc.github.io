@@ -26,7 +26,7 @@
     
                 var str_before = "background: URL({{ site.baseurl }}/images/mack_etal_2013.png) ";
                 var style = str_before.concat(random_location);
-                var str_after = "; background: #0a0b06;"
+                var str_after = " #0a0b06;"
                 style = style.concat(str_after);
     
                 document.getElementById("myPicture").style = style;
@@ -37,7 +37,7 @@
       <a href="{{site.baseurl}}/lab">
         <img  class="u-max-full-width"
              src="{{ site.baseurl }}/images/header/banner-white.png" border="0"
-             style="URL({{ site.baseurl }}/images/mack_etal_2013.png) background: #0a0b06;" id="myPicture" 
+             style="background: URL({{ site.baseurl }}/images/mack_etal_2013.png) #0a0b06;" id="myPicture" 
              title ="UCL Love Lab"/>
       </a>
     </div>
