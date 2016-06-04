@@ -1,5 +1,4 @@
-##Website for @lovebc http://oliviaguest.com/bradlove.org 
-Not live yet. 
+##Website http://bradlove.org 
 
 ##These are README.md sections that need filling in:
 
