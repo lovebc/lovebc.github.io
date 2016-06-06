@@ -19,7 +19,7 @@ $(document).ready(function() {
 
   function init() {
     $window.on('scroll', onScroll)
-    $window.on('resize', resize)
+    $window.on('resize load', resize)
     $popoverLink.on('click', openPopover)
     $document.on('click', closePopover)
     $('a[href^="#"]').on('click', smoothScroll)
