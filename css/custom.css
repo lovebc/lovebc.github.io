@@ -273,7 +273,7 @@ display: none;
 }
 
 #moreNavPopover.popover { /*disgusting hack? */
-         left: -180%;
+         left: -170%;
 
    }
    
@@ -318,7 +318,7 @@ display: none;
    }
    
    #moreNavPopover.popover {
-     left: -160%;
+     left: -150%;
    }
    
 }
