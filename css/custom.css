@@ -147,7 +147,8 @@
     font-size: 11px;
     font-weight: 600;
     letter-spacing: .2rem;
-    margin-right: 20px;
+    margin: 0;
+    padding-right: 3rem;
     text-decoration: none;
     line-height: 6.5rem;
     color: #222; }
@@ -308,10 +309,7 @@ display: none;
    .tiny-and-below {
      display:none;
    }
-   
-   .navbar-link {
-     margin-right:  15px;
-   }
+  
    
    #labNavPopover.popover {
      left: -70%;
@@ -375,9 +373,7 @@ display: none;
     .social {
      font-size: 2.25rem;
     }
-    .navbar-link{
-      margin-right: 30px;
-    }
+
   
 }
 
@@ -389,16 +385,12 @@ display: none;
   .social {
     font-size: 3rem;
     }
-    .navbar-link{
-      margin-right: 35px;
-    }
+
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-   .navbar-link{
-      margin-right: 40px;
-    }
+
     #labNavPopover.popover {
       left: -50%;
     }
