@@ -268,7 +268,7 @@ display: none;
   }
 
 #peopleNavPopover.popover {
-    left: -40%;
+    left: -35%;
 
 }
 
@@ -278,7 +278,7 @@ display: none;
    }
    
 #moreLabNavPopover.popover { /*disgusting hack? */
-         left: -180%;
+         left: -175%;
 
    }
    
