@@ -273,12 +273,12 @@ display: none;
 }
 
 #moreNavPopover.popover { /*disgusting hack? */
-         left: -170%;
+         left: -180%;
 
    }
    
 #moreLabNavPopover.popover { /*disgusting hack? */
-         left: -170%;
+         left: -175%;
 
    }
    
@@ -318,7 +318,7 @@ display: none;
    }
    
    #moreNavPopover.popover {
-     left: -150%;
+     left: -160%;
    }
    
 }
