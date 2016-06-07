@@ -278,7 +278,7 @@ display: none;
    }
    
 #moreLabNavPopover.popover { /*disgusting hack? */
-         left: -175%;
+         left: -170%;
 
    }
    
