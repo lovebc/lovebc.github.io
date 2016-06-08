@@ -5,10 +5,11 @@ layout: blog
 <div class="docs-section examples top">
 <article class="post">
   <h2>{{ page.title }}</h2>
+  
   <div class ="date">Published on <a href="{{ site.baseurl }}/{{ page.url }}">{{ page.date | date: "%B %e, %Y" }}</a>, by {{ page.author }}
   — <a href="{{ site.baseurl }}/{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a>
 </div>
-
+<div class="addthis_sharing_toolbox"></div>
   <div class="entry">
     {{ content }}
   </div>
