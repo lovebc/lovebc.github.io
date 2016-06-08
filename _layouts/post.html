@@ -1,8 +1,6 @@
 ---
 layout: blog
 ---
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57583338d68c16ce"></script>
 
 <div class="docs-section examples top">
 <article class="post">
@@ -14,8 +12,9 @@ layout: blog
   <div class="entry">
     {{ content }}
   </div>
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_sharing_toolbox"></div>
+  
+  {% include sharethis.html %}
+
   {% include disqus.html %}
 </article>
 </div>
