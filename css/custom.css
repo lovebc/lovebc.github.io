@@ -139,7 +139,7 @@
     position: relative;
     float: left;
     margin-bottom: 0;
-    margin-right: 2rem;
+    margin-right: 1.75rem;
     
   }
   .navbar-item a:hover {
@@ -307,7 +307,11 @@ display: none;
    .tiny-hide {
      display: block;
    }
-   
+ .navbar-item {
+
+    margin-right: 2rem;
+    
+  }
    .tiny-and-below {
      display:none;
    }
