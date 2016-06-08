@@ -367,6 +367,7 @@ display: none;
       .social {
     font-size: 2rem;
   }
+  
 }
 
 /* Larger than tablet */
@@ -375,6 +376,10 @@ display: none;
     .social {
      font-size: 2.25rem;
     }
+      .navbar-item {
+    margin-right: 2.5rem;
+    
+  }
 
   
 }
@@ -387,6 +392,10 @@ display: none;
   .social {
     font-size: 3rem;
     }
+      .navbar-item {
+    margin-right: 3rem;
+    
+  }
 
 }
 
