@@ -45,7 +45,7 @@ $(document).ready(function() {
     closePopover();
     var popover = $($(this).data('popover'));
     popover.toggleClass('open');
-    popover.css('left', "-"+String(popover.parent().width()/2-10)+"px");
+    popover.css('left', "-"+String(popover.width()/2)+"px");
     e.stopImmediatePropagation();
   }
 
