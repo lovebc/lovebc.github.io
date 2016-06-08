@@ -138,7 +138,10 @@
   .navbar-item {
     position: relative;
     float: left;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    margin-right: 3rem;
+    
+  }
   .navbar-item a:hover {
     color: #c22a39
   }
