@@ -479,7 +479,8 @@ input[type="button"].button-primary:focus {
   margin-top: 1rem; }
 
 footer {
-  padding: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
   bottom: 0;
  }
