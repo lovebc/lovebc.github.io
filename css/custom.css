@@ -105,7 +105,9 @@
   .example-grid .columns {
     margin-bottom: 1.5rem; }
   .docs-section {
-    padding: 6rem 0; }
+  padding-top:4.5rem;
+  margin-top:4.5rem;
+  }
   .example-send-yourself-copy {
     float: right;
     margin-top: 12px; }
