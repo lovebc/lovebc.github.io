@@ -20,8 +20,8 @@
   border-top: 1px solid #eee;
   padding:0;
   margin: 0;
-  padding-top:6rem;
-  margin-top:6rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .value-img {
@@ -104,10 +104,7 @@
   .example-grid .column,
   .example-grid .columns {
     margin-bottom: 1.5rem; }
-  .docs-section {
-  padding-top:6rem;
-  margin-top:6rem;
-  }
+
   .example-send-yourself-copy {
     float: right;
     margin-top: 12px; }
