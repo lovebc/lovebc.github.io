@@ -18,8 +18,11 @@
 }
 .docs-section {
   border-top: 1px solid #eee;
-  padding: 4rem 0;
-  margin-bottom: 0;}
+  padding:0;
+  margin: 0;
+  padding-top:4rem;
+  margin-top:4rem;
+}
 
 .value-img {
   display: block;
