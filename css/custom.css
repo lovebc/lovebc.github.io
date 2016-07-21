@@ -535,6 +535,7 @@ img.profilepic {
     padding: 0;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    padding-left: 0.2rem;
 }
 
 .person img {
