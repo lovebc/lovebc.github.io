@@ -7,7 +7,7 @@ permalink: workshop
 
 **Model-Based fMRI Workshop for Math Psych Folks (application deadline August 25th)**
 
-With the help of others, I will be running a workshop on Modeling fMRI data this Summer in London, which will be timed to coincide with the Math Psych and CogSci conferences. The workshop is aimed at modelers in psychology who are interested in model-based fMRI. The format of the workshop will be unusual (details below) as it will be patterned on a [www.kaggle.com](http://www.kaggle.com/) competition in which participants compete on common challenge problems. The fMRI data will be highly pre-processed and constrained such that no prior experience is required — it should be no more difficult than dealing with several cell means.
+With the help of others, I will be running a workshop on Modeling fMRI data this Summer in London, which will be timed to coincide with the [Math Psych](http://www.mathpsych.org/) and [CogSci](http://cognitivesciencesociety.org/conference_overview.html) conferences. The workshop is aimed at modelers in psychology who are interested in model-based fMRI. The format of the workshop will be unusual (details below) as it will be patterned on a [www.kaggle.com](http://www.kaggle.com/) competition in which participants compete on common challenge problems. The fMRI data will be highly pre-processed and constrained such that no prior experience is required — it should be no more difficult than dealing with several cell means.
 
 If you are interested, please email the following ASAP:
 
