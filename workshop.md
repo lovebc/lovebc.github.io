@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Model-Based fMRI Workshop
+permalink: workshop
 ---
 
 Model-Based fMRI Workshop for Math Psych Folks (application deadline August 25th)
