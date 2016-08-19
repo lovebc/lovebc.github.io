@@ -7,20 +7,23 @@ permalink: workshop
 
 **Model-Based fMRI Workshop for Math Psych Folks (application deadline August 25th)**
 
-With the help of others, I will be running a workshop on Modeling fMRI data this Summer in London, which will be timed to coincide with the [Math Psych](http://www.mathpsych.org/) and [CogSci](http://cognitivesciencesociety.org/conference_overview.html) conferences. The workshop is aimed at modelers in psychology who are interested in model-based fMRI. The format of the workshop will be unusual (details below) as it will be patterned on a [www.kaggle.com](http://www.kaggle.com/) competition in which participants compete on common challenge problems. The fMRI data will be highly pre-processed and constrained such that no prior experience is required — it should be no more difficult than dealing with several cell means.
+Dear All, 
 
-If you are interested, please email the following ASAP:
+With the help of others, I hope to be organizing a workshop on Model-based fMRI this Summer in London, which will be timed to coincide with the [Math Psych](http://www.mathpsych.org/) and [CogSci](http://cognitivesciencesociety.org/conference_overview.html) conferences. The workshop is aimed at modelers in psychology who are interested in model-based fMRI. The format of the workshop will be unusual (details below) as it will be patterned on a [www.kaggle.com](http://www.kaggle.com/) competition in which participants compete on common challenge problems. The fMRI data will be heavily pre-processed and constrained such that no prior experience is required — it should be no more difficult than dealing with several cell means.
+
+Are you (or someone you work with) interested? If so, please email the following ASAP:
 
 1. Your CV.
-2. Are you a Psychonomic Society member? Are you willing to join?
+2. Are you a [Psychonomic Society](http://www.psychonomic.org/) member? Are you willing to join?
 
 I aim for a balanced group in terms of career stage, gender, location, etc. 
 
-Lodging and travel will be covered.
+Should funding go through, lodging and travel will be covered for the 10-20 participants.
+
+I apologise in advance if I get more interest than spots.
 
 Best,
 Brad
-
 
 
 Over the past decade, I've become excited about linking cognitive models from Psychology to brain data. This area is of increasing importance, but unfortunately many talented people from communities such as the Psychonomic Society are on the sidelines because of the joint expertise necessary to make a contribution. 
