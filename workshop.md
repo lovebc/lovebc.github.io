@@ -11,8 +11,8 @@ With the help of others, I will be running a workshop on Modeling fMRI data this
 
 If you are interested, please email the following ASAP:
 
-(1) Your CV.
-(2) Are you a Psychonomic Society member? Are you willing to join?
+1. Your CV.
+2. Are you a Psychonomic Society member? Are you willing to join?
 
 I aim for a balanced group in terms of career stage, gender, location, etc. 
 
@@ -20,8 +20,6 @@ Lodging and travel will be covered.
 
 Best,
 Brad
-
-
 
 Over the past decade, I've become excited about linking cognitive models from Psychology to brain data. This area is of increasing importance, but unfortunately many talented people from communities such as the Psychonomic Society are on the sidelines because of the joint expertise necessary to make a contribution. 
 
