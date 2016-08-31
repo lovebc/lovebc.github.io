@@ -1,10 +1,14 @@
 <p>
-[ <a href="//biorxiv.org/content/early/2016/08/23/071076.full.pdf"> pdf </a> ]
- Guest, O., Love, B.C. (in prep). What the Success of Brain Imaging Implies about the Neural Code.
- <br />
- Preprint: <a href="http://dx.doi.org/10.1101/071076">bioRxiv 071076</a>. doi: <a href="http://dx.doi.org/10.1101/071076">http://dx.doi.org/10.1101/071076</a>. 
+[ <a href="//biorxiv.org/content/early/2016/08/23/071118.full.pdf"> pdf </a> ]
+ M.L. Mack, B.C. Love, A.R. Preston
+ Preprint: <a href="http://dx.doi.org/10.1101/071118">bioRxiv 071076</a>. doi: <a href="http://dx.doi.org/10.1101/071118">http://dx.doi.org/10.1101/071118</a>. 
 </p>
 
+<p>
+[ <a href="//biorxiv.org/content/early/2016/08/23/071076.full.pdf"> pdf </a> ]
+ Guest, O., Love, B.C. (in prep). What the Success of Brain Imaging Implies about the Neural Code.
+ Preprint: <a href="http://dx.doi.org/10.1101/071076">bioRxiv 071076</a>. doi: <a href="http://dx.doi.org/10.1101/071076">http://dx.doi.org/10.1101/071076</a>. 
+</p>
 
 <p>
 [ <a href="papers/love_2016.pdf"> pdf </a> ]
