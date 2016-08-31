@@ -1,14 +1,21 @@
+<p>
+[ <a href="//biorxiv.org/content/early/2016/08/23/071076.full.pdf"> pdf </a> ]
+ Guest, O.</b>, Love, B. C. (in prep). What the Success of Brain Imaging Implies about the Neural Code.
+ <br />
+ Preprint: <a href="http://dx.doi.org/10.1101/071076">bioRxiv 071076</a>. doi: <a href="http://dx.doi.org/10.1101/071076">http://dx.doi.org/10.1101/071076</a>. 
+</p>
+
 
 <p>
 [ <a href="papers/love_2016.pdf"> pdf </a> ]
-Love, B.C. (in press). Cognitive Models as Bridge between Brain and Behavior. <i>Trends in Cognitive Science (TiCS)</i>.
+Love, B.C. (2016). Cognitive Models as Bridge between Brain and Behavior. <i>Trends in Cognitive Science (TiCS)</i>. 20, 4, 247-248. http://dx.doi.org/10.1016/j.tics.2016.02.006
 </p>
+
 
 <p>
 [ <a href="papers/turner_etal_inpress.pdf"> pdf </a> ]
-Turner, B.M., Forstmann, B.U., Love, B.C., Palmeri, T.J. &amp; Van Maanen, L. (in press). Approaches to Analysis in Model-based Cognitive Neuroscience. <i>Journal of Mathematical Psychology</i>.
+Turner, B.M., Forstmann, B.U., Love, B.C., Palmeri, T.J. &amp; Van Maanen, L. (2016). Approaches to Analysis in Model-based Cognitive Neuroscience. <i>Journal of Mathematical Psychology</i>. http://dx.doi.org/10.1016/j.jmp.2016.01.001.
 </p>
-
 
 
 <p>
