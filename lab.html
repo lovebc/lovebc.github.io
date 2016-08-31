@@ -272,6 +272,11 @@ title: Love Lab
                         </div>
       </div>
 
+      <div class="docs-section examples" id="press">
+            <h2>Press</h2>
+            {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
+      </div>
+
       <div class="docs-section examples" id="publications">
       <h2>Publications</h2>
        {% capture publications %}{% include publications.md %}{% endcapture %}{{ publications | markdownify }}
