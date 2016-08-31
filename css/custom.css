@@ -240,7 +240,7 @@
 .welcome, .address {
 padding-top: 4rem;
 }
-.tiny-hide, .small-hide, .medium-hide {
+.tiny-hide, .small-hide, .medium-hide, .large-hide{
      display: none;
 }
 .address {
@@ -334,6 +334,16 @@ display: none;
      display: block;
    }
    .medium-and-below
+   {
+     display: none;
+   }
+}
+   
+@media (min-width: 600px) {
+      .large-hide {
+     display: block;
+   }
+   .large-and-below
    {
      display: none;
    }
