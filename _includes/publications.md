@@ -1,6 +1,6 @@
 <p>
 [ <a href="//biorxiv.org/content/early/2016/08/23/071118.full.pdf"> pdf </a> ]
- M.L. Mack, B.C. Love, A.R. Preston (in prep). Dynamic updating of hippocampal object representations reflects new conceptual knowledge
+Mack, M.L., Love, B.C., Preston, A.R. (in prep). Dynamic updating of hippocampal object representations reflects new conceptual knowledge.
  Preprint: <a href="http://dx.doi.org/10.1101/071118">bioRxiv 071076</a>. doi: <a href="http://dx.doi.org/10.1101/071118">http://dx.doi.org/10.1101/071118</a>. 
 </p>
 
