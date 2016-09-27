@@ -1,4 +1,8 @@
 <p>
+[ ... ] Spiers, H.J., Love, B.C., Le Pelley, M.E., Gibb, C.E., & Murphy, R.A. (in press). Anterior Temporal Lobe Tracks the Formation of Prejudice. <i>Journal of Cognitive Neuroscience</i>.
+</p>
+
+<p>
 [ <a href="//biorxiv.org/content/early/2016/08/23/071118.full.pdf"> pdf </a> ]
 Mack, M.L., Love, B.C., Preston, A.R. (in prep). Dynamic updating of hippocampal object representations reflects new conceptual knowledge.
  Preprint: <a href="http://dx.doi.org/10.1101/071118">bioRxiv 071118</a>. doi: <a href="http://dx.doi.org/10.1101/071118">http://dx.doi.org/10.1101/071118</a>. 
