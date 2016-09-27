@@ -1,5 +1,5 @@
 <p>
-[ ... ] Spiers, H.J., Love, B.C., Le Pelley, M.E., Gibb, C.E., & Murphy, R.A. (in press). Anterior Temporal Lobe Tracks the Formation of Prejudice. <i>Journal of Cognitive Neuroscience</i>.
+[ ... ] Spiers, H.J., Love, B.C., Le Pelley, M.E., Gibb, C.E., &amp; Murphy, R.A. (in press). Anterior Temporal Lobe Tracks the Formation of Prejudice. <i>Journal of Cognitive Neuroscience</i>.
 </p>
 
 <p>
