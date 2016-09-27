@@ -1,4 +1,8 @@
 <p>
+[ ... ] Love, B.C., &amp; Riefer, P.S. (in press). Coherency Maximizing Exploration in the Supermarket. <i>Nature Human Behaviour</i>.
+</p>
+
+<p>
 [ ... ] Spiers, H.J., Love, B.C., Le Pelley, M.E., Gibb, C.E., &amp; Murphy, R.A. (in press). Anterior Temporal Lobe Tracks the Formation of Prejudice. <i>Journal of Cognitive Neuroscience</i>.
 </p>
 
