@@ -1,5 +1,5 @@
 <p>
-[ ... ] Love, B.C., &amp; Riefer, P.S. (in press). Coherency Maximizing Exploration in the Supermarket. <i>Nature Human Behaviour</i>.
+[ ... ]  Riefer, P.S., &amp; Love, B.C. (in press). Coherency Maximizing Exploration in the Supermarket. <i>Nature Human Behaviour</i>.
 </p>
 
 <p>
