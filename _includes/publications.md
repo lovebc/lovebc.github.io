@@ -7,8 +7,8 @@
 </p>
 
 <p>
-[ <a href="//biorxiv.org/content/early/2016/08/23/071118.full.pdf"> pdf </a> ]
-Mack, M.L., Love, B.C., Preston, A.R. (in press). Dynamic updating of hippocampal object representations reflects new conceptual knowledge. Proceedings of the National Academy of Sciences (PNAS). <a href="http://dx.doi.org/10.1101/071118">http://dx.doi.org/10.1101/071118</a>. 
+[ <a href="papers/MackLovePreston2016.pdf"> pdf </a> ]
+Mack, M.L., Love, B.C., Preston, A.R. (2016). Dynamic updating of hippocampal object representations reflects new conceptual knowledge. Proceedings of the National Academy of Sciences (PNAS). <a href="www.pnas.org/cgi/doi/10.1073/pnas.1614048113">http://www.pnas.org/cgi/doi/10.1073/pnas.1614048113</a>. 
 </p>
 
 <p>
