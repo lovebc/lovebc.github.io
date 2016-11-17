@@ -15,5 +15,6 @@ github: oliviaguest
 
 image_path: /images/people/olivia.jpg
 
-bio: To be filled in.
+bio: My research is focussed on computational models of categorisation and semantic memory using both behavioural and neuroimaging data. I am interested in the representation of categories and concepts in healthy participants, in patient groups, in infants and children, and in animal models.
+
 ---
