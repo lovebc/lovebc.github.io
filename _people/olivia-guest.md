@@ -4,7 +4,7 @@ surname: Guest
 role: postdocs
 order: 3
 
-email o.guest@ucl.ac.uk
+email: o.guest@ucl.ac.uk
 
 website: http://oliviaguest.com
 twitter: o_guest
