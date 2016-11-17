@@ -43,7 +43,7 @@ title: Love Lab
                                     {% if forloop.first == true %}
                                         <div id ="{{ person.role }}" style="padding: 6rem 0"><h3 class="docs-header">Principal Investigator</h3>
                                     {% endif %}
-                                      <div id ="test" class="person">
+                                      <div id ="{{ person.firstname }}-{{ person.surname }}" class="person">
                 
                                       <span class="name">{{ person.firstname }} {{ person.surname }}</span>
                                       <ul>
@@ -101,7 +101,7 @@ title: Love Lab
                                     {% if forloop.first == true %}
                                         <div id ="{{ person.role }}" style="padding: 6rem 0"><h3 class="docs-header">Lab Manager</h3>
                                     {% endif %}
-                                      <div class="person">
+                                      <div id ="{{ person.firstname }}-{{ person.surname }}" class="person">
                 
                                       <span class="name">{{ person.firstname }} {{ person.surname}}</span>
                                       <ul>
@@ -160,7 +160,7 @@ title: Love Lab
                                     {% if forloop.first == true %}
                                         <div id ="{{ person.role }}" style="padding: 6rem 0"><h3 class="docs-header">Postdocs</h3>
                                     {% endif %}
-                                      <div class="person">
+                                      <div id ="{{ person.firstname }}-{{ person.surname }}" class="person">
                 
                                       <span class="name">{{ person.firstname }} {{ person.surname}}</span>
                                       <ul>
@@ -218,7 +218,7 @@ title: Love Lab
                                     {% if forloop.first == true %}
                                         <div id ="{{ person.role }}" style="padding: 6rem 0"><h3 class="docs-header">PhD Students</h3>
                                     {% endif %}
-                                      <div class="person">
+                                      <div id ="{{ person.firstname }}-{{ person.surname }}" class="person">
                 
                                       <span class="name">{{ person.firstname }} {{ person.surname}}</span>
                                       <ul>
