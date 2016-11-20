@@ -302,7 +302,7 @@ the Mechanisms Underlying Sequential Learning Behavior. <i>Cognitive Science</i>
 
 
 <p>
-[ <a href="papers/GureckisLove2009b.pdf">pdf</a> ] Gureckis, T. M., &amp; Love, B. C. (2009). Short Term Gains, Long Term Pains: Reinforcement Learning in Dynamic Environments.  <i>Cognition</i>, 113, 293-313.
+[ <a href="papers/GureckisLove2009b.pdf">pdf</a> ] Gureckis, T. M., &amp; Love, B. C. (2009). Short-term gains, long-term pains: how cues about state aid learning in dynamic environments.  <i>Cognition</i>, 113, 293-313.
 </p>
 
 <p>
