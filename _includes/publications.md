@@ -1,3 +1,8 @@
+
+<p>
+[ a href="http://www.theregister.co.uk/2016/10/25/will_ai_spell_the_end_of_humanity_the_tech_industry_wants_you_to_think_so/" link </a>]  Riefer, P.S., &amp; Love, B.C. (2016). Will AI spell the end of humanity? The tech industry wants you to think so. <i>The Register (via The Conversation)</i>.
+</p>
+
 <p>
 [ ... ]  Riefer, P.S., &amp; Love, B.C. (in press). Coherency Maximizing Exploration in the Supermarket. <i>Nature Human Behaviour</i>.
 </p>
