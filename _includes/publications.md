@@ -13,7 +13,7 @@
 
 <p>
 [ <a href="papers/MackLovePreston2016.pdf"> pdf </a> ]
-Mack, M.L., Love, B.C., Preston, A.R. (2016). Dynamic updating of hippocampal object representations reflects new conceptual knowledge. Proceedings of the National Academy of Sciences (PNAS). <a href="www.pnas.org/cgi/doi/10.1073/pnas.1614048113">http://www.pnas.org/cgi/doi/10.1073/pnas.1614048113</a>. 
+Mack, M.L., Love, B.C., Preston, A.R. (2016). Dynamic updating of hippocampal object representations reflects new conceptual knowledge. Proceedings of the National Academy of Sciences (PNAS), 113(46), 13203–13208. <a href="www.pnas.org/cgi/doi/10.1073/pnas.1614048113">http://www.pnas.org/cgi/doi/10.1073/pnas.1614048113</a>. 
 </p>
 
 <p>
