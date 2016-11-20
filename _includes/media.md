@@ -10,7 +10,7 @@ Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love La
 * Developing Brain and Gaming: <a href="media/brazilTV.mp4"> R7 Brazil (Video with Portuguese audio)</a>.
 * Optimism Bias: <a href="http://www.minnpost.com/second-opinion/2015/09/why-football-fans-are-unrealistically-optimistic-and-why-it-matters"> MinnPost</a>, <a href="http://www.newsweek.com/nfl-fans-and-reporters-overly-optimistic-about-teams-prospects-370447"> Newsweek</a>, <a href="http://phys.org/news/2015-09-nfl-fans-espn-overly-optimistic.html">PHYS ORG</a>, <a href="http://www.csmonitor.com/Science/2015/0909/NFL-scores-Your-team-is-probably-less-invincible-than-you-imagine"> C.S. Monitor</a>.
 * Data Science/Marketing: <a href="https://www.theguardian.com/media-network/2016/nov/07/can-advertising-support-free-internet"> The Guardian</a>.
-* Science of Persuasion: <a href="http://www.dailymail.co.uk/sciencetech/article-3785809/The-science-persuasion-Experts-reveal-FIVE-simple-tricks-change-mind.html#comments"> Daily Mail</a>.
+* Science of Persuasion: <a href="http://www.dailymail.co.uk/sciencetech/article-3785809/The-science-persuasion-Experts-reveal-FIVE-simple-tricks-change-mind.html"> Daily Mail</a>.
 * How brain acquires stereotypes: <a href="https://www.theguardian.com/science/2016/nov/01/human-brain-is-predisposed-to-negative-stereotypes-new-study-suggests"> The Guardian</a>.
 * How attention shapes category representations in brain: <a href="https://www.sciencedaily.com/releases/2016/11/161102130629.htm"> ScienceDaily</a>.
 <p>See the <a href="#publications">Publications</a> section for more details.</p>
