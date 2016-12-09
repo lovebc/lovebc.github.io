@@ -1,6 +1,6 @@
 
 <p>
-[ <a href="http://www.theregister.co.uk/2016/10/25/will_ai_spell_the_end_of_humanity_the_tech_industry_wants_you_to_think_so/"> link </a>] Love, B.C. (2016). Will AI spell the end of humanity? The tech industry wants you to think so. <i>The Register (via The Conversation)</i>.
+[ <a href="http://www.theregister.co.uk/2016/10/25/will_ai_spell_the_end_of_humanity_the_tech_industry_wants_you_to_think_so/">link</a> ] Love, B.C. (2016). Will AI spell the end of humanity? The tech industry wants you to think so. <i>The Register (via The Conversation)</i>.
 </p>
 
 <p>
@@ -8,85 +8,85 @@
 </p>
 
 <p>
-[ <a href="papers/SpiersEtAl2016.pdf"> pdf </a>  ] Spiers, H.J., Love, B.C., Le Pelley, M.E., Gibb, C.E., &amp; Murphy, R.A. (2016). Anterior Temporal Lobe Tracks the Formation of Prejudice. <i>Journal of Cognitive Neuroscience</i>, doi:10.1162/jocn_a_01056.
+[ <a href="papers/SpiersEtAl2016.pdf">pdf</a> ] Spiers, H.J., Love, B.C., Le Pelley, M.E., Gibb, C.E., &amp; Murphy, R.A. (2016). Anterior Temporal Lobe Tracks the Formation of Prejudice. <i>Journal of Cognitive Neuroscience</i>, doi:10.1162/jocn_a_01056.
 </p>
 
 <p>
-[ <a href="papers/MackLovePreston2016.pdf"> pdf </a> ]
+[ <a href="papers/MackLovePreston2016.pdf">pdf</a> ]
 Mack, M.L., Love, B.C., Preston, A.R. (2016). Dynamic updating of hippocampal object representations reflects new conceptual knowledge. Proceedings of the National Academy of Sciences (PNAS), 113(46), 13203–13208. 
 </p>
 
 <p>
-[ <a href="//biorxiv.org/content/early/2016/08/23/071076.full.pdf"> pdf </a> ]
+[ <a href="//biorxiv.org/content/early/2016/08/23/071076.full.pdf">pdf</a> ]
  Guest, O., Love, B.C. (in prep). What the Success of Brain Imaging Implies about the Neural Code.
  Preprint: <a href="http://dx.doi.org/10.1101/071076">bioRxiv 071076</a>. doi: <a href="http://dx.doi.org/10.1101/071076">http://dx.doi.org/10.1101/071076</a>. 
 </p>
 
 <p>
-[ <a href="papers/love_2016.pdf"> pdf </a> ]
+[ <a href="papers/love_2016.pdf">pdf</a> ]
 Love, B.C. (2016). Cognitive Models as Bridge between Brain and Behavior. <i>Trends in Cognitive Science (TiCS)</i>. 20, 4, 247-248. http://dx.doi.org/10.1016/j.tics.2016.02.006
 </p>
 
 
 <p>
-[ <a href="papers/turner_etal_inpress.pdf"> pdf </a> ]
+[ <a href="papers/turner_etal_inpress.pdf">pdf</a> ]
 Turner, B.M., Forstmann, B.U., Love, B.C., Palmeri, T.J. &amp; Van Maanen, L. (2016). Approaches to Analysis in Model-based Cognitive Neuroscience. <i>Journal of Mathematical Psychology</i>. http://dx.doi.org/10.1016/j.jmp.2016.01.001.
 </p>
 
 
 <p>
-[ <a href="papers/blanco_etal_2016.pdf"> pdf </a> ]
+[ <a href="papers/blanco_etal_2016.pdf">pdf</a> ]
 Blanco, N.J., Love, B.C., Ramscar, M., Otto, A.R., Smayda, K. &amp;  Maddox, W.T. (2016). Exploratory Decision-Making as a Function of Lifelong Experience, not Cognitive Decline. <i>Journal of Experimental Psychology: General</i>, 3, 284-297. http://dx.doi.org/10.1037/xge0000133
 </p>
 
 
 <p>
-[ <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137685"> link to pdf  </a>  ]
+[ <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137685">link to pdf</a> ]
 Love, B.C., Kopec, L., &amp; Guest, O. (2015). Optimism Bias in Fans and Sports Reporters. <i>PLOS ONE</i>.
 </p>
 
 
 <p>
-[ <a href="papers/RieferLove2015.pdf"> pdf  </a>  ]
+[ <a href="papers/RieferLove2015.pdf">pdf</a> ]
 Riefer, P.S., &amp; Love, B.C. (2015). Unfazed by Both the Bull and Bear: Strategic Exploration in Dynamic Environments. <i>Games</i>, 6, 251-261.
 </p>
 
 <p>
-[ <a href="papers/Newall_Love2015.pdf"> pdf  </a>  ]
+[ <a href="papers/Newall_Love2015.pdf">pdf </a> ]
 Newall, P., &amp; Love, B.C. (2015). Nudging Investors Big and Small Toward Better Decisions. <i>Decision</i>,2(4), 319-326.
 </p>
 
 
 <p>
-[ <a href="papers/blanco_etal_2015.pdf"> pdf </a>  ]
+[ <a href="papers/blanco_etal_2015.pdf">pdf</a> ]
 Blanco, N.J., Love, B.C., Cooper, J.A., McGeary, J.E., Knopik, V.S., &amp;  Maddox, W.T. (in press). A Frontal Dopamine System for Reflective Exploratory Behavior. <i>Neurobiology of Learning and Memory</i>. 
 </p>
 
 
 <p>
-[ <a href="https://theconversation.com/gaming-improves-your-brain-power-reality-or-hype-41002"> link </a>, <a href="http://www.iflscience.com/health-and-medicine/gaming-improves-your-brain-power-reality-or-hype">IFL repost</a>  ]
+[ <a href="https://theconversation.com/gaming-improves-your-brain-power-reality-or-hype-41002">link</a>, <a href="http://www.iflscience.com/health-and-medicine/gaming-improves-your-brain-power-reality-or-hype">IFL repost</a> ]
 Love, B.C. (7-May 2015). Gaming improves your brain power - reality or hype? <i>The Conversation</i>. 
 </p>
 
 <p>
-[ <a href="papers/parpart_etal_2015.pdf"> pdf </a>  ]
+[ <a href="papers/parpart_etal_2015.pdf">pdf</a> ]
 Parpart, P., Schulz, E., Speekenbrink, M., &amp; Love, B.C. (2015). Active learning as a means to distinguish among prominent decision strategies. <i>Proceedings of the Cognitive Science Society</i>. 
 </p>
 
 
 <p>
-[ <a href="papers/Love_2015.pdf"> pdf </a>  ]
+[ <a href="papers/Love_2015.pdf">pdf</a> ]
 Love, B.C. (2015). Concepts, Meaning, and Conceptual Relationships. In <i>The Oxford Handbook of Cognitive Science</i>. Ed. S. Chipman. DOI: 10.1093/oxfordhb/9780199842193.013.12
 </p>
 
 <p>
-[ <a href="papers/Love_inpress.pdf"> pdf </a>  ]
+[ <a href="papers/Love_inpress.pdf">pdf</a> ]
 Love, B.C. (2015). The Algorithmic Level is the Bridge Between Computation and Brain. <i>Topics in Cognitive Science</i>, 7, 230-242.
 </p>
 
 
 <p>
-[ <a href="papers/Patil_etal_2014.pdf"> pdf </a>  ]
+[ <a href="papers/Patil_etal_2014.pdf">pdf</a> ]
 Patil, K., Zhu, X., Kopec, L., &amp; Love, B.C. (2014). Optimal Teaching for Limited-Capacity Human Learners. In <i>Advances in Neural Information Processing Systems (NIPS)</i>. <a href="http://nips.cc/Conferences/2014/Program/event.php?ID=4421">Spotlight presentation</a>.  <a href="data/Patil_etal_data.zip"> (raw data and teaching sets)</a> 
 </p>
 
