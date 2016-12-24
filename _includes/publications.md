@@ -1,5 +1,11 @@
 
 <p>
+[ <a href="//biorxiv.org/content/early/2016/08/23/071076.full.pdf">pdf</a> ]
+ Guest, O., Love, B.C. (in press). What the Success of Brain Imaging Implies about the Neural Code. <i>eLife</i>.
+ Preprint: <a href="http://dx.doi.org/10.1101/071076">bioRxiv 071076</a>. doi: <a href="http://dx.doi.org/10.1101/071076">http://dx.doi.org/10.1101/071076</a>. 
+</p>
+
+<p>
 [ <a href="http://www.theregister.co.uk/2016/10/25/will_ai_spell_the_end_of_humanity_the_tech_industry_wants_you_to_think_so/">link</a> ] Love, B.C. (2016). Will AI spell the end of humanity? The tech industry wants you to think so. <i>The Register (via The Conversation)</i>.
 </p>
 
@@ -16,11 +22,7 @@
 Mack, M.L., Love, B.C., Preston, A.R. (2016). Dynamic updating of hippocampal object representations reflects new conceptual knowledge. <i>Proceedings of the National Academy of Sciences (PNAS)</i>, 113(46), 13203–13208. 
 </p>
 
-<p>
-[ <a href="//biorxiv.org/content/early/2016/08/23/071076.full.pdf">pdf</a> ]
- Guest, O., Love, B.C. (in press). What the Success of Brain Imaging Implies about the Neural Code. <i>eLife</i>.
- Preprint: <a href="http://dx.doi.org/10.1101/071076">bioRxiv 071076</a>. doi: <a href="http://dx.doi.org/10.1101/071076">http://dx.doi.org/10.1101/071076</a>. 
-</p>
+
 
 <p>
 [ <a href="papers/love_2016.pdf">pdf</a> ]
