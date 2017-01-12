@@ -2,7 +2,7 @@
 <p>
 [ <a href="//biorxiv.org/content/early/2016/08/23/071076.full.pdf">pdf</a> ]
  Guest, O., Love, B.C. (in press). What the Success of Brain Imaging Implies about the Neural Code. <i>eLife</i>.
- Preprint: <a href="http://dx.doi.org/10.1101/071076">bioRxiv 071076</a>. doi: <a href="http://dx.doi.org/10.1101/071076">http://dx.doi.org/10.1101/071076</a>. 
+ Preprint: <a href="http://dx.doi.org/10.1101/071076">bioRxiv 071076</a>. doi: <a href="http://dx.doi.org/10.1101/071076">10.1101/071076</a>. 
 </p>
 
 <p>
