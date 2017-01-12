@@ -10,7 +10,7 @@
 </p>
 
 <p>
-[ <a href="http://www.nature.com/articles/s41562-016-0017">link</a> ]  Riefer, P.S., &amp; Love, B.C. (2017). Coherency Maximizing Exploration in the Supermarket. <i>Nature Human Behaviour</i>. doi: <a href="dx.doi.org/10.1038/s41562-016-0017">10.1038/s41562-016-0017</a>.
+[ <a href="/papers/NHB2016.pdf">pdf</a> ]  Riefer, P.S., &amp; Love, B.C. (2017). Coherency Maximizing Exploration in the Supermarket. <i>Nature Human Behaviour</i>. doi: <a href="dx.doi.org/10.1038/s41562-016-0017">10.1038/s41562-016-0017</a>.
 
 </p>
 
