@@ -1,5 +1,6 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
 <p>See the <a href="#publications">Publications</a> section for more details.</p>
+* Explore/Exploit in the Supermarket: <a href="http://www.nature.com/nature/podcast/index-2017-01-12.html"> Nature Podcast</a>, <a href="http://www.dailymail.co.uk/sciencetech/article-4103054/The-AI-tell-advertisers-advertisers-people-willing-try-new-things.html"> Daily Mail</a>, <a https://www.sciencedaily.com/releases/2017/01/170109134206.htm"> Science Daily</a>, <a href="http://www.nature.com/nature/journal/v541/n7637/full/nature21114.html"> Nature News and Views</a>, <a href="neurosciencenews.com/model-choices-psychology-5896/"> Neuroscience News</a>.
 * Data Science/Marketing: <a href="https://www.theguardian.com/media-network/2016/nov/07/can-advertising-support-free-internet"> The Guardian</a>.
 * Science of Persuasion: <a href="http://www.dailymail.co.uk/sciencetech/article-3785809/The-science-persuasion-Experts-reveal-FIVE-simple-tricks-change-mind.html"> Daily Mail</a>.
 * How brain acquires stereotypes: <a href="https://www.theguardian.com/science/2016/nov/01/human-brain-is-predisposed-to-negative-stereotypes-new-study-suggests"> The Guardian</a>.
