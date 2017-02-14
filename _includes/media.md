@@ -1,4 +1,5 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
+
 * Data Science/Marketing: <a href="https://www.theguardian.com/media-network/2016/nov/07/can-advertising-support-free-internet"> The Guardian</a>.
 * Science of Persuasion: <a href="http://www.dailymail.co.uk/sciencetech/article-3785809/The-science-persuasion-Experts-reveal-FIVE-simple-tricks-change-mind.html"> Daily Mail</a>.
 * How brain acquires stereotypes: <a href="https://www.theguardian.com/science/2016/nov/01/human-brain-is-predisposed-to-negative-stereotypes-new-study-suggests"> The Guardian</a>.
