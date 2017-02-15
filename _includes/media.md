@@ -1,5 +1,5 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
-<p>See the <a href="#publications">Publications</a> section for more details.</p>
+
 * Explore/Exploit in the Supermarket: <a href="http://www.nature.com/nature/podcast/index-2017-01-12.html"> Nature Podcast</a>, <a href="http://www.dailymail.co.uk/sciencetech/article-4103054/The-AI-tell-advertisers-advertisers-people-willing-try-new-things.html"> Daily Mail</a>, <a href="https://www.sciencedaily.com/releases/2017/01/170109134206.htm"> Science Daily</a>, <a href="http://www.nature.com/nature/journal/v541/n7637/full/nature21114.html"> Nature News and Views</a>, <a href="http://neurosciencenews.com/model-choices-psychology-5896/"> Neuroscience News</a>.
 * Data Science/Marketing: <a href="https://www.theguardian.com/media-network/2016/nov/07/can-advertising-support-free-internet"> The Guardian</a>.
 * Science of Persuasion: <a href="http://www.dailymail.co.uk/sciencetech/article-3785809/The-science-persuasion-Experts-reveal-FIVE-simple-tricks-change-mind.html"> Daily Mail</a>.
@@ -14,4 +14,7 @@ Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love La
 * Brain Basis of Category Learning: <a href="http://www.sciencedaily.com/releases/2013/11/131108112144.htm">ScienceDaily</a>, <a href="http://neurosciencenews.com/medial-temporal-lobe-memory-fmri-1081/">Neuroscience News</a>.
 * Developing Brain and Gaming: <a href="media/brazilTV.mp4"> R7 Brazil (Video with Portuguese audio)</a>.
 * Optimism Bias: <a href="http://www.minnpost.com/second-opinion/2015/09/why-football-fans-are-unrealistically-optimistic-and-why-it-matters"> MinnPost</a>, <a href="http://www.newsweek.com/nfl-fans-and-reporters-overly-optimistic-about-teams-prospects-370447"> Newsweek</a>, <a href="http://phys.org/news/2015-09-nfl-fans-espn-overly-optimistic.html">PHYS ORG</a>, <a href="http://www.csmonitor.com/Science/2015/0909/NFL-scores-Your-team-is-probably-less-invincible-than-you-imagine"> C.S. Monitor</a>.
+
+<p>See the <a href="#publications">Publications</a> section for more details.</p>
+
 
