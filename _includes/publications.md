@@ -1,4 +1,11 @@
 
+
+<p>
+[ <a href="papers/TurnerFrostmannLove2017.pdf">pdf</a>  ]
+ Turner, B.M., Forstmann, B.U., Love, B.C., Palmeri, T.J., & Van Maanen, L. (2017). Approaches to analysis in model-based cognitive neuroscience. <i>Journal of Mathematical Psychology</i>, 76, 65-79. 
+</p>
+
+
 <p>
 [ <a href="https://elifesciences.org/content/6/e21397">link to pdf</a>  ]
  Guest, O., Love, B.C. (2017). What the Success of Brain Imaging Implies about the Neural Code. <i>eLife</i>,6:e21397. 
