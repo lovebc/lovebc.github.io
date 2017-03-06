@@ -1,6 +1,5 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
 
-htt
 
 * How the brain represents concepts: <a href="https://medium.com/brains-and-behaviour/how-does-the-brain-encode-similarities-975903b05ee6#.pp1mtahi1"> Brains and Behaviour on Medium</a>.
 * Explore/Exploit in the Supermarket: <a href="http://www.nature.com/nature/podcast/index-2017-01-12.html"> Nature Podcast</a>, <a href="http://www.dailymail.co.uk/sciencetech/article-4103054/The-AI-tell-advertisers-advertisers-people-willing-try-new-things.html"> Daily Mail</a>, <a href="https://www.sciencedaily.com/releases/2017/01/170109134206.htm"> Science Daily</a>, <a href="http://www.nature.com/nature/journal/v541/n7637/full/nature21114.html"> Nature News and Views</a>, <a href="http://neurosciencenews.com/model-choices-psychology-5896/"> Neuroscience News</a>.
