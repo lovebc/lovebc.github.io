@@ -1,5 +1,23 @@
 
 
+
+
+
+<p>
+[ <a href="papers/SuarezLove2017.pdf">pdf</a>  ]
+Bobadilla-Suarez, Sebastian, & Love, B.C. (in press). Fast or Frugal, but not both: Decision Heuristics under Time Pressure. <i>Journal of Experimental Psychology: Learning, Memory, and Cognition</i>. 
+</p>
+
+
+
+<p>
+[ <a href="papers/PalmerLoveTuriner2017.pdf">pdf</a>  ]
+Palmeri, T.J., Love, B.C., & Turner, B.M. (2017). Model-based cognitive neuroscience. <i>Journal of Mathematical Psychology</i>, 76, 59-64. 
+</p>
+
+
+
+
 <p>
 [ <a href="papers/TurnerFrostmannLove2017.pdf">pdf</a>  ]
  Turner, B.M., Forstmann, B.U., Love, B.C., Palmeri, T.J., & Van Maanen, L. (2017). Approaches to analysis in model-based cognitive neuroscience. <i>Journal of Mathematical Psychology</i>, 76, 65-79. 
@@ -34,12 +52,6 @@ Mack, M.L., Love, B.C., Preston, A.R. (2016). Dynamic updating of hippocampal ob
 <p>
 [ <a href="papers/love_2016.pdf">pdf</a> ]
 Love, B.C. (2016). Cognitive Models as Bridge between Brain and Behavior. <i>Trends in Cognitive Science (TiCS)</i>. 20, 4, 247-248. http://dx.doi.org/10.1016/j.tics.2016.02.006
-</p>
-
-
-<p>
-[ <a href="papers/turner_etal_inpress.pdf">pdf</a> ]
-Turner, B.M., Forstmann, B.U., Love, B.C., Palmeri, T.J. &amp; Van Maanen, L. (2016). Approaches to Analysis in Model-based Cognitive Neuroscience. <i>Journal of Mathematical Psychology</i>. http://dx.doi.org/10.1016/j.jmp.2016.01.001.
 </p>
 
 
