@@ -5,13 +5,13 @@
 
 <p>
 [ <a href="papers/SuarezLove2017.pdf">pdf</a>  ]
-Bobadilla-Suarez, Sebastian, & Love, B.C. (in press). Fast or Frugal, but not both: Decision Heuristics under Time Pressure. <i>Journal of Experimental Psychology: Learning, Memory, and Cognition</i>. 
+Bobadilla-Suarez, S., & Love, B.C. (in press). Fast or Frugal, but not both: Decision Heuristics under Time Pressure. <i>Journal of Experimental Psychology: Learning, Memory, and Cognition</i>. 
 </p>
 
 
 
 <p>
-[ <a href="papers/PalmerLoveTuriner2017.pdf">pdf</a>  ]
+[ <a href="papers/PalmeriLoveTurner2017.pdf">pdf</a>  ]
 Palmeri, T.J., Love, B.C., & Turner, B.M. (2017). Model-based cognitive neuroscience. <i>Journal of Mathematical Psychology</i>, 76, 59-64. 
 </p>
 
