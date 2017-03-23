@@ -30,10 +30,6 @@ Palmeri, T.J., Love, B.C., & Turner, B.M. (2017). Model-based cognitive neurosci
 </p>
 
 <p>
-[ <a href="http://www.theregister.co.uk/2016/10/25/will_ai_spell_the_end_of_humanity_the_tech_industry_wants_you_to_think_so/">link</a> ] Love, B.C. (2016). Will AI spell the end of humanity? The tech industry wants you to think so. <i>The Register (via The Conversation)</i>.
-</p>
-
-<p>
 [ <a href="/papers/NHB2016.pdf">pdf</a> ]  Riefer, P.S., Prior, R., Blair, N., Pavey, G., &amp; Love, B.C. (2017). Coherency Maximizing Exploration in the Supermarket. <i>Nature Human Behaviour</i>. doi: <a href="dx.doi.org/10.1038/s41562-016-0017">10.1038/s41562-016-0017</a>.
 
 </p>
@@ -58,6 +54,11 @@ Love, B.C. (2016). Cognitive Models as Bridge between Brain and Behavior. <i>Tre
 <p>
 [ <a href="papers/blanco_etal_2016.pdf">pdf</a> ]
 Blanco, N.J., Love, B.C., Ramscar, M., Otto, A.R., Smayda, K. &amp;  Maddox, W.T. (2016). Exploratory Decision-Making as a Function of Lifelong Experience, not Cognitive Decline. <i>Journal of Experimental Psychology: General</i>, 3, 284-297. http://dx.doi.org/10.1037/xge0000133
+</p>
+
+
+<p>
+[ <a href="http://www.theregister.co.uk/2016/10/25/will_ai_spell_the_end_of_humanity_the_tech_industry_wants_you_to_think_so/">link</a> ] Love, B.C. (2016). Will AI spell the end of humanity? The tech industry wants you to think so. <i>The Register (via The Conversation)</i>.
 </p>
 
 
