@@ -1,8 +1,8 @@
 
 
 <p>
-[ <a href="">...</a>  ]
-  De Martino, B.,  Bobadilla-Suarez, S.,  Nouguchi, T.,  Sharot, T., &  Love, B.C. (in press). Social Information is Integrated into Value and Confidence Judgments According to its Reliability. <i>Journal of Neuroscience</i>. 
+[ <a href="">papers/DeMartioEtal2017.pdf</a>  ]
+  De Martino, B.,  Bobadilla-Suarez, S.,  Nouguchi, T.,  Sharot, T., &  Love, B.C. (2017). Social Information is Integrated into Value and Confidence Judgments According to its Reliability. <i>Journal of Neuroscience</i>,  3880-16; DOI: https://doi.org/10.1523/JNEUROSCI.3880-16.2017  
 </p>
 
 
