@@ -610,7 +610,3 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
 #publications p {
     text-align: left;
 }
-
-article.post {
-    padding-bottom: 3rem;
-}
