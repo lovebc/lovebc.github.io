@@ -1,6 +1,12 @@
 
 
 <p>
+[ <a href="papers/mack_etal_manuscript_final_2017.pdf">pdf</a>  ]
+ Mack, M.L., Love, B.C., Preston, A.R. (2017). Building concepts one episode at a time: The hippocampus and concept formation. <i>Neuroscience Letters</i>, DOI: https://doi.org/10.1016/j.neulet.2017.07.061
+</p>
+
+
+<p>
 [ <a href="papers/DeMartioEtal2017.pdf">pdf</a>  ]
   De Martino, B.,  Bobadilla-Suarez, S.,  Nouguchi, T.,  Sharot, T., &  Love, B.C. (2017). Social Information is Integrated into Value and Confidence Judgments According to its Reliability. <i>Journal of Neuroscience</i>,  3880-16; DOI: https://doi.org/10.1523/JNEUROSCI.3880-16.2017  
 </p>
