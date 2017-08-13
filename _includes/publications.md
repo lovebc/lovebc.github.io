@@ -1,5 +1,11 @@
 
 
+Medial prefrontal cortex compresses concept representations through learning
+<p>
+[ <a href="papers/MackPrestonLove2017">pdf</a>  ]  Mack, M.L., Preston, A.R. &amp; Love, B.C. (2017).Medial prefrontal cortex compresses concept representations through learning. <em> Pattern Recognition in Neuroimaging (PRNI)</em> https://doi.org/10.1109/PRNI.2017.7981500 (full paper forthcoming)
+</p>
+
+
 <p>
 [ <a href="papers/mack_etal_manuscript_final_2017.pdf">pdf</a>  ]
  Mack, M.L., Love, B.C., Preston, A.R. (2017). Building concepts one episode at a time: The hippocampus and concept formation. <i>Neuroscience Letters</i>, DOI: https://doi.org/10.1016/j.neulet.2017.07.061
