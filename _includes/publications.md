@@ -2,7 +2,7 @@
 
 
 <p>
-[ <a href="papers/MackPrestonLove2017.pdf">pdf</a>  ]  Mack, M.L., Preston, A.R. &amp; Love, B.C. (2017). Medial prefrontal cortex compresses concept representations through learning. <em> Pattern Recognition in Neuroimaging</em>, DOI: https://doi.org/10.1109/PRNI.2017.7981500 (full paper forthcoming)
+[ <a href="papers/MackPrestonLove2017.pdf">pdf</a>  ]  Mack, M.L., Preston, A.R. &amp; Love, B.C. (2017). Medial prefrontal cortex compresses concept representations through learning. <em> Pattern Recognition in Neuroimaging</em>, DOI: https://doi.org/10.1109/PRNI.2017.7981500 (full paper forthcoming, preprint <a href="http://www.biorxiv.org/content/early/2017/08/23/178145">here</a>)
 </p>
 
 
