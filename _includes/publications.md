@@ -220,7 +220,8 @@ psychological mechanism.<i> Behavioral and Brain Sciences</i>, <i>36</i>, 296.<b
 
 
 <p>
-[ <a href="papers/knox_etal_2012.pdf">pdf</a> ] Knox, W.B., Glass, B.D., Love, B.C., Maddox, W.T., &amp; Stone, P.  (2012). How humans teach agents. <em>International Journal of Social Robotics</em>, 4 (4), 409-421.
+[ <a href="papers/knox_etal_2012.pdf">pdf</a> ] Knox, W.B., Glass, B.D., Love, B.C., Maddox, W.T., &amp; Stone, P.  (2012). How humans teach agents. <em>International Journal of Social Robotics</em>, 4 (4), 409-421. 
+ Note: Related code <a href="https://osf.io/a2dvm/">here</a>.
 </p>
 
 <p>
