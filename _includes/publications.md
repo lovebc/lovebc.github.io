@@ -221,7 +221,6 @@ psychological mechanism.<i> Behavioral and Brain Sciences</i>, <i>36</i>, 296.<b
 
 <p>
 [ <a href="papers/knox_etal_2012.pdf">pdf</a> ] Knox, W.B., Glass, B.D., Love, B.C., Maddox, W.T., &amp; Stone, P.  (2012). How humans teach agents. <em>International Journal of Social Robotics</em>, 4 (4), 409-421. 
- Note: Related code <a href="https://osf.io/a2dvm/">here</a>.
 </p>
 
 <p>
@@ -236,6 +235,7 @@ Experimental Psychology: Learning, Memory, and Cognition</em>, 38,821-839. (spec
 
 <p>
 [ <a href="http://www.frontiersin.org/cognitive_science/10.3389/fpsyg.2011.00398/abstract">link to pdf</a> ] Knox,  W.B.,  Otto, A.R., Stone, P., &amp;  Love, B.C. (2012). The Nature of Belief-Directed Exploratory Choice in Human Decision-Making. <em>	Frontiers in Psychology</em>,2,398. doi: 10.3389/fpsyg.2011.00398
+ <br> Note: Related code <a href="https://osf.io/a2dvm/">here</a>.
 </p>
 
 
