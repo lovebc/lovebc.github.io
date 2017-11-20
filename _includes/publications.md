@@ -234,8 +234,8 @@ Experimental Psychology: Learning, Memory, and Cognition</em>, 38,821-839. (spec
 </p>
 
 <p>
-[ <a href="http://www.frontiersin.org/cognitive_science/10.3389/fpsyg.2011.00398/abstract">link to pdf</a> ] Knox,  W.B.,  Otto, A.R., Stone, P., &amp;  Love, B.C. (2012). The Nature of Belief-Directed Exploratory Choice in Human Decision-Making. <em>	Frontiers in Psychology</em>,2,398. doi: 10.3389/fpsyg.2011.00398
- <br> Note: Related code <a href="https://osf.io/a2dvm/">here</a>.
+[ <a href="http://www.frontiersin.org/cognitive_science/10.3389/fpsyg.2011.00398/abstract">link to pdf</a> ] Knox,  W.B.,  Otto, A.R., Stone, P., &amp;  Love, B.C. (2012). The Nature of Belief-Directed Exploratory Choice in Human Decision-Making. <em>	Frontiers in Psychology</em>,2,398. doi: 10.3389/fpsyg.2011.00398 <br>
+ <b>NOTE:</b> Related code <a href="https://osf.io/a2dvm/">here</a>.
 </p>
 
 
