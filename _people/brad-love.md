@@ -7,7 +7,7 @@ order: 1
 email: b.love@ucl.ac.uk
 
 website: http://bradlove.org
-twitter: drlovebc
+twitter: ProfData 
 researchgate: Bradley_Love
 impactstory: 0000-0002-7883-7076
 orcid: 0000-0002-7883-7076
