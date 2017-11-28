@@ -1,3 +1,8 @@
+<p>
+[ <a href="https://arxiv.org/abs/1711.04640">link to pdf</a>  ]   Guest, O., Kanayet, F.J. Love, B.C. (2017). Gerrymandering and Computational Redistricting. <em> arXiv: (preprint)</em>, DOI: https://arxiv.org/abs/1711.04640
+ <br>
+ <b>NOTE:</b> Supporting  <a href="http://redistrict.science/">Website</a>.
+</p>
 
 <p>
 [ <a href="https://psyarxiv.com/qkbt5">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2017). Heuristics as Bayesian inference under extreme priors. <em> PsyArXiv (preprint)</em>, DOI: https://dx.doi.org/10.17605/OSF.IO/QKBT5
