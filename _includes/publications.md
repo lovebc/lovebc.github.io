@@ -5,7 +5,7 @@
 </p>
 
 <p>
-[ <a href="https://psyarxiv.com/qkbt5">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2017). Heuristics as Bayesian inference under extreme priors. <em> PsyArXiv (preprint)</em>, DOI: https://dx.doi.org/10.17605/OSF.IO/QKBT5
+[ <a href="https://psyarxiv.com/qkbt5">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2017). Heuristics as Bayesian inference under extreme priors. <em> Cognitive Psychology </em>, DOI: https://dx.doi.org/10.17605/OSF.IO/QKBT5
 </p>
 
 <p>
