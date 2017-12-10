@@ -61,29 +61,16 @@ Olivia
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/megaphone.png">
 
-    <!-- Facebook
+    <!-- Facebook/Twitter
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   {% if page.url == '/lab' %}
      <meta property="og:image" content="{{site.url}}/images/mack_etal_2013.png" />
   {% elsif page.image %}
-  <meta property="og:image" content="{{site.url}}{{ page.image }}" />
+      <meta property="og:image" content="{{site.url}}{{ page.image }}" />
   {% else %}
-       <meta property="og:image" content="{{site.url}}/images/banner.png" />
+      <meta property="og:image" content="{{site.url}}/images/banner.png" />
   {% endif %}
 
-  {% if page.path == 'index.html' %}
-  <meta name="twitter:description" content="{{ site.description }}">
-  <meta property="og:description" content="{{ site.description }}">
-  <meta property="og:title" content="{{ site.name }}">
-  <title>{{ site.name }}</title>
-
-  {% else %}
-    <meta name="twitter:description" content="{{ page.content | strip_html}}">
-    <meta property="og:description" content="{{ page.content | strip_html }}">
-    <meta property="og:title" content="{{ site.name }}: {{ page.title }}">
-
-
-  {% endif %}
   <meta property="og:locale" content="en">
   <meta property="og:site_name" content="{{site.name}}">
   <meta property="og:type" content="website">
@@ -94,6 +81,18 @@ Olivia
   <meta name="twitter:url" content="{{ page.url }}">
   <meta name="twitter:site" content="{{site.url}}">
   <link rel="canonical" href="{{ page.url }}">
+
+  {% if page.path == 'index.html' %}
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:title" content="{{ site.name }}">
+  {% else %}
+    <meta name="twitter:description" content="{{ page.content | strip_html}}">
+    <meta property="og:description" content="{{ page.content | strip_html }}">
+    <meta property="og:title" content="{{ site.name }}: {{ page.title }}">
+  {% endif %}
+
+
 
   <!-- XML Feed
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
