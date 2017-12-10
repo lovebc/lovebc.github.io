@@ -5,7 +5,7 @@ For the love of all that is worth loving *please*
 if you copy-paste this to use for your own
 website, try to change the Google analytics code
 to yours or just remove it.
-Feel free to contact me on the repo: 
+Feel free to contact me on the repo:
 https://github.com/lovebc/lovebc.github.io
 if you need help with anything! :)
 Cheers,
@@ -16,13 +16,13 @@ Olivia
       xmlns="http://www.w3.org/1999/xhtml"
       xmlns:fb="http://ogp.me/ns/fb#">
 <head>
-     
+
   <!-- Redirect for when page not found
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   {% if page.url == "/404" %}
    <meta http-equiv="refresh" content="3; url={{ site.url }}">
   {% endif %}
-  
+
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -58,25 +58,27 @@ Olivia
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/megaphone.png">
-  
+
     <!-- Facebook
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   {% if page.url == '/lab' %}
      <meta property="og:image" content="{{site.url}}/images/mack_etal_2013.png" />
+  {% elsif page.image %}
+  <meta property="og:image" content="{{site.url}}{{ page.image }}" />
   {% else %}
        <meta property="og:image" content="{{site.url}}/images/banner.png" />
   {% endif %}
-  
+
   <!-- XML Feed
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-  
+
 </head>
 <body class="code-snippets-visible">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-     
+
      {{ content }}
 
      <div class="wrapper-footer">
@@ -98,6 +100,6 @@ Olivia
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
+
 </body>
 </html>

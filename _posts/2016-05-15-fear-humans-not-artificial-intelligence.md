@@ -1,6 +1,6 @@
 ---
 published: true
-title: Fear Humans, Not Artificial Intelliegence
+title: Fear Humans, Not Artificial Intelligence
 layout: post
 author: Bradley C. Love
 ---
@@ -23,4 +23,3 @@ Apart from people using AI to kill one another (rather than the AI deciding to d
 There will be many losers as AI improves. Of course, these losses will be more than offset by gains in productivity, so the problem is essentially a political, social, and economic challenge on how to properly assist those (most of us?) who will be displaced by machines. Notice the danger here is not being killed by machines, but rather outcompeted by people employing machines. Even that is not really the danger — the true danger is that people will not look after one another as machines permanently displace entire classes of labor.
 
 In summary, we should focus on the very real challenges to our survival, such as climate change, weapons of mass destruction, etc., not fanciful killer AI robots. For the foreseeable future, machines will remain a threat only when directed by humans by malice or through carelessness. The real challenges we face from AI are economic and social, but these are human problems that do not involve defending ourselves against sentient killer robots that have turned on us. If the machines ever come for us, they will likely be sent by other humans rather than deciding on their own accord. Taxi and delivery drivers will be made redundant by machines, not mowed down. In almost all cases, the dangers of AI are really about humans behaving badly.
-
