@@ -6,10 +6,10 @@
 name: Bradley C. Love
 
 # Short bio or description (displayed in the header)
-description: 
+description: I am Professor of Cognitive and Decision Sciences in Experimental Psychology at UCL and a fellow at The Alan Turing Institute for data science. My lab's research centers around human learning and decision making, integrating behavioural, computational, and neuroscience perspectives.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: 
+avatar:
 
 #
 # Flags below are optional
@@ -54,8 +54,8 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
-    
+
 collections:
   people:
-  
+
 array: []

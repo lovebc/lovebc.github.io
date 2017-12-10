@@ -28,8 +28,10 @@ Olivia
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.name }}</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} — {% endif %}{{ site.name }}">
+
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{site.name}}">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -68,6 +70,30 @@ Olivia
   {% else %}
        <meta property="og:image" content="{{site.url}}/images/banner.png" />
   {% endif %}
+
+  {% if page.path == 'index.html' %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:title" content="{{ site.name }}">
+  <title>{{ site.name }}</title>
+
+  {% else %}
+    <meta name="twitter:description" content="{{ page.content | strip_html}}">
+    <meta property="og:description" content="{{ page.content | strip_html }}">
+    <meta property="og:title" content="{{ site.name }}: {{ page.title }}">
+
+
+  {% endif %}
+  <meta property="og:locale" content="en">
+  <meta property="og:site_name" content="{{site.name}}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url }}">
+  <meta property="article:author" content="{{site.name}}">
+  <meta property="article:section" content="website">
+  <meta name="twitter:domain" content="{{site.url}}">
+  <meta name="twitter:url" content="{{ page.url }}">
+  <meta name="twitter:site" content="{{site.url}}">
+  <link rel="canonical" href="{{ page.url }}">
 
   <!-- XML Feed
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

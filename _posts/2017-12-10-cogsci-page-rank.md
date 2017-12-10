@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: How a CogSci undergrad invented PageRank three years before Google
 layout: post
 author: Bradley C. Love
