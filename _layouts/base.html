@@ -65,18 +65,24 @@ Olivia
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   {% if page.url == '/lab' %}
      <meta property="og:image" content="{{site.url}}/images/mack_etal_2013.png" />
+     <meta property="og:type" content="website" />
+
   {% elsif page.image %}
       <meta property="og:image" content="{{site.url}}{{ page.image }}" />
+      <meta property="og:type" content="blog" />
+      <meta property="article:author" content="{{site.name}}">
+      <meta property="article:section" content="blog">
+
   {% else %}
       <meta property="og:image" content="{{site.url}}/images/banner.png" />
+      <meta property="og:type" content="website" />
+
   {% endif %}
 
   <meta property="og:locale" content="en">
   <meta property="og:site_name" content="{{site.name}}">
-  <meta property="og:type" content="website">
   <meta property="og:url" content="{{site.url}}{{ page.url }}">
-  <meta property="article:author" content="{{site.name}}">
-  <meta property="article:section" content="website">
+
   <meta name="twitter:domain" content="{{site.url}}">
   <meta name="twitter:url" content="{{ page.url }}">
   <meta name="twitter:site" content="{{site.url}}">
