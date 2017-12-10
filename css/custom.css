@@ -506,6 +506,8 @@ footer {
 
 .read-more {
     text-transform: uppercase;
+    padding-top: 1rem;
+    display: block;
 }
 
 .post h4 a {
@@ -618,4 +620,14 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
   padding-top: 2.5%;
   padding-right: 5%;
   font-size: 1.3rem;
+}
+
+.preview-image {
+  max-height: 21rem;
+  float: right;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  max-width: 50%;
+
+
 }

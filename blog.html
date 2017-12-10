@@ -5,7 +5,7 @@ title: Blog
 ---
 
 {% for post in site.posts %}
- 
+
       <div id="posts">
 
       <article class="post docs-section examples">
@@ -14,12 +14,17 @@ title: Blog
          by {{ post.author }}
   — <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
         </div>
-
+        {% if post.image %}
+          <a href="{{ site.baseurl }}{{ post.url }}"><img class="preview-image" src="{{ site.baseurl }}{{ post.image }}"></a>
+        {% endif %}
         <div class="entry">
           {{ post.content | truncatewords:50}}
         </div>
-       
+        {% if post.image %}
+          <div style="clear: both;"></div>
+        {% endif %}
+
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </article></div>
-      
+
 {% endfor %}
