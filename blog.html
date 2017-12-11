@@ -18,7 +18,7 @@ title: Blog
           <a href="{{ site.baseurl }}{{ post.url }}"><img class="preview-image" src="{{ site.baseurl }}{{ post.image }}"></a>
         {% endif %}
         <div class="entry">
-          {{ post.content | truncatewords:50}}
+          {{ post.content | truncatewords:70 | strip_html}}
         </div>
         {% if post.image %}
           <div style="clear: both;"></div>
