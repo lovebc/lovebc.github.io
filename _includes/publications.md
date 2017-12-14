@@ -1,4 +1,8 @@
 <p>
+[ <a href="https://www.biorxiv.org/content/early/2017/12/13/232454">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2017). Estimating the functional dimensionality of neural representations. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/232454 
+</p>
+
+<p>
 [ <a href="https://psyarxiv.com/qkbt5">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2017). Heuristics as Bayesian inference under extreme priors. <em> Cognitive Psychology </em>, DOI: https://dx.doi.org/10.17605/OSF.IO/QKBT5
 </p>
 
