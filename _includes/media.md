@@ -1,5 +1,6 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
 
+* AI hype <a href="http://www.theregister.co.uk/2016/10/25/will_ai_spell_the_end_of_humanity_the_tech_industry_wants_you_to_think_so/"> The Register</a>.
 * Regulating AI, statement from Turing to House of Lords <a href="https://www.turing.ac.uk/media/interested-artificial-intelligence/"> Turing blog</a>.
 * Psychology and Data Science <a href="https://www.turing.ac.uk/media/blog/%ef%bb%bfthinking-machines-psychology-got-data-science/"> Turing blog</a>.
 * Electorial Gerrymandering: <a href="https://www.seeker.com/tech/an-unbiased-algorithm-could-help-put-an-end-to-partisan-gerrymandering"> Seeker </a>.
