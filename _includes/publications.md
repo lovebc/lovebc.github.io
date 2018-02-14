@@ -1,4 +1,8 @@
 <p>
+[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Braunlich, K. &amp; Love, B.C. (2017). Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/264895  
+</p>
+
+<p>
 [ <a href="https://www.biorxiv.org/content/early/2017/12/13/232454">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2017). Estimating the functional dimensionality of neural representations. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/232454 
 </p>
 
