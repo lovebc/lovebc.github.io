@@ -6,12 +6,12 @@ order: 4
 
 email: 
 
-website: 
-twitter: 
+website: https://anhornsby.github.io
+twitter: https://twitter.com/adamnhornsby
 researchgate: Adam_Hornsby2
 impactstory: 
 orcid: 
-github: 
+github: https://github.com/anhornsby
 
 image_path: /images/people/ADAM HORNSBY.jpg
 
