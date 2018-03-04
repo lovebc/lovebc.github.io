@@ -305,7 +305,7 @@ display: none;
   }
 }
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (min-width: 420px) {
 
    .tiny-hide {
      display: block;
@@ -330,7 +330,7 @@ display: none;
 
 }
 
-@media (min-width: 490px) {
+@media (min-width: 520px) {
       .medium-hide {
      display: block;
    }
