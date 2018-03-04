@@ -7,7 +7,7 @@ order: 4
 email: 
 
 website: https://anhornsby.github.io
-twitter: https://twitter.com/adamnhornsby
+twitter: adamnhornsby
 researchgate: Adam_Hornsby2
 impactstory: 
 orcid: 
