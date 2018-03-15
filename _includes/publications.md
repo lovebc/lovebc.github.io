@@ -5,7 +5,7 @@
 
 
 <p>
-[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Marika C Inhoff, Laura A Libby, Takao Noguchi, Bradley C Love, Charan Ranganath. (2018). Dynamic integration of conceptual information during learning. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/280362   
+[ <a href="https://www.biorxiv.org/content/early/2018/03/12/280362">link to pdf</a>  ]  Inhoff, M.C., Libby, L.A., Noguchi, T. Love, B/ C. &amp; Ranganath. C. (2018). Dynamic integration of conceptual information during learning. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/280362   
 </p>
 
 <p>
