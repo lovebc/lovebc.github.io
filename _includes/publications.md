@@ -1,6 +1,6 @@
 
 <p>
-[ <a href="https://www.sciencedirect.com/science/article/pii/S0010028517303286">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2018). Heuristics as Bayesian inference under extreme priors. <em> Cognitive Psychology </em>, 102, 127-144. DOI: doi: 10.1016/j.cogpsych.2017.11.006
+[ <a href="https://www.sciencedirect.com/science/article/pii/S0010028517303286">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2018). Heuristics as Bayesian inference under extreme priors. <em> Cognitive Psychology</em>, 102, 127-144. DOI: doi: 10.1016/j.cogpsych.2017.11.006
 </p>
 
 
