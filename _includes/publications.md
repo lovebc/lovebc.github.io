@@ -1,5 +1,10 @@
+
 <p>
-[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Braunlich, K. &amp; Love, B.C. (2017). Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/264895  
+[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Marika C Inhoff, Laura A Libby, Takao Noguchi, Bradley C Love, Charan Ranganath. (2018). Dynamic integration of conceptual information during learning. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/280362   
+</p>
+
+<p>
+[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Braunlich, K. &amp; Love, B.C. (2018). Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/264895  
 </p>
 
 <p>
