@@ -1,5 +1,10 @@
 
 <p>
+[ <a href="doi: 10.1016/j.cogpsych.2017.11.006">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2017). Heuristics as Bayesian inference under extreme priors. <em> Cognitive Psychology </em>, 102, 127-144. DOI: doi: 10.1016/j.cogpsych.2017.11.006
+</p>
+
+
+<p>
 [ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Marika C Inhoff, Laura A Libby, Takao Noguchi, Bradley C Love, Charan Ranganath. (2018). Dynamic integration of conceptual information during learning. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/280362   
 </p>
 
@@ -11,9 +16,6 @@
 [ <a href="https://www.biorxiv.org/content/early/2017/12/13/232454">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2017). Estimating the functional dimensionality of neural representations. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/232454 
 </p>
 
-<p>
-[ <a href="https://psyarxiv.com/qkbt5">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2017). Heuristics as Bayesian inference under extreme priors. <em> Cognitive Psychology </em>, DOI: https://dx.doi.org/10.17605/OSF.IO/QKBT5
-</p>
 
 <p>
 [ <a href="https://arxiv.org/abs/1711.04640">link to pdf</a>  ]   Guest, O., Kanayet, F.J. Love, B.C. (2017). Gerrymandering and Computational Redistricting. <em> arXiv: (preprint)</em>, DOI: https://arxiv.org/abs/1711.04640
