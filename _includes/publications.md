@@ -13,12 +13,12 @@
 </p>
 
 <p>
-[ <a href="https://www.biorxiv.org/content/early/2017/12/13/232454">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2017). Estimating the functional dimensionality of neural representations. <em> Biorxiv</em>, DOI: https://doi.org/10.1101/232454 
+[ <a href="https://www.biorxiv.org/content/early/2017/12/13/232454">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2017). Estimating the functional dimensionality of neural representations. <em> Biorxiv</em>, DOI: [10.1101/232454](https://doi.org/10.1101/232454) 
 </p>
 
 
 <p>
-[ <a href="https://arxiv.org/abs/1711.04640">link to pdf</a>  ]   Guest, O., Kanayet, F.J. Love, B.C. (2017). Gerrymandering and Computational Redistricting. <em> arXiv: (preprint)</em>, DOI: https://arxiv.org/abs/1711.04640
+[ <a href="https://arxiv.org/abs/1711.04640">link to pdf</a>  ]   Guest, O., Kanayet, F.J. Love, B.C. (2017). Gerrymandering and Computational Redistricting. <em> arXiv: (preprint)</em>, DOI: [arxiv.org/abs/1711.04640](https://arxiv.org/abs/1711.04640)
  <br>
  <b>NOTE:</b> Supporting  <a href="http://redistrict.science/">Website</a>.
 </p>
@@ -30,7 +30,7 @@
 
 <p>
 [ <a href="papers/mack_etal_manuscript_final_2017.pdf">pdf</a>  ]
- Mack, M.L., Love, B.C., Preston, A.R. (2017). Building concepts one episode at a time: The hippocampus and concept formation. <i>Neuroscience Letters</i>, DOI: https://doi.org/10.1016/j.neulet.2017.07.061
+ Mack, M.L., Love, B.C., Preston, A.R. (2017). Building concepts one episode at a time: The hippocampus and concept formation. <i>Neuroscience Letters</i>, DOI: <a href="https://doi.org/10.1016/j.neulet.2017.07.061">10.1016/j.neulet.2017.07.061</a>
 </p>
 
 
