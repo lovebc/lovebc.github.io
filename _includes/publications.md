@@ -1,19 +1,19 @@
 
 <p>
-[ <a href="https://www.sciencedirect.com/science/article/pii/S0010028517303286">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2018). Heuristics as Bayesian inference under extreme priors. <em> Cognitive Psychology</em>, 102, 127-144. DOI: doi: 10.1016/j.cogpsych.2017.11.006
+[ <a href="https://www.sciencedirect.com/science/article/pii/S0010028517303286">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2018). Heuristics as Bayesian inference under extreme priors. <em> Cognitive Psychology</em>, 102, 127-144. DOI: 10.1016/j.cogpsych.2017.11.006
 </p>
 
 
 <p>
-[ <a href="https://www.biorxiv.org/content/early/2018/03/12/280362">link to pdf</a>  ]  Inhoff, M.C., Libby, L.A., Noguchi, T. Love, B.C. &amp; Ranganath. C. (2018). Dynamic integration of conceptual information during learning. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/280362   
+[ <a href="https://www.biorxiv.org/content/early/2018/03/12/280362">link to pdf</a>  ]  Inhoff, M.C., Libby, L.A., Noguchi, T. Love, B.C. &amp; Ranganath. C. (2018). Dynamic integration of conceptual information during learning. <em> Biorxiv</em>, DOI: https://doi.org/10.1101/280362   
 </p>
 
 <p>
-[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Braunlich, K. &amp; Love, B.C. (2018). Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/264895  
+[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Braunlich, K. &amp; Love, B.C. (2018). Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge. <em> Biorxiv</em>, DOI: https://doi.org/10.1101/264895  
 </p>
 
 <p>
-[ <a href="https://www.biorxiv.org/content/early/2017/12/13/232454">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2017). Estimating the functional dimensionality of neural representations. <em> Biorxiv</em>, DOI: doi: https://doi.org/10.1101/232454 
+[ <a href="https://www.biorxiv.org/content/early/2017/12/13/232454">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2017). Estimating the functional dimensionality of neural representations. <em> Biorxiv</em>, DOI: https://doi.org/10.1101/232454 
 </p>
 
 
