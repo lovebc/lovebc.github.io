@@ -1,24 +1,24 @@
 
 <p>
-[ <a href="https://www.sciencedirect.com/science/article/pii/S0010028517303286">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2018). Heuristics as Bayesian inference under extreme priors. <em> Cognitive Psychology</em>, 102, 127-144. DOI: 10.1016/j.cogpsych.2017.11.006
+[ <a href="https://www.sciencedirect.com/science/article/pii/S0010028517303286">link to pdf</a>  ]  Parpart, P., Jones, M. &amp; Love, B.C. (2018). Heuristics as Bayesian inference under extreme priors. <em> Cognitive Psychology</em>, 102, 127-144. DOI: <a href="https://doi.org/10.1016/j.cogpsych.2017.11.006">10.1016/j.cogpsych.2017.11.006</a>
 </p>
 
 
 <p>
-[ <a href="https://www.biorxiv.org/content/early/2018/03/12/280362">link to pdf</a>  ]  Inhoff, M.C., Libby, L.A., Noguchi, T. Love, B.C. &amp; Ranganath. C. (2018). Dynamic integration of conceptual information during learning. <em> Biorxiv</em>, DOI: https://doi.org/10.1101/280362   
+[ <a href="https://www.biorxiv.org/content/early/2018/03/12/280362">link to pdf</a>  ]  Inhoff, M.C., Libby, L.A., Noguchi, T. Love, B.C. &amp; Ranganath. C. (2018). Dynamic integration of conceptual information during learning. <em> Biorxiv</em>, DOI: <a href="https://doi.org/10.1101/280362"></a>
 </p>
 
 <p>
-[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Braunlich, K. &amp; Love, B.C. (2018). Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge. <em> Biorxiv</em>, DOI: https://doi.org/10.1101/264895  
+[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Braunlich, K. &amp; Love, B.C. (2018). Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge. <em> Biorxiv</em>, DOI: <a href="https://doi.org/10.1101/264895">https://doi.org/10.1101/264895</a>
 </p>
 
 <p>
-[ <a href="https://www.biorxiv.org/content/early/2017/12/13/232454">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2017). Estimating the functional dimensionality of neural representations. <em> Biorxiv</em>, DOI: [10.1101/232454](https://doi.org/10.1101/232454) 
+[ <a href="https://www.biorxiv.org/content/early/2017/12/13/232454">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2017). Estimating the functional dimensionality of neural representations. <em> Biorxiv</em>, DOI: <a href="https://doi.org/10.1101/232454">10.1101/232454</a> 
 </p>
 
 
 <p>
-[ <a href="https://arxiv.org/abs/1711.04640">link to pdf</a>  ]   Guest, O., Kanayet, F.J. Love, B.C. (2017). Gerrymandering and Computational Redistricting. <em> arXiv: (preprint)</em>, DOI: [arxiv.org/abs/1711.04640](https://arxiv.org/abs/1711.04640)
+[ <a href="https://arxiv.org/abs/1711.04640">link to pdf</a>  ]   Guest, O., Kanayet, F.J. Love, B.C. (2017). Gerrymandering and Computational Redistricting. <em> arXiv: (preprint)</em>, DOI: <a href="https://arxiv.org/abs/1711.04640">arxiv.org/abs/1711.04640</a>
  <br>
  <b>NOTE:</b> Supporting  <a href="http://redistrict.science/">Website</a>.
 </p>
