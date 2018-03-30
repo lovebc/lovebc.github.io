@@ -13,7 +13,7 @@
 </p>
 
 <p>
-[ <a href="https://www.biorxiv.org/content/early/2017/12/13/232454">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2017). Estimating the functional dimensionality of neural representations. <em> Biorxiv</em>, DOI: <a href="https://doi.org/10.1101/232454">10.1101/232454</a> 
+[ <a href="https://www.biorxiv.org/content/early/2018/03/29/232454">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2017). Estimating the functional dimensionality of neural representations. <em> Biorxiv</em>, DOI: <a href="https://doi.org/10.1101/232454">10.1101/232454</a> 
 </p>
 
 
