@@ -701,6 +701,6 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
 .anchor {
   display: block;
   position: relative;
-  top: -2rem;
+  top: -4rem;
   visibility: hidden;
 }
