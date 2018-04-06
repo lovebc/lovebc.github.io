@@ -1,9 +1,9 @@
 - date: 2017-09-22
-  type: dataset
+  type: stimuli
   authors: Love, B.C.
   title: Beetle Stimuli
   url: https://osf.io/skg2y/
-  description: "Stimulus set for use in categorization tasks based on illustration work by Frances Fawcett."
+  description: "Stimulus set for use in categorization tasks based on illustration work by Frances Fawcett. Please cite one or more of <a href=\"https://osf.io/skg2y/wiki/home/\">these papers to acknowledge use</a>."
   image_path: /images/resources/bugs.jpg
 
 - date: 2016-06-01
@@ -13,3 +13,11 @@
   url: https://osf.io/62rgs/
   description: "Data from: Mack, M. L., Preston, A. R., & Love, B. C. (2013). <a href =\"https://doi.org/10.1016/j.cub.2013.08.035\">Decoding the brain’s algorithm for categorization from its neural implementation</a>. Current Biology, 23(20), 2023-2027."
   image_path: /images/resources/mack.png
+
+- date: 2015-08-20
+  type: dataset
+  authors: Bobadilla-Suarez, S., & Love, B.C.
+  title: "Heuristics under Time Pressure"
+  url: https://osf.io/xnbz4/
+  description: "Data for Fast or Frugal, but not Both: Decision Heuristics under Time Pressure"
+  image_path: /images/resources/fast_frugal.jpg

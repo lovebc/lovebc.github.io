@@ -641,7 +641,7 @@ img.profilepic {
   border: 0;
   width: 12rem;
   clear: right;
-  /* clip: rect(0, 12rem, 12rem, 0); */
+  clip: rect(0, 12rem, 14rem, 0);
   position: absolute;
   /* -webkit-filter: grayscale(100%); */
   /* Safari 6.0 - 9.0 */
@@ -663,6 +663,10 @@ span.name {
 .resource {
   min-height: 15rem;
   clear: right;
+}
+.resources-desc
+{
+  padding-bottom: 2rem;
 }
 
 .popover-item a:hover {
