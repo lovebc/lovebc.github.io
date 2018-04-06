@@ -5,7 +5,6 @@ role: postdocs
 order: 3
 
 email: sebastian.bobadilla.s@gmail.com 
-
 website: http://bobaseb.github.io
 twitter: seb_bobadilla
 researchgate: Sebastian_Bobadilla-Suarez
