@@ -46,8 +46,8 @@ title: Love Lab
                                     {% if forloop.first == true %}
                                         <div id ="{{ person.role }}" style="padding: 6rem 0"><h3 class="docs-header">Principal Investigator</h3>
                                     {% endif %}
-                                      <div id ="{{ person.firstname }}-{{ person.surname }}" class="person">
-
+                                      <a class="person-anchor" id ="{{ person.firstname }}-{{ person.surname }}"></a>
+                                      <div class="person">
                                       <span class="name">{{ person.firstname }} {{ person.surname }}</span>
                                       <ul>
                                       {% if person.email != nil %}
@@ -104,8 +104,8 @@ title: Love Lab
                                     {% if forloop.first == true %}
                                         <div id ="{{ person.role }}" style="padding: 6rem 0"><h3 class="docs-header">Lab Manager</h3>
                                     {% endif %}
-                                      <div id ="{{ person.firstname }}-{{ person.surname }}" class="person">
-
+                                    <a class="person-anchor" id ="{{ person.firstname }}-{{ person.surname }}"></a>
+                                    <div class="person">
                                       <span class="name">{{ person.firstname }} {{ person.surname}}</span>
                                       <ul>
                                       {% if person.email != nil %}
@@ -163,8 +163,8 @@ title: Love Lab
                                     {% if forloop.first == true %}
                                         <div id ="{{ person.role }}" style="padding: 6rem 0"><h3 class="docs-header">Postdocs</h3>
                                     {% endif %}
-                                      <div id ="{{ person.firstname }}-{{ person.surname }}" class="person">
-
+                                    <a class="person-anchor" id ="{{ person.firstname }}-{{ person.surname }}"></a>
+                                    <div class="person">
                                       <span class="name">{{ person.firstname }} {{ person.surname}}</span>
                                       <ul>
                                       {% if person.email != nil %}
@@ -221,8 +221,8 @@ title: Love Lab
                                     {% if forloop.first == true %}
                                         <div id ="{{ person.role }}" style="padding: 6rem 0"><h3 class="docs-header">PhD Students</h3>
                                     {% endif %}
-                                      <div id ="{{ person.firstname }}-{{ person.surname }}" class="person">
-
+                                    <a class="person-anchor" id ="{{ person.firstname }}-{{ person.surname }}"></a>
+                                    <div class="person">
                                       <span class="name">{{ person.firstname }} {{ person.surname}}</span>
                                       <ul>
                                       {% if person.email != nil %}
@@ -278,6 +278,12 @@ title: Love Lab
       <div class="docs-section examples">
             <h2>Press</h2>
             {% capture media %}{% include media.md %}{% endcapture %}{{ media | markdownify }}
+      </div>
+
+      <a class="anchor" id="resources"></a>
+      <div class="docs-section examples">
+            <h2>Resources</h2>
+            {% include resources.html %}
       </div>
 
       <a class="anchor" id="publications"></a>

@@ -1,0 +1,15 @@
+- date: 2014-01-01
+  type: dataset
+  authors: Love, B.C.
+  title: Beetle Stimuli
+  url: https://osf.io/skg2y/
+  description: "Stimulus set for use in categorization tasks based on illustration work by Frances Fawcett."
+  image_path: /images/resources/bugs.jpg
+
+- date: 2016-06-01
+  type: dataset
+  authors: Mack, M.L., Preston, A., Love, B.C.
+  title: "Decoding the brain's algorithm for categorization from its neural implementation"
+  url: https://osf.io/62rgs/
+  description: "Data from: Mack, M. L., Preston, A. R., & Love, B. C. (2013). <a href =\"https://doi.org/10.1016/j.cub.2013.08.035\">Decoding the brain’s algorithm for categorization from its neural implementation</a>. Current Biology, 23(20), 2023-2027."
+  image_path: /images/resources/mack.png

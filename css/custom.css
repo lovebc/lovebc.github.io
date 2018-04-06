@@ -636,6 +636,18 @@ img.profilepic {
   filter: grayscale(100%);
 }
 
+.resource img {
+  float: right;
+  border: 0;
+  width: 12rem;
+  clear: right;
+  /* clip: rect(0, 12rem, 12rem, 0); */
+  position: absolute;
+  /* -webkit-filter: grayscale(100%); */
+  /* Safari 6.0 - 9.0 */
+  /* filter: grayscale(100%); */
+}
+
 span.name {
   font-weight: 900;
   font-size: 2rem;
@@ -644,6 +656,11 @@ span.name {
 }
 
 .person {
+  min-height: 15rem;
+  clear: right;
+}
+
+.resource {
   min-height: 15rem;
   clear: right;
 }
@@ -669,13 +686,23 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
   outline: 0;
 }
 
-.person .image {
+.person .image{
   float: right;
   padding-left: 3rem;
   padding-bottom: 2rem;
   width: 12rem;
   height: 12rem;
 }
+
+.resource .image {
+ float: right;
+ padding-left: 3rem;
+ padding-bottom: 2rem;
+ width: 12rem;
+ height: 12rem;
+}
+
+
 
 #publications p {
   text-align: left;
@@ -702,5 +729,12 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
   display: block;
   position: relative;
   top: -4rem;
+  visibility: hidden;
+}
+
+.person-anchor {
+  display: block;
+  position: relative;
+  top: -7rem;
   visibility: hidden;
 }
