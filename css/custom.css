@@ -58,6 +58,10 @@
 .docs-example h1, .docs-example h2, .docs-example h3, .docs-example h4, .docs-example h5, .docs-example h6 {
   margin-bottom: 1rem;
 }
+h5.resources
+ {
+   margin-top: 2rem;}
+
 
 .heading-font-size {
   font-size: 1.2rem;
@@ -666,7 +670,7 @@ span.name {
 }
 .resources-desc
 {
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .popover-item a:hover {
