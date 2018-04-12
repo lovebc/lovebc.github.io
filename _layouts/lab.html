@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<div class="container" id = "intro">
+<div class="container">
 
  {% include lab_header.html %}
 
@@ -11,7 +11,7 @@ layout: base
  <div class="section main">
      <div class="row">
        <div class="three columns address">
-         
+
           {% include lab_address.html %}
           {% include social.html %}
 
@@ -19,23 +19,23 @@ layout: base
              <h2 class="docs-header">Funded by</h2>
                  {% include funding.html %}
            </div>
-           
+
            <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
-           <h2 class="docs-header">Tweets</h2>         
+           <h2 class="docs-header">Tweets</h2>
                 {% include twitter.html %}
            </div>
 
        </div>
-       
-       <div class="nine columns" > 
+
+       <div class="nine columns" >
 
          {{ content }}
-         
+
              <div class = "bottom-column2 docs-section examples"> <!-- giving it own class because we need to move to bottom on smaller screens -->
-             <h2>Tweets</h2>         
+             <h2>Tweets</h2>
                 {% include twitter.html %}
            </div>
-           
+
            <div class = "funding bottom-column2 docs-section examples"> <!-- giving it own class because we need to move to bottom on smaller screens -->
              <h2>Funded by</h2>
                  {% include funding.html %}
@@ -45,6 +45,6 @@ layout: base
      </div>
 
 
-         
+
    </div>
 </div>

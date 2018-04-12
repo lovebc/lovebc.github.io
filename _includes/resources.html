@@ -1,18 +1,19 @@
 {% assign resources = site.data.resources %}
 
-<p class="resources-desc">Selected datasets, stimuli, and other resources from the lab. </p>
-  {% for resource in resources %}
-  <h5 class="resources">{{ resource.title }}</h5>
+<p class="resources-desc">Selected datasets, stimuli, and other resources from the lab. For code, also see the <a href="https://github.com/lovelabUCL">lab GitHub account</a> — for data, also see the <a href="http://osf.io/97evc/">Brad's OSF profile</a>.</p>
 
-    <div class="resource">
-      <div class="image">
-        <a href="{{resource.url}}"><img src="{{ site.baseurl }}{{ resource.image_path }}" title="{{ resource.title }}" alt="{{ resource.title }}" /></a>
-      </div>
-    {{resource.authors}} ({{resource.date | date: "%Y"}})</br>
-    URL: <a href="{{resource.url}}">{{resource.url}}</a></br>
-    <p>{{resource.description}}</p>
+{% for resource in resources %}
 
+<h5 class="resources">{{ resource.title }}</h5>
+
+<div class="resource">
+  <div class="image">
+    <a href="{{resource.url}}"><img src="{{ site.baseurl }}{{ resource.image_path }}" title="{{ resource.title }}" alt="{{ resource.title }}" /></a>
   </div>
+  {{resource.authors}} ({{resource.date | date: "%Y"}})</br>
+  URL: <a href="{{resource.url}}">{{resource.url}}</a></br>
+  <p>{{resource.description}}</p>
 
+</div>
 
-  {% endfor %}
+{% endfor %}

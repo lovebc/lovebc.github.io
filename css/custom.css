@@ -479,9 +479,10 @@ p.social {
 @media (min-width: 1000px) {
   .tweets {
     display: block;
+    min-height: 800px;
   }
   .social {
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
   .navbar-item {
     margin-right: 3rem;
@@ -740,9 +741,31 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
   visibility: hidden;
 }
 
+.top-anchor {
+  display: block;
+  position: relative;
+  top: -20rem;
+  visibility: hidden;
+}
+
 .person-anchor {
   display: block;
   position: relative;
   top: -7rem;
   visibility: hidden;
+}
+
+a .anchor-link {
+  color: #fff;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.25rem;
+}
+a:hover .anchor-link {
+  color: #000;
+}
+
+.main h2 a {
+  text-decoration: none;
+  color: #000;
 }
