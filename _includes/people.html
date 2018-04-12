@@ -24,14 +24,13 @@
 
 <div class="people">
 
-  <div class="pi">
 
     {% for person in pi %} {% if forloop.first == true %}
     <div id="{{ person.role }}" style="padding: 6rem 0">
-      <h3 class="docs-header">Principal Investigator</h3> {% endif %}
-      <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
+      <h3 class="docs-header"><a href="#{{ person.role }}">Principal Investigator</a></h3> {% endif %}
+      <a class="person-anchor" id="{{ person.firstname | remove:  ' C.'  }}-{{ person.surname}}"></a>
       <div class="person">
-        <span class="name">{{ person.firstname }} {{ person.surname }}</span>
+        <span class="name"><a href="#{{ person.firstname  | remove: ' C.'  }}-{{ person.surname }}">{{ person.firstname }} {{ person.surname }}</a></span>
         <ul>
           {% if person.email != nil %}
           <li><a href="mailto:{{ person.email }}" title="Email {{ person.firstname }} {{ person.surname}}" style="text-decoration:none">
@@ -71,10 +70,10 @@
 
     {% for person in lab-manager %} {% if forloop.first == true %}
     <div id="{{ person.role }}" style="padding: 6rem 0">
-      <h3 class="docs-header">Lab Manager</h3> {% endif %}
+      <h3 class="docs-header"><a href="#{{ person.role }}">Lab Manager</a></h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
-        <span class="name">{{ person.firstname }} {{ person.surname}}</span>
+        <span class="name"><a href="#{{ person.firstname }}-{{ person.surname }}">{{ person.firstname }} {{ person.surname }}</a></span>
         <ul>
           {% if person.email != nil %}
           <li><a href="mailto:{{ person.email }}" title="Email {{ person.firstname }} {{ person.surname}}" style="text-decoration:none">
@@ -115,10 +114,10 @@
 
     {% for person in postdocs %} {% if forloop.first == true %}
     <div id="{{ person.role }}" style="padding: 6rem 0">
-      <h3 class="docs-header">Postdocs</h3> {% endif %}
+      <h3 class="docs-header"><a href="#{{ person.role }}">Postdocs</a></h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
-        <span class="name">{{ person.firstname }} {{ person.surname}}</span>
+        <span class="name"><a href="#{{ person.firstname }}-{{ person.surname }}">{{ person.firstname }} {{ person.surname }}</a></span>
         <ul>
           {% if person.email != nil %}
           <li><a href="mailto:{{ person.email }}" title="Email {{ person.firstname }} {{ person.surname}}" style="text-decoration:none">
@@ -158,10 +157,10 @@
 
     {% for person in phd-students %} {% if forloop.first == true %}
     <div id="{{ person.role }}" style="padding: 6rem 0">
-      <h3 class="docs-header">PhD Students</h3> {% endif %}
+      <h3 class="docs-header"><a href="#{{ person.role }}">PhD Students</a></h3> {% endif %}
       <a class="person-anchor" id="{{ person.firstname }}-{{ person.surname }}"></a>
       <div class="person">
-        <span class="name">{{ person.firstname }} {{ person.surname}}</span>
+        <span class="name"><a href="#{{ person.firstname }}-{{ person.surname }}">{{ person.firstname }} {{ person.surname }}</a></span>
         <ul>
           {% if person.email != nil %}
           <li><a href="mailto:{{ person.email }}" title="Email {{ person.firstname }} {{ person.surname}}" style="text-decoration:none">

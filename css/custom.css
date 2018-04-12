@@ -58,10 +58,10 @@
 .docs-example h1, .docs-example h2, .docs-example h3, .docs-example h4, .docs-example h5, .docs-example h6 {
   margin-bottom: 1rem;
 }
-h5.resources
- {
-   margin-top: 2rem;}
 
+h5.resources {
+  margin-top: 2rem;
+}
 
 .heading-font-size {
   font-size: 1.2rem;
@@ -669,8 +669,8 @@ span.name {
   min-height: 15rem;
   clear: right;
 }
-.resources-desc
-{
+
+.resources-desc {
   padding-bottom: 1.5rem;
 }
 
@@ -695,7 +695,7 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
   outline: 0;
 }
 
-.person .image{
+.person .image {
   float: right;
   padding-left: 3rem;
   padding-bottom: 2rem;
@@ -704,14 +704,12 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
 }
 
 .resource .image {
- float: right;
- padding-left: 3rem;
- padding-bottom: 2rem;
- width: 12rem;
- height: 12rem;
+  float: right;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  width: 12rem;
+  height: 12rem;
 }
-
-
 
 #publications p {
   text-align: left;
@@ -761,11 +759,12 @@ a .anchor-link {
   padding-bottom: 0.5rem;
   padding-left: 0.25rem;
 }
+
 a:hover .anchor-link {
   color: #000;
 }
 
-.main h2 a {
+.main h2 a, .main h3 a, .name a {
   text-decoration: none;
   color: #000;
 }
