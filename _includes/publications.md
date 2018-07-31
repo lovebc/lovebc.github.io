@@ -1,5 +1,9 @@
 
 <p>
+[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Braunlich, K. &amp; Love, B.C. (2018). Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge. <em> Biorxiv</em>, DOI: <a href="https://doi.org/10.1101/264895">https://doi.org/10.1101/264895</a>(revised version in press at JEP: General)
+</p>
+
+<p>
 [ <a href="https://www.sciencedirect.com/science/article/pii/S1053811918305226">link to pdf</a>  ]  Ahlheim, C. &amp; Love, B.C. (2018). Estimating the functional dimensionality of neural representations. <em> NeuroImage</em>, 179, 51-62. DOI: <a href="https://doi.org/10.1016/j.neuroimage.2018.06.015">https://doi.org/10.1016/j.neuroimage.2018.06.015</a> 
 </p>
 
@@ -11,11 +15,6 @@
 <p>
 [ <a href="https://www.biorxiv.org/content/early/2018/03/12/280362">link to pdf</a>  ]  Inhoff, M.C., Libby, L.A., Noguchi, T. Love, B.C. &amp; Ranganath. C. (2018). Dynamic integration of conceptual information during learning. <em> Biorxiv</em>, DOI: <a href="https://doi.org/10.1101/280362"></a>
 </p>
-
-<p>
-[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Braunlich, K. &amp; Love, B.C. (2018). Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge. <em> Biorxiv</em>, DOI: <a href="https://doi.org/10.1101/264895">https://doi.org/10.1101/264895</a>
-</p>
-
 
 
 <p>
