@@ -589,13 +589,13 @@ models. In R. W. Pew and K. A. Gluck, <i>Modeling Human Behavior with Integrated
 
 
 <p>
-   [ <a href="http://love.psy.utexas.edu/~gureckis/papers/FLAIRS6A02TGureckis.pdf">pdf</a> ]Gureckis, T. M., &amp; Love, B. C. (2002). Modeling unsupervised learning with SUSTAIN.  In S. Haller &amp; G. Simmons (Eds.), <i>Proceedings of the 
+   [ <a href="papers/FLAIRS_gureckis_love.pdf">pdf</a> ]Gureckis, T. M., &amp; Love, B. C. (2002). Modeling unsupervised learning with SUSTAIN.  In S. Haller &amp; G. Simmons (Eds.), <i>Proceedings of the 
    15th international Florida artificial intelligence research society conference</i> (p. 163-167). Menlo Park, California: AAAI Press. <br>
 </p>
 
 
 <p>
-   [ <a href="http://love.psy.utexas.edu/~gureckis/papers/cogsci2002unsuppredict.pdf">pdf</a> ] Gureckis, T. M., and Love, B. C. (2002). Who says models can only do what you tell them? Unsupervised category 
+   [ <a href="papers/cogsci2002unsuppredict.pdf">pdf</a> ] Gureckis, T. M., and Love, B. C. (2002). Who says models can only do what you tell them? Unsupervised category 
    learning data, fits, and predictions. <i>Proceedings of the Cognitive Science Society, USA</i>, <i>24</i>, 399-404.<br>
 </p>
 
