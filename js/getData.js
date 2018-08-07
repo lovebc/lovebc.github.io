@@ -216,6 +216,7 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
       pub_item.appendChild(osf)
     }
 
+    // Deal with preprints by adding them to published articles
     var current_preprint_index, preprint
     if (pubs_array[row].Type == 'journal article') {
       for (var row_index = 0; row_index < preprint_rows.length; row_index++) {
@@ -242,6 +243,30 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
           console.log('I added a preprint to article: ' + pubs_array[row].Title, pubs_array[current_preprint_index].Journal)
 
           preprint_rows.splice(row_index, 1)
+
+          break
+        }
+
+      }
+
+      for (row_index = 0; row_index < supplemental_rows.length; row_index++) {
+        current_supplemental_index = supplemental_rows[row_index]
+        if (pubs_array[current_supplemental_index].Title.toLowerCase() == pubs_array[row].Title.toLowerCase()) {
+          // We found a preprint associated with the current journal
+          // article
+          supplemental_text = document.createElement('span')
+          supplemental_text.classList.add('supplemental-text')
+          supplemental_text.innerHTML = '<br>Supplemental: '
+          pub_item.appendChild(supplemental_text)
+
+          supplemental = document.createElement('span')
+          supplemental.classList.add('supplemental', 'icon')
+          supplemental.innerHTML = '<a href="' + pubs_array[current_supplemental_index]["PDF Link"] + '"><i class="far fa-file-pdf"></i></a> '
+          pub_item.appendChild(supplemental)
+
+          console.log('I added a supplemental to article: ' + pubs_array[row].Title, pubs_array[current_supplemental_index].Journal)
+
+          supplemental_rows.splice(row_index, 1)
 
           break
         }
