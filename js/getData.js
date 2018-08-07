@@ -45,7 +45,6 @@ function handleQueryResponse(response) {
   'use strict'
   var row, col, row_array, row_dict,
     sheet_array = [],
-    sheet_array_dict = [],
     dataTable = response.getDataTable(),
     number_of_rows = dataTable.getNumberOfRows(),
     number_of_cols = dataTable.getNumberOfColumns()
@@ -58,7 +57,6 @@ function handleQueryResponse(response) {
     }
     sheet_array.push(row_dict)
   }
-  console.log(sheet_array_dict)
   displayPubs(number_of_rows, number_of_cols, sheet_array)
 
 }
@@ -173,17 +171,19 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
 
     // DOI is optional so no errors thrown here
     if (pubs_array[row]['DOI Link'] && pubs_array[row].Type != 'popular science' && pubs_array[row].Type != 'proceedings') {
-      doi_text = document.createElement('span')
-      var parser = document.createElement('a')
-      parser.href = pubs_array[row]['DOI Link']
-      doi_text.classList.add('doi-text')
-      doi_text.innerHTML = '<a href="' + pubs_array[row]['DOI Link'] + '">' + parser.pathname.substring(1) + '</a> '
-      pub_item.appendChild(doi_text)
+      if (pubs_array[row]['DOI Link'].includes('doi')) {
+        doi_text = document.createElement('span')
+        var parser = document.createElement('a')
+        parser.href = pubs_array[row]['DOI Link']
+        doi_text.classList.add('doi-text')
+        doi_text.innerHTML = '<a href="' + pubs_array[row]['DOI Link'] + '">' + parser.pathname.substring(1) + '</a> '
+        pub_item.appendChild(doi_text)
 
-      doi = document.createElement('span')
-      doi.classList.add('doi', 'icon')
-      doi.innerHTML = ' <a href="' + pubs_array[row]['DOI Link'] + '"><i class="ai ai-doi" aria-hidden="true"></i></a> '
-      pub_item.appendChild(doi)
+        doi = document.createElement('span')
+        doi.classList.add('doi', 'icon')
+        doi.innerHTML = ' <a href="' + pubs_array[row]['DOI Link'] + '"><i class="ai ai-doi" aria-hidden="true"></i></a> '
+        pub_item.appendChild(doi)
+      }
     }
 
     var innerHTML
