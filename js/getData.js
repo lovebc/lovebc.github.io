@@ -72,28 +72,72 @@ function handleQueryResponse(response) {
 
 
 function displayPubs(number_of_rows, number_of_cols, pubs_array) {
-  var row, col, pub_item, link
+  var row, col, pub_item, link, preprint_rows = [], supplemental_row = []
+  // Collect up the rows of the preprints and the supplementals in case we need to associate them with journal articles.
+
   for (row = 0; row < number_of_rows; row += 1) {
+    if (pubs_array[row].Status == 'published'){
+      if (pubs_array[row].Type == 'preprint') {
+          preprint_rows.push(row)
+      }
+      if (pubs_array[row].Type == 'supplemental') {
+          supplemental_row.push(row)
+      }
+    }
+  }
+  track_year = 0
+
+  for (row = 0; row < number_of_rows; row += 1) {
+    if (track_year !=
+        String(pubs_array[row].Date).substring(0, 4)) {
+          track_year = String(pubs_array[row].Date).substring(0, 4)
+          year_anchor = document.createElement('a')
+          year_anchor.classList.add('anchor')
+          year_anchor.id = track_year
+          document.getElementById('pubs-list').appendChild(year_anchor)
+
+          year_heading = document.createElement('h2')
+          year_heading.classList.add('docs-header')
+          year_heading.innerHTML = '<a href="#' + track_year + '">' + track_year + ' <i class="fas fa-link anchor-link"></i></a>'
+          year_heading.id = track_year
+          document.getElementById('pubs-list').appendChild(year_heading)
+
+    }
+
+    // For all pub_items we create a dif
     pub_item = document.createElement('div')
     pub_item.classList.add('pub-item')
 
+    // Strong assumption that all items have authors
+    if (pubs_array[row].Authors) {
+      authors = document.createElement('span')
+      authors.classList.add('authors')
+      authors.innerHTML = pubs_array[row].Authors + ' '
+      pub_item.appendChild(authors)
+    }
+    else {
+      throw "Missing author for: " + pubs_array[row]
+    }
 
-    authors = document.createElement('span')
-    authors.classList.add('authors')
-    authors.innerHTML = pubs_array[row].Authors + ' '
-    pub_item.appendChild(authors)
+    // All items should have dates too...
 
+    if (pubs_array[row].Date) {
 
-    year = document.createElement('span')
-    year.classList.add('year')
-    if (pubs_array[row]['Status'] == 'published' || pubs_array[row]['Type'] == 'preprint') {
+      year = document.createElement('span')
+      year.classList.add('year')
+      if (pubs_array[row]['Status'] == 'published' || pubs_array[row]['Type'] == 'preprint') {
 
-    year.innerHTML = '(' + String(pubs_array[row].Date).substring(0, 4) + '). '
-  } else {
-    year.innerHTML = '(' + pubs_array[row].Status + '). '
+      year.innerHTML = '(' + String(pubs_array[row].Date).substring(0, 4) + '). '
+      } else {
+        year.innerHTML = '(' + pubs_array[row].Status + '). '
 
-  }
-    pub_item.appendChild(year)
+      }
+      pub_item.appendChild(year)
+    }
+    else {
+      throw "Missing date for: " + pubs_array[row]
+    }
+
 
     title = document.createElement('span')
     title.classList.add('title')
@@ -117,7 +161,11 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
     journal.innerHTML = '<i>' + pubs_array[row].Journal + '</i>. '
     pub_item.appendChild(journal)
 
-    if (pubs_array[row]['DOI Link'] && pubs_array[row].Type != 'popular science') {
+
+
+    if (pubs_array[row]['DOI Link']
+    && pubs_array[row].Type != 'popular science'
+      && pubs_array[row].Type != 'proceedings') {
       doi = document.createElement('span')
       var parser = document.createElement('a')
       parser.href = pubs_array[row]['DOI Link']
