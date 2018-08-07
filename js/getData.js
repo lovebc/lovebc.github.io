@@ -190,11 +190,12 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
     // Same with PDF, optional so no errors thrown here
     if (pubs_array[row]['PDF Link']) {
       pdf = document.createElement('span')
-      pdf.classList.add('pdf', 'icon')
+      pdf.classList.add('pdf')
       innerHTML = '<a href="' + pubs_array[row]['PDF Link'] + '">'
       if (pubs_array[row].Type == 'popular science') {
         innerHTML += 'More</a>'
       } else {
+        pdf.classList.add('icon')
         innerHTML += '<i class="far fa-file-pdf"></i></a> '
       }
       pdf.innerHTML = innerHTML
