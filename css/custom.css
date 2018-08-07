@@ -738,7 +738,9 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
   top: -4rem;
   visibility: hidden;
 }
-
+.year-anchor {
+  top: -8rem;
+}
 .top-anchor {
   display: block;
   position: relative;
@@ -755,10 +757,22 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
 
 a .anchor-link {
   color: #fff;
-  font-size: 2rem;
-  padding-bottom: 0.5rem;
   padding-left: 0.25rem;
 }
+
+h2 .anchor-link {
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+
+}
+
+h3 .anchor-link {
+  font-size: 1.25rem;
+  padding-bottom: 0.1rem;
+
+}
+
+
 
 a:hover .anchor-link {
   color: #000;
@@ -771,4 +785,49 @@ a:hover .anchor-link {
 
 .pub-item {
   padding-bottom: 1.75rem;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+.icon {
+    font-size: 2rem;
 }
