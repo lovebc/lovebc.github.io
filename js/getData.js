@@ -17,16 +17,11 @@ function drawChart() {
   var readmeSheetUrl = 'https://docs.google.com/spreadsheets/d/1vrY0zzx-5ck7FqgUZE0ZqP4MN-7OYVHW5jPQNkoZDnk/edit?gid=1790470642'
   var query = new google.visualization.Query(readmeSheetUrl)
   query.send(handleReadmeResponse)
-  //
-
   var pubsSheetUrl = 'https://docs.google.com/spreadsheets/d/1vrY0zzx-5ck7FqgUZE0ZqP4MN-7OYVHW5jPQNkoZDnk/edit?gid=0#gid=0'
   query = new google.visualization.Query(pubsSheetUrl)
   query.send(handleQueryResponse)
 }
-
-
 // Code to sort table based on: https://www.w3schools.com/howto/howto_js_sort_table.asp
-
 function handleReadmeResponse(response) {
   // This is loaded from the README sheet in order to get the column names:
   'use strict'
@@ -36,8 +31,6 @@ function handleReadmeResponse(response) {
   for (col = 0; col < cols; col += 1) {
     column_names.push(dataTable.getValue(0, col))
   }
-
-
 }
 
 
@@ -58,7 +51,6 @@ function handleQueryResponse(response) {
     sheet_array.push(row_dict)
   }
   displayPubs(number_of_rows, number_of_cols, sheet_array)
-
 }
 
 function displayPubs(number_of_rows, number_of_cols, pubs_array) {
@@ -69,22 +61,24 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
     supplemental_rows = []
   // Collect up the rows of the preprints and the supplementals in case we need
   // to associate them with journal articles.
-
   for (row = 0; row < number_of_rows; row += 1) {
     if (pubs_array[row].Status == 'published') {
       if (pubs_array[row].Type == 'preprint') {
         preprint_rows.push(row)
+        console.log(pubs_array[row].Title)
       }
       if (pubs_array[row].Type == 'supplemental') {
         supplemental_rows.push(row)
       }
     }
   }
-
   for (row = 0; row < number_of_rows; row += 1) {
-    if (supplemental_rows.includes(row) || preprint_rows.includes(row)) {
+    if (pubs_array[row].Type == 'preprint' && pubs_array[row].Status == 'published') {
+      continue
+    } else if (pubs_array[row].Type == 'supplemental') {
       continue
     }
+
     // This is for the year headings
     if (track_year !=
       String(pubs_array[row].Date).substring(0, 4)) {
@@ -93,7 +87,6 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
       year_anchor.classList.add('anchor', 'year-anchor')
       year_anchor.id = track_year
       document.getElementById('pubs-list').appendChild(year_anchor)
-
       year_text = track_year
       if (track_year == new Date().getFullYear()) {
         year_text += ' & in press'
@@ -103,7 +96,6 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
       year_heading.innerHTML = '<a href="#' + track_year + '">' + year_text + ' <i class="fas fa-link anchor-link"></i></a>'
       year_heading.id = track_year
       document.getElementById('pubs-list').appendChild(year_heading)
-
     }
 
     // For all pub_items we create a div
@@ -111,62 +103,60 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
     pub_item.classList.add('pub-item')
 
     // Strong assumption that all items have authors
-    if (pubs_array[row].Authors) {
+
+    try {
       authors = document.createElement('span')
       authors.classList.add('authors')
+      if (!pubs_array[row].Authors) throw "Missing author on row: " + (row + OFFSET)
       authors.innerHTML = pubs_array[row].Authors + ' '
       pub_item.appendChild(authors)
-    } else {
-      throw "Missing author on row: " + (row + OFFSET)
+    } catch (err) {
+      console.log(err)
     }
 
     // All items should have dates too...
-    if (pubs_array[row].Date) {
-
+    try {
       year = document.createElement('span')
       year.classList.add('year')
+      if (!pubs_array[row].Date) throw "Missing date on row: " + (row + OFFSET)
+      if (!pubs_array[row].Status) throw "Missing status on row: " + (row + OFFSET)
+      if (!pubs_array[row].Type) throw "Missing type on row: " + (row + OFFSET)
       if (pubs_array[row].Status == 'published' || pubs_array[row].Type == 'preprint') {
-
         year.innerHTML = '(' + String(pubs_array[row].Date).substring(0, 4) + '). '
       } else {
         year.innerHTML = '(' + pubs_array[row].Status + '). '
-
       }
       pub_item.appendChild(year)
-    } else {
-      throw "Missing date on row: " + (row + OFFSET)
+    } catch (err) {
+      console.log(err)
     }
 
-    // All items should have titles too...
-    if (pubs_array[row].Title) {
-      title = document.createElement('span')
-      title.classList.add('title')
-      // Create the appropriate link the title will point to
-      if (pubs_array[row]['DOI Link']) {
-        link = pubs_array[row]['DOI Link']
-      } else if (pubs_array[row]['PDF Link']) {
-        link = pubs_array[row]['PDF Link']
-      }
-      if (link) {
-        title.innerHTML = '<a href="' + link + '">' + pubs_array[row].Title + '</a>. '
-
-      } else {
-        title.innerHTML = pubs_array[row].Title + '. '
-      }
-      pub_item.appendChild(title)
-    } else {
-      throw "Missing title on row: " + (row + OFFSET)
+    title = document.createElement('span')
+    title.classList.add('title')
+    // Create the appropriate link the title will point to
+    if (pubs_array[row]['DOI Link']) {
+      link = pubs_array[row]['DOI Link']
+    } else if (pubs_array[row]['PDF Link']) {
+      link = pubs_array[row]['PDF Link']
     }
+    if (link) {
+      title.innerHTML = '<a href="' + link + '">' + pubs_array[row].Title + '</a>. '
+
+    } else {
+      title.innerHTML = pubs_array[row].Title + '. '
+    }
+    pub_item.appendChild(title)
 
     // Again we assume all have a journal, preprint server, conference, etc.,
     // associated with them
-    if (pubs_array[row].Journal) {
+    try {
       journal = document.createElement('span')
       journal.classList.add('journal')
       journal.innerHTML = '<i>' + pubs_array[row].Journal + '</i>. '
       pub_item.appendChild(journal)
-    } else {
-      throw "Missing journal on row: " + (row + OFFSET)
+      if (!pubs_array[row].Journal) throw "Missing journal on row: " + (row + OFFSET)
+    } catch (err) {
+      console.log(err)
     }
 
     // DOI is optional so no errors thrown here
@@ -186,7 +176,6 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
       }
     }
 
-    var innerHTML
     // Same with PDF, optional so no errors thrown here
     if (pubs_array[row]['PDF Link']) {
       pdf = document.createElement('span')
@@ -217,7 +206,7 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
       pub_item.appendChild(osf)
     }
 
-    // Deal with preprints by adding them to published articles
+    // Deal with preprints by adding them to their published article version as an icon
     var current_preprint_index, preprint
     if (pubs_array[row].Type == 'journal article') {
       for (var row_index = 0; row_index < preprint_rows.length; row_index++) {
@@ -227,29 +216,19 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
           // article
           preprint = document.createElement('span')
           preprint.classList.add('preprint', 'icon')
-
           if (pubs_array[current_preprint_index].Journal.toLowerCase() == 'biorxiv') {
             preprint.innerHTML = '<a href="' + pubs_array[current_preprint_index]["DOI Link"] + '"><i class="ai ai-biorxiv" aria-hidden="true"></i></a> '
-
           } else if (pubs_array[current_preprint_index].Journal.toLowerCase() == 'arxiv') {
-
             preprint.innerHTML = '<a href="' + pubs_array[current_preprint_index]["DOI Link"] + '"><i class="ai ai-arxiv" aria-hidden="true"></i></a> '
-
           } else if (pubs_array[current_preprint_index].Journal.toLowerCase() == 'psyarxiv') {
-
-            preprint.innerHTML = '<a href="' + pubs_array[current_preprint_index]["DOI Link"] + '"><i class="ai ai-psyarxiv" aria-hidden="true"></i></a> '
+            preprint.innerHTML = '<a href="' + pubs_array[current_preprint_index]["DOI Link"] + '"><i class="ai ai-osf" aria-hidden="true"></i></a> '
           }
           pub_item.appendChild(preprint)
-
           console.log('I added a preprint to article: ' + pubs_array[row].Title, pubs_array[current_preprint_index].Journal)
-
           preprint_rows.splice(row_index, 1)
-
           break
         }
-
       }
-
       for (row_index = 0; row_index < supplemental_rows.length; row_index++) {
         current_supplemental_index = supplemental_rows[row_index]
         if (pubs_array[current_supplemental_index].Title.toLowerCase() == pubs_array[row].Title.toLowerCase()) {
@@ -257,31 +236,19 @@ function displayPubs(number_of_rows, number_of_cols, pubs_array) {
           // article
           supplemental_text = document.createElement('span')
           supplemental_text.classList.add('supplemental-text')
-          supplemental_text.innerHTML = '<br>Supplemental: '
+          supplemental_text.innerHTML = 'Supplemental: '
           pub_item.appendChild(supplemental_text)
-
           supplemental = document.createElement('span')
           supplemental.classList.add('supplemental', 'icon')
           supplemental.innerHTML = '<a href="' + pubs_array[current_supplemental_index]["PDF Link"] + '"><i class="far fa-file-pdf"></i></a> '
           pub_item.appendChild(supplemental)
-
           console.log('I added a supplemental to article: ' + pubs_array[row].Title, pubs_array[current_supplemental_index].Journal)
-
           supplemental_rows.splice(row_index, 1)
-
           break
         }
-
       }
-
     }
-
     document.getElementById('pubs-list').appendChild(pub_item)
-
-
-
   }
-
   document.getElementById('loader').style.display = "none"
-
 }
