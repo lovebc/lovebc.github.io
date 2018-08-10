@@ -3,12 +3,41 @@ layout: default
 permalink: pubs
 ---
 
+{% for publication in site.data.publications %}
+  {% if publication.Status == 'published' %}
+
+    {% if publication.Type == 'preprint' %}
+
+    {% endif %}
+
+    {% if publication.Type == 'supplemental' %}
+
+    {% endif %}
+
+  {% endif %}
+
+  {% endfor %}
+
+{% assign publications = site.data.publications  | sort: 'Date' | reverse %}
+{% for publication in publications %}
+  <div class="pub-item">
+    <span class="authors">{{ publication.Authors }}</span>
+
+    <span class="title">{{ publication.Title }}</span>
+
+    <span class="journal"><i>{{ publication.Journal }}</i></span>
+
+
+    <span class="doi-text"><a href="{{ publication['DOI Link'] }}">{{ publication['DOI Link'] | remove:'https://' | remove:'http://' | remove:'doi.org/' | remove:'dx.doi.org/' }}</a></span>
+  </div>
+{% endfor %}
+
 <a class="anchor" id="publications"></a>
 <div class="docs-section examples">
-      <h2><a href="#publications">Publications <i class="fas fa-link anchor-link"></i></a></h2>
-      <div id="pubs-list">
-        <div class="spinner" id="loader">
-          <div class="double-bounce1"></div>
-          <div class="double-bounce2"></div>
-        </div>
-</div>
+  <h2><a href="#publications">Publications <i class="fas fa-link anchor-link"></i></a></h2>
+  <div id="pubs-list">
+    <div class="spinner" id="loader">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
+  </div>
