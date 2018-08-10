@@ -738,9 +738,11 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
   top: -4rem;
   visibility: hidden;
 }
+
 .year-anchor {
   top: -8rem;
 }
+
 .top-anchor {
   display: block;
   position: relative;
@@ -763,16 +765,12 @@ a .anchor-link {
 h2 .anchor-link {
   font-size: 3rem;
   padding-bottom: 0.5rem;
-
 }
 
 h3 .anchor-link {
   font-size: 1.25rem;
   padding-bottom: 0.1rem;
-
 }
-
-
 
 a:hover .anchor-link {
   color: #000;
@@ -786,11 +784,12 @@ a:hover .anchor-link {
 .pub-item {
   padding-bottom: 1.75rem;
   overflow: hidden;
+  line-height: 2.75rem;
 }
+
 .spinner {
   width: 40px;
   height: 40px;
-
   position: relative;
   margin: 100px auto;
 }
@@ -804,7 +803,6 @@ a:hover .anchor-link {
   position: absolute;
   top: 0;
   left: 0;
-
   -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
   animation: sk-bounce 2.0s infinite ease-in-out;
 }
@@ -815,20 +813,25 @@ a:hover .anchor-link {
 }
 
 @-webkit-keyframes sk-bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
+  0%, 100% {
+    -webkit-transform: scale(0.0)
+  }
+  50% {
+    -webkit-transform: scale(1.0)
+  }
 }
 
 @keyframes sk-bounce {
   0%, 100% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
-  } 50% {
+  }
+  50% {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
 }
 
 .icon {
-    font-size: 2rem;
+  font-size: 2rem;
 }
