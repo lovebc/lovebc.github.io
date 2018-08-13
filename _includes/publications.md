@@ -1,6 +1,9 @@
 
 <p>
-[ <a href="https://www.biorxiv.org/content/early/2018/02/14/264895">link to pdf</a>  ]  Braunlich, K. &amp; Love, B.C. (2018). Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge. <em> Biorxiv</em>, DOI: <a href="https://doi.org/10.1101/264895">https://doi.org/10.1101/264895</a> (revised version in press at <em>Journal of Experimental Psychology: General</em>)
+[ <a href="papers/BraunlichLove2018.pdf">pdf</a>  ]  Braunlich, K. &amp; Love, B.C. (2018). Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge. <em> Journal of Experimental Psychology: General</em>.
+ 
+<!---, DOI: <a href="https://doi.org/10.1101/264895">https://doi.org/10.1101/264895</a> (revised version in press at <em>Journal of Experimental Psychology: General</em>)
+
 </p>
 
 <p>
