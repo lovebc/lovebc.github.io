@@ -2,18 +2,12 @@
 {% assign preprints = null | compact %}
 {% assign supplementals = null | compact %}
 {% assign publications = null | compact %}
-
-
-
 {% assign preprints = outputs | where:"Type","preprint" %}
 {% assign supplementals = outputs | where:"Type","supplemental" %}
-
-
 {% assign track_year = 0 %}
 {% assign current_year = 'now' | date: "%Y" %}
 
 {% for output in outputs %}
-
 
 {% comment %} Year headings {% endcomment %}
   {% assign year = output.Date | date: "%Y"  %}
@@ -26,7 +20,6 @@
     <h3 class="docs-header year-header"><a href="#{{ year }}">{{ year_text }} <i class="fas fa-link anchor-link"></i></a></h3>
     {% assign track_year = year %}
   {% endif %}
-
 
   <div class="pub-item">
 
@@ -72,15 +65,18 @@
       {% endif %}
     {% endif %}
 
+    {% comment %} GitHub Link {% endcomment %}
     {% if output.GitHub %}
       <span class="github icon" title="GitHub Repository"><a href = "{{ output.GitHub }}"><i class="fab fa-github"></i></a></span>
     {% endif %}
 
+    {% comment %} OSF Link {% endcomment %}
     {% if output.OSF %}
       <span class="osf icon" title="OSF Repository"><a href = "{{ output.OSF }}"><i class="ai ai-osf"></i></a></span>
     {% endif %}
 
     {% if output.Type == 'journal article' %}
+      {% comment %} Associating preprints with current journal article {% endcomment %}
       {% assign preprint = preprints | where:"Title",output.Title %}
       {% assign preprint = preprints[0] %}
       {% if preprint.Title == output.Title %}
@@ -96,6 +92,7 @@
       </span>
       {% endif %}
 
+      {% comment %} Associating supplementals with current journal article {% endcomment %}
       {% assign supplemental = supplementals | where:"Title",output.Title %}
       {% assign supplemental = supplementals[0] %}
       {% if supplemental.Title == output.Title %}
@@ -104,11 +101,5 @@
         </span>
       {% endif %}
     {% endif %}
-
-
-
-
-
-
   </div>
 {% endfor %}
