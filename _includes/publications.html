@@ -37,8 +37,7 @@
     {% if output.Status == 'published' or output.Type == 'preprint' %}
       {% if output['DOI Link'] %}
         <span class="title"><a href="{{ output['DOI Link'] }}">{{ output.Title }}</a></span>
-      {% endif %}
-      {% if output['PDF Link'] %}
+      {% elsif output['PDF Link'] %}
         <span class="title"><a href="{{ output['PDF Link'] }}">{{ output.Title }}</a></span>
       {% endif %}
     {% else %}
