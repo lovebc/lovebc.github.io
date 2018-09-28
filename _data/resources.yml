@@ -11,7 +11,7 @@
   authors: Mack, M.L., Preston, A., Love, B.C.
   title: "Decoding the brain's algorithm for categorization from its neural implementation"
   url: https://osf.io/62rgs/
-  description: "Data from: Mack, M. L., Preston, A. R., & Love, B. C. (2013). <a href =\"https://doi.org/10.1016/j.cub.2013.08.035\">Decoding the brain’s algorithm for categorization from its neural implementation</a>. Current Biology, 23(20), 2023-2027."
+  description: "Data from: Mack, M. L., Preston, A. R., & Love, B. C. (2013). <a href =\"https://doi.org/10.1016/j.cub.2013.08.035\">Decoding the brain’s algorithm for categorization from its neural implementation</a>."
   image_path: /images/resources/mack.png
 
 - date: 2015-08-20
@@ -19,5 +19,6 @@
   authors: Bobadilla-Suarez, S., & Love, B.C.
   title: "Heuristics under Time Pressure"
   url: https://osf.io/xnbz4/
-  description: "Data for Fast or Frugal, but not Both: Decision Heuristics under Time Pressure"
+  description: "Data from: Bobadilla-Suarez, S. & Love, B. C. (2018) <a href =\"https://doi.org/10.1037/xlm0000419\">Fast or Frugal, but not both: Decision Heuristics under Time Pressure</a>."
+
   image_path: /images/resources/fast_frugal.jpg
