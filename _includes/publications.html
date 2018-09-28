@@ -1,13 +1,17 @@
 {% assign outputs = site.data.outputs | sort: 'Date' | reverse %}
-{% assign preprints = null | compact %}
-{% assign supplementals = null | compact %}
-{% assign publications = null | compact %}
 {% assign preprints = outputs | where:"Type","preprint" %}
 {% assign supplementals = outputs | where:"Type","supplemental" %}
 {% assign track_year = 0 %}
 {% assign current_year = 'now' | date: "%Y" %}
 
+
 {% for output in outputs %}
+
+  {% if output.Type == 'preprint' and output.Status == 'published' %}
+    {% continue %}
+  {% elsif output.Type == 'supplemental' %}
+    {% continue %}
+  {% endif %}
 
 {% comment %} Year headings {% endcomment %}
   {% assign year = output.Date | date: "%Y"  %}
@@ -77,7 +81,8 @@
     {% if output.Type == 'journal article' %}
       {% comment %} Associating preprints with current journal article {% endcomment %}
       {% assign preprint = preprints | where:"Title",output.Title %}
-      {% assign preprint = preprints[0] %}
+
+      {% assign preprint = preprint[0] %}
       {% if preprint.Title == output.Title %}
         {% assign server = preprint.Journal | downcase %}
         <span class="preprint icon" title="{{ preprint.Journal }}">
