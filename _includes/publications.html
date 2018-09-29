@@ -55,7 +55,7 @@
     {% if output.Type != 'popular science' and output.Type != 'proceedings' and output.Type != 'popular science' %}
       {% if output['DOI Link'] %}
         <span class="doi-text"><a href="{{ output['DOI Link'] }}">{{ output['DOI Link'] | remove:'https://' | remove:'http://' | remove:'doi.org/' | remove:'dx.doi.org/' }}</a></span>
-        <span class="pdf icon" title="PDF"><a href="{{ output['DOI Link'] }}"><i class="far fa-file-pdf"></i></a></span>
+        <span class="doi icon" title="DOI"><a href="{{ output['DOI Link'] }}"><i class="ai ai-doi"></i></a></span>
       {% endif %}
     {% endif %}
 
@@ -64,7 +64,7 @@
       {% if output.Type == 'popular science' %}
         <span class="doi"><a href="{{ output['PDF Link'] }}" >More</a></span>
       {% else %}
-        <span class="doi icon" title="DOI"><a href="{{ output['PDF Link'] }}" ><i class="ai ai-doi"></i></a></span>
+        <span class="pdf icon" title="PDF"><a href="{{ output['PDF Link'] }}" ><i class="far fa-file-pdf"></i></a></span>
       {% endif %}
     {% endif %}
 
