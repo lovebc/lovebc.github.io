@@ -22,7 +22,7 @@ If a preprint is published (i.e., if it has a journal article associated with it
 The title must be in the exact case needed to be displayed correctly.
 
 ### Authors
-The format must be APA style. Individual authors names should be in the format: ```Love, B. C.``` — please note the spacing between the initials. Outputs with two authors *do not* have a comma between the author names, only an ampersand: ```Hornsby, A. N. & Love, B. C.```. And outputs with more than two authors have the following format: ```Mack, M. L., Preston, A. R., & Love, B. C.``` — please note the comma before the ampersand.
+The format must be APA style. Individual author's names should be in the format: ```Love, B. C.``` — please note the spacing between the initials. Outputs with two authors *do not* have a comma between the author names, only an ampersand: ```Hornsby, A. N. & Love, B. C.```. And outputs with more than two authors have the following format: ```Mack, M. L., Preston, A. R., & Love, B. C.``` — please note the comma before the ampersand.
 
 ### Journal
 The name of the journal, preprint server, magazine, and so on, that the output appears in/on.
@@ -31,7 +31,7 @@ The name of the journal, preprint server, magazine, and so on, that the output a
 The URL for the DOI. Please note this is the URL to the DOI, so it must start with ```http://``` and correctly resolve.
 
 ### PDF Link
-The URL for downloading PDF. Please note this is the URL to the PDF, so it must start with ```http://``` and correctly resolve.
+The URL for downloading the PDF. Please note this is the URL to the PDF, so it must start with ```http://``` and correctly resolve.
 
 ### Editors
 The names of the editors if the output appears in a book or conference proceedings — currently not used, so not displayed on the website.
