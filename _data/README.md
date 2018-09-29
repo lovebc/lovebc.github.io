@@ -31,7 +31,7 @@ The name of the journal, preprint server, magazine, and so on, that the output a
 The URL for the DOI. Please note this is the URL to the DOI, so it must start with ```http://``` and correctly resolve.
 
 ### PDF Link
-The URL for downloading PDF. Please note this is the URL to the PDF, so it must start with ```http://``` and correctly resolve.
+The URL for downloading the PDF. Please note this is the URL to the PDF, so it must start with ```http://``` and correctly resolve.
 
 ### Editors
 The names of the editors if the output appears in a book or conference proceedings — currently not used, so not displayed on the website.
