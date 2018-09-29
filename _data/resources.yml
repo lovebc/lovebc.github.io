@@ -3,7 +3,17 @@
   authors: Love, B.C.
   title: Beetle Stimuli
   url: https://osf.io/skg2y/
-  description: "Stimulus set for use in categorization tasks based on illustration work by Frances Fawcett. Please cite one or more of <a href=\"https://osf.io/skg2y/wiki/home/\">these papers to acknowledge use</a>."
+  description: "Stimulus set for use in categorization tasks based on illustration work by <a href='http://www.danforthlab.entomology.cornell.edu/frances-fawcett.html'>Frances Fawcett</a>. Please cite one or more of these papers to acknowledge use:
+    <ul class='resources-pub-list'>
+      <li class='resources-pub-list-item'>Davis, T., Love, B.C., & Preston, A.R. (2012).
+        <a href='https://doi.org/10.1093/cercor/bhr036'>Learning the Exception to the Rule: Model-Based fMRI Reveals Specialized Representations for Surprising Category Members.</a>
+        Cerebral Cortex.</li>
+      <li class='resources-pub-list-item'>Davis, T., Love, B.C., & Preston, A.R. (2012).
+        <a href='https://dx.doi.org/10.1037/a0027865'>Striatal and Hippocampal Entropy and Recognition Signals in Category Learning: Simultaneous Processes Revealed by Model-based fMRI.</a>
+        Journal of Experimental Psychology: Learning, Memory, and Cognition.</li>
+      <li class='resources-pub-list-item'>Mack, M.L., Love, B.C., Preston, A.R. (2016).
+        <a href='http://psycnet.apa.org/doi/10.1037/a0027865'>Dynamic updating of hippocampal object representations reflects new conceptual knowledge.</a>
+        Proceedings of the National Academy of Sciences (PNAS).</li></ul>"
   image_path: /images/resources/bugs.jpg
 
 - date: 2016-06-01
