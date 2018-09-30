@@ -4,7 +4,6 @@
 {% assign track_year = 0 %}
 {% assign current_year = 'now' | date: "%Y" %}
 
-
 {% for output in outputs %}
 
   {% if output.Type == 'preprint' and output.Status == 'published' %}
@@ -105,5 +104,7 @@
         </span>
       {% endif %}
     {% endif %}
+    <!-- <a class="tag" href="{{site.url}}/{{output.Theme | replace: ' ', '-' }}">{{output.Theme | replace: '-', ' ' }}</a> -->
+
   </div>
 {% endfor %}

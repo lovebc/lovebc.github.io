@@ -868,3 +868,27 @@ a.resources {
     color: black;
     text-decoration: none;
 }
+
+a.tag {
+  align-items: center;
+      background-color: hotpink;
+      border-radius: 0.3rem;
+      color: white;
+      display: inline-flex;
+      font-size: 1rem;
+      height: 1.75rem;
+      justify-content: center;
+      line-height: 1.5;
+      padding-left: .75rem;
+      padding-right: .75rem;
+      white-space: nowrap;
+      top: -0.5rem;
+      position: relative;
+      text-decoration: none;
+}
+
+a:hover.tag {
+  background-color: black;
+  color: white;
+
+}
