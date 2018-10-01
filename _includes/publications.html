@@ -1,4 +1,16 @@
-{% assign outputs = site.data.outputs | sort: 'Date' | reverse %}
+
+{% if outputs %}
+ {% assign year_tracking_enabled = false %}
+{% else %}
+  {% assign outputs = site.data.outputs %}
+  {% assign year_tracking_enabled = true %}
+
+{% endif %}
+
+{% assign outputs = outputs | sort: 'Date' | reverse %}
+
+{% assign themes = site.data.themes %}
+
 {% assign preprints = outputs | where:"Type","preprint" %}
 {% assign supplementals = outputs | where:"Type","supplemental" %}
 {% assign track_year = 0 %}
@@ -13,7 +25,7 @@
 
   {% comment %} Year headings {% endcomment %}
   {% assign year = output.Date | date: "%Y"  %}
-  {% if track_year != year %}
+  {% if track_year != year and year_tracking_enabled %}
     {% assign year_text = output.Date | date: "%Y" %}
     {% if year == current_year %}
       {% assign year_text = year | append: " & in press" %}
@@ -104,6 +116,12 @@
     {% endif %}
   {% endif %}
 
+  {% for theme in themes %}
+    {% if output[theme.name] %}
+      <a class="tag" style="background-color: {{ theme.color }}" href="{{site.url}}/themes/#{{theme.name | replace: ' ', '-' }}">{{ theme.name }}</a>
+    {% endif %}
+
+  {% endfor %}
 
   </div>
 {% endfor %}

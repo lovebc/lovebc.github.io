@@ -1,0 +1,15 @@
+- name: 'machine learning'
+  color: 'blue'
+  info: 'Blah blah ML'
+
+- name: 'categorization'
+  color: 'green'
+  info: 'Blah blah cats and dogs'
+
+- name: 'fMRI'
+  color: 'pink'
+  info: 'Blah blah 7 tesla blah'
+
+- name: 'statistics'
+  color: 'red'
+  info: 'Blah blah Bayes' 

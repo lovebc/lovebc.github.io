@@ -1,4 +1,4 @@
-- date: 2017-09-22
+- date: "2017-09-22"
   type: stimuli
   authors: Love, B.C.
   title: Beetle Stimuli
@@ -16,7 +16,7 @@
         Proceedings of the National Academy of Sciences (PNAS).</li></ul>"
   image_path: /images/resources/bugs.jpg
 
-- date: 2016-06-01
+- date: "2016-06-01"
   type: dataset
   authors: Mack, M.L., Preston, A., Love, B.C.
   title: "Decoding the brain's algorithm for categorization from its neural implementation"
@@ -24,7 +24,7 @@
   description: "Data from: Mack, M. L., Preston, A. R., & Love, B. C. (2013). <a href =\"https://doi.org/10.1016/j.cub.2013.08.035\">Decoding the brain’s algorithm for categorization from its neural implementation</a>."
   image_path: /images/resources/mack.png
 
-- date: 2015-08-20
+- date: "2015-08-20"
   type: dataset
   authors: Bobadilla-Suarez, S., & Love, B.C.
   title: "Heuristics under Time Pressure"

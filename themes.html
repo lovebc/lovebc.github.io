@@ -1,0 +1,18 @@
+---
+layout: page
+title: Themes
+permalink: themes
+id: themes
+---
+
+{% assign themes = site.data.themes %}
+{% for theme in themes %}
+<a class="anchor year-anchor" id="{{ theme.name }}"></a>
+  <h3 class="docs-header year-header"><a href="#{{ theme.name }}">{{ theme.name }} <i class="fas fa-link anchor-link"></i></a></h3>
+
+    <p>{{ theme.info }}</p>
+
+  {% assign outputs = site.data.outputs | where:theme.name,'TRUE' %}
+
+  {% include  publications.html  outputs=outputs%}
+{% endfor %}
