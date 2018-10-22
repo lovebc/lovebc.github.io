@@ -64,7 +64,7 @@
   {% comment %} DOI Link {% endcomment %}
   {% if output.Type != 'popular science' and output.Type != 'proceedings' and output.Type != 'popular science' %}
     {% if output['DOI Link'] %}
-      <span class="doi-text"><a href="{{ output['DOI Link'] }}">{{ output['DOI Link'] | remove:'https://' | remove:'http://' | remove:'doi.org/' | remove:'dx.doi.org/' }}</a></span>
+    <span class="doi-text"><a href="{{ output['DOI Link'] }}">{{ output['DOI Link'] | remove:'https://' | remove:'http://' | remove:'doi.org/' | remove:'dx.doi.org/' | remove:'arxiv.org/abs/'}}</a></span>
       <span class="doi icon" title="DOI"><a href="{{ output['DOI Link'] }}"><i class="ai ai-doi"></i></a></span>
     {% endif %}
   {% endif %}
