@@ -204,7 +204,7 @@
     <div id="alumni" style="padding: 6rem 0">
       <h3 class="docs-header"><a href="#alumni">Alumni</a></h3><ul class="alumni">
     {% for alumnus in alumni %}
-          <li class="alumnus">{{ alumnus.firstname }} {{ alumnus.surname }}</li>
+          <li class="alumnus">{{ alumnus.firstname }} {{ alumnus.surname }} ({{ alumnus.years }})</li>
       {% endfor %}
     </ul>
 
