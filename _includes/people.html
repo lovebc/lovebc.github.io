@@ -6,7 +6,8 @@
 
 {% assign phd-students = site.array %}
 
-{% assign lab-manager = site.array %}
+{% assign alumni = site.data.alumni | sort: 'surname' %}
+
 
 {% for person in people %}
 
@@ -66,6 +67,7 @@
       {% endfor %}
     </div>
   </div>
+  <!--
   <div class="lab-manager">
 
     {% for person in lab-manager %} {% if forloop.first == true %}
@@ -108,7 +110,7 @@
       </div>
       {% endfor %}
     </div>
-  </div>
+  </div> -->
 
   <div class="postdocs">
 
@@ -195,4 +197,16 @@
       </div>
       {% endfor %}
     </div>
+  </div>
+
+  <div class="alumni">
+    <div id="alumni" style="padding: 6rem 0">
+      <h3 class="docs-header"><a href="#alumni">Alumni</a></h3><ul class="alumni">
+    {% for alumnus in alumni %}
+          <li class="alumnus">{{ alumnus.firstname }} {{ alumnus.surname }}</li>
+      {% endfor %}
+    </ul>
+
+If we missed you, please get in touch.
+</div>
   </div>

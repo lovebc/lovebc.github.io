@@ -892,3 +892,13 @@ a:hover.tag {
   color: white;
 
 }
+
+ul.alumni {
+    -moz-column-count: 2;
+    -moz-column-gap: 1rem;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 1rem;
+    column-count: 2;
+    column-gap: 1rem;
+    list-style: square inside;
+}
