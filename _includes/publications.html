@@ -31,30 +31,30 @@
 
     {% comment %} Publication year or status {% endcomment %}
     {% if output.Status == 'published' or  output.Type == 'preprint' %}
-      <span class="year">({{ output.Date | date: "%Y" }})</span>
+      <span class="year">({{ output.Date | date: "%Y" }}).</span>
     {% else %}
-      <span class="year">({{ output.Status }})</span>
+      <span class="year">({{ output.Status }}).</span>
     {% endif %}
 
     {% comment %} Title {% endcomment %}
     {% if output.Status == 'published' or output.Type == 'preprint' %}
       {% if output['DOI Link'] %}
-        <span class="title"><a href="{{ output['DOI Link'] }}">{{ output.Title }}</a></span>
+        <span class="title"><a href="{{ output['DOI Link'] }}">{{ output.Title }}</a>.</span>
       {% elsif output['PDF Link'] %}
-        <span class="title"><a href="{{ output['PDF Link'] }}">{{ output.Title }}</a></span>
+        <span class="title"><a href="{{ output['PDF Link'] }}">{{ output.Title }}</a>.</span>
       {% endif %}
     {% else %}
-      <span class="title">{{ output.Title }}</span>
+      <span class="title">{{ output.Title }}.</span>
     {% endif %}
 
     {% comment %} Journal Name {% endcomment %}
-    <span class="journal"><i>{{ output.Journal }}</i></span>
+    <span class="journal"><i>{{ output.Journal }}</i>.</span>
 
     {% comment %} DOI Link {% endcomment %}
     {% if output.Type != 'popular science' and output.Type != 'proceedings' and output.Type != 'popular science' %}
       {% if output['DOI Link'] %}
-        <span class="doi-text"><a href="{{ output['DOI Link'] }}">{{ output['DOI Link'] | remove:'https://' | remove:'http://' | remove:'doi.org/' | remove:'dx.doi.org/' | remove:'arxiv.org/abs/'}}</a></span>
-        <span class="doi icon" title="DOI"><a href="{{ output['DOI Link'] }}"><i class="ai ai-doi"></i></a></span>
+          <span class="doi-text"><a href="{{ output['DOI Link'] }}">https://doi.org/{{ output['DOI Link'] | remove:'https://' | remove:'http://' | remove:'doi.org/' | remove:'dx.doi.org/' | remove:'arxiv.org/abs/'}}</a></span>
+          <span class="doi icon" title="DOI"><a href="{{ output['DOI Link'] }}"><i class="ai ai-doi"></i></a></span>
       {% endif %}
     {% endif %}
 
