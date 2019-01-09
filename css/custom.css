@@ -905,4 +905,6 @@ ul.alumni {
 
 .twitter-tweet {
   margin-bottom: 2.5rem !important;
+  margin-left: auto;
+  margin-right: auto;
 }
