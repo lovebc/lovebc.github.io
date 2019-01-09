@@ -902,3 +902,7 @@ ul.alumni {
     column-gap: 1rem;
     list-style: square inside;
 }
+
+.twitter-tweet {
+  margin-bottom: 2.5rem !important;
+}
