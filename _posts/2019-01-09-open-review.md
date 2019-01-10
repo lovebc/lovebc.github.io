@@ -38,3 +38,5 @@ While we can all laugh at the occasional pseudo profound cringe-inducing tweets 
 
 
 **Postscript**: [Lots](https://twitter.com/ProfData/status/1083004240711307265) [of](https://twitter.com/ProfData/status/1083053727701970944) [discussion](https://twitter.com/INM7_ISN/status/1083019074215600129) [on](https://twitter.com/djnavarro/status/1083034770982858752) [Twitter](https://twitter.com/IrisVanRooij/status/1083048770147897346). To be clear, we are not against the eLife model of publishing reviews upon acceptance, nor are we against leaving comments on preprints, which can allow the authors to respond and perhaps make edits. We are against using the existence of a preprint as a pretext to write journal reviews which are really self-serving blog posts, especially when they are posted the moment one's paper is rejected by the editor. This take on open reviewing is open to abuse and is not really open as the reviewer decides what, where, when and how.  Furthermore, existing models of open review involve consent from all parties.
+
+Also see the post by the first author too, here: [Sebastian's Thoughts on Open Review](http://bradlove.org/blog/open-review-2).
