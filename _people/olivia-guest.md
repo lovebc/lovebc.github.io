@@ -1,8 +1,8 @@
 ---
 firstname: Olivia
 surname: Guest
-role: postdocs
-order: 3
+role: research-scientist
+order: 2
 
 email: o.guest@ucl.ac.uk
 
@@ -15,6 +15,6 @@ github: oliviaguest
 
 image_path: /images/people/olivia.jpg
 
-bio: My research involves computational modelling of categorisation and semantic memory. I am interested in the representation of categories and concepts in healthy participants, patient groups, infants and children, and animal models. I make use of shallow and deep artificial neural networks in order to compare and contrast such models with empirical results. 
+bio: My research involves computational modelling of categorisation and semantic memory. I am interested in the representation of categories and concepts in healthy participants, patient groups, infants and children, and animal models.
 
 ---
