@@ -4,6 +4,7 @@ title: Fear Humans, Not Artificial Intelligence
 layout: post
 author: Bradley C. Love
 image: /images/blog/ai_future.png
+comments: true
 ---
 
 

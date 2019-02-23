@@ -3,6 +3,8 @@ published: true
 title: Sebastian's Thoughts on Open Review
 layout: post
 author: Sebastian Bobadilla-Suarez
+comments: true
+
 ---
 
 My name is Sebastian Bobadilla-Suarez and I am an early career researcher (ECR — postdoc'ing in the Love Lab). I did my PhD with Brad Love at UCL as well. This post is about recent events regarding the review process of our manuscript titled [*Measures of neural similarity*](https://doi.org/10.1101/439893). Our manuscript was submitted to a prestigious journal and went through a formal review process. It was rejected by the reviewers, which is fine, but one of the reviewers decided to post [his review on his own blog](https://nikokriegeskorte.org/2019/01/09/whats-the-best-measure-of-representational-dissimilarity/). This was problematic for several reasons, [see here for Brad's response](http://bradlove.org/blog/open-review). Sam Schwarzkopf also shared [his take](https://neuroneurotic.net/2019/01/10/an-open-review-of-open-reviewing/) too.
@@ -16,4 +18,3 @@ I feel the review process has been tainted for this project; a project that I ho
 I see that transparency can have pitfalls when the line between formal review and public debate has been blurred (especially at early stages on the rocky road to getting published). The fact that this line was blurred in a non-consensual fashion when best practices have not been cast into convention yet is unacceptable. Nonetheless, the fact that we in the open science community can discuss these cases, push back against dominant power structures, and set precedents will be beneficial moving forward.
 
 I hope there are lessons to be learned here in general and that in my specific case future reviewers may place appropriate weight on the posted review in question — avoiding the use of such a post as a heuristic to base their own opinions on, since I personally think the review misses the point of my preprint. Is it now impossible to claim that future reviews are somehow independent of each other given that the blog post in question was the outcome of a formal review process? I think it is now a case of how to appropriately contextualize them. Maybe proponents of open science, and open review specifically, have thought of such situations and how privileged voices can drown out the voices of more junior people, like me. My biggest hope for open science is that it will create a fairer and more accessible system for the new generation of scientists. This is only possible by having these debates on new ways of doing things.
-

@@ -13,7 +13,7 @@ id: blog
         <h3 style="margin-bottom: 1rem"><a href="{{ site.baseurl }}{{ post.url }}" style ="text-decoration: none; color: #222">{{ post.title }}</a></h3>
         <div class ="date">Published on <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a>,
          by {{ post.author }}
-  — <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
+  — <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-url="{{ site.url }}{{ post.url }}">Comments</a>
         </div>
         {% if post.image %}
           <a href="{{ site.baseurl }}{{ post.url }}"><img class="preview-image" src="{{ site.baseurl }}{{ post.image }}"></a>
