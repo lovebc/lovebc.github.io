@@ -16,8 +16,11 @@ But, open is good right? It can be, but it can also be incredibly self-serving. 
 
 [Our paper itself](https://www.biorxiv.org/content/early/2018/10/12/439893), which I encourage you to read and form your own opinion, is about the nature of neural similarity, namely what makes two brain states similar. The main questions are whether the brain's preferred notion of similarity is different across regions and tasks. We find that the preferred similarity measures are common across regions but differ across tasks. This is cool. Of course, as we discuss, whatever measure is "best" (whatever that means and it does mean different things to different people) will depend on many issues, including data quality and quantity. We muse a bit on how these higher-level measures of similarity relate to underlying computations and representations. There's been a ton of work in Psychology on what makes two stimuli similar, but in Neuroscience people largely default to a few options without any real evaluation. Thus, our work is very needed in the field and timely. We get traction on this neglected problem by using a decoding approach to approximate the information available in a brain state. We discuss how much this approximation should be trusted in light of our central questions, namely does the brain use the same similarity measure across regions and tasks.
 
-<div class="fig"><img src="{{ site.baseurl }}/images/blog/neural_similarity.png" title="Figure 1 from Bobadilla-Suarez et al. (2018) on families of similarity measures." class="u-max-full-width">
-From  Figure 1, <a href=" https://doi.org/10.1101/439893">Bobadilla-Suarez et al. (2018)</a>:
+<figure class="fig">
+<img src="{{ site.baseurl }}/images/blog/neural_similarity.png" title="Figure 1 from Bobadilla-Suarez et al. (2018) on families of similarity measures." class="u-max-full-width centered">
+<figcaption>
+  <div class="inner-caption centered">
+  From  Figure 1, <a href=" https://doi.org/10.1101/439893">Bobadilla-Suarez et al. (2018)</a>:
 Families of similarity measures. (left panel) Similarity measures divide into
 those concerned with angle vs. magnitude differences between vectors. Pearson correlation
 whereas Euclidean distance are common angle and magnitude measures, respectively. The
@@ -30,6 +33,8 @@ When Pearson correlation is used, stimulus <b>a</b> is more similar to <b>b</b> 
 when the Euclidean measure is used, the pattern reverses such that stimulus <b>a</b> is more
 similar to <b>c</b> than <b>b</b>.
 </div>
+</figcaption>
+</figure>
 
 Decidedly what we are not trying to do is determine which neural similarity measure has the best properties by some metric, such as split-half reliability, bias, whatever small methodological point is of interest to some. Of course, that is what primarily interests some, such as Niko, but these points are minor and largely inconsequential to our goals and conclusions. Niko provided a top-down reading of our work strictly through the lens of his interests that fails to engage with the main ideas of the paper. I leave it to the acolytes to review his papers, of which I am familiar. Again, please read [our paper](https://www.biorxiv.org/content/early/2018/10/12/439893), rather than parrot Niko's views.
 

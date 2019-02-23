@@ -723,7 +723,10 @@ input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focu
   padding-right: 5%;
   font-size: 1.3rem;
 }
-
+.fig img {
+    padding-bottom: 1rem;
+    display: block;
+  }
 .preview-image {
   max-height: 21rem;
   float: right;
@@ -907,4 +910,19 @@ ul.alumni {
   margin-bottom: 2.5rem !important;
   margin-left: auto;
   margin-right: auto;
+}
+
+.inner-caption {
+    text-align: justify;
+    display: inline-block;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.centered {
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
 }
