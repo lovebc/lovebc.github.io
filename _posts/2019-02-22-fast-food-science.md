@@ -4,7 +4,7 @@ title: Fast food science is a shit sandwich
 layout: post
 author: Bradley C. Love
 image: /images/blog/violentDelights.gif
-comments: true
+comments: false
 
 ---
 

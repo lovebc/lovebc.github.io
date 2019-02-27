@@ -3,7 +3,7 @@ published: true
 title: Sebastian's Thoughts on Open Review
 layout: post
 author: Sebastian Bobadilla-Suarez
-comments: true
+comments: false
 
 ---
 

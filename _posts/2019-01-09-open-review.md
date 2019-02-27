@@ -4,7 +4,7 @@ title: An Open Review of Niko Kriegeskorte
 layout: post
 author: Bradley C. Love
 image: /images/blog/neural_similarity.png
-comments: true
+comments: false
 
 ---
 
