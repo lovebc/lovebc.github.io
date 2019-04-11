@@ -8,7 +8,7 @@ email: n.sexton@ucl.ac.uk
 
 researchgate: Nicholas_Sexton2
 orcid: 0000-0003-1236-1711
-github: https://github.com/nicksexton
+github: nicksexton
 
 image_path: /images/people/nick_bio.jpg
 
