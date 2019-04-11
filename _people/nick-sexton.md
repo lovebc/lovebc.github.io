@@ -7,7 +7,6 @@ order: 4
 email: n.sexton@ucl.ac.uk
 
 researchgate: Nicholas_Sexton2
-impactstory: 
 orcid: 0000-0003-1236-1711
 github: https://github.com/nicksexton
 
