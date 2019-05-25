@@ -926,3 +926,11 @@ figcaption {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+table {
+    font-size: 1.3rem;
+}
+tr:nth-child(even) {
+  background-color: #ededed
+}
