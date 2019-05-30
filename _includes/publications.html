@@ -39,16 +39,22 @@
     {% comment %} Title {% endcomment %}
     {% if output.Status == 'published' or output.Type == 'preprint' %}
       {% if output['DOI Link'] %}
-        <span class="title"><a href="{{ output['DOI Link'] }}">{{ output.Title }}</a>.</span>
+        <span class="title"><a href="{{ output['DOI Link'] }}">{{ output.Title | strip }}</a>.</span>
       {% elsif output['PDF Link'] %}
-        <span class="title"><a href="{{ output['PDF Link'] }}">{{ output.Title }}</a>.</span>
+        <span class="title"><a href="{{ output['PDF Link'] }}">{{ output.Title | strip }}</a>.</span>
       {% endif %}
     {% else %}
-      <span class="title">{{ output.Title }}.</span>
+      <span class="title">{{ output.Title | strip }}.</span>
     {% endif %}
 
     {% comment %} Journal Name {% endcomment %}
-    <span class="journal"><i>{{ output.Journal }}</i>.</span>
+    <span class="journal"><i>{{ output.Journal | strip }}</i>.</span>
+
+    {% comment %} A note that appears after the journal name {% endcomment %}
+    {% if output.Note %}
+      <span class="note">({{ output.Note | strip }}).</span>
+    {% endif %}
+
 
     {% comment %} DOI Link {% endcomment %}
     {% if output.Type != 'popular science' and output.Type != 'proceedings' and output.Type != 'popular science' %}
