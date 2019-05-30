@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: page
 title: Model-Based fMRI Workshop
 permalink: workshop
