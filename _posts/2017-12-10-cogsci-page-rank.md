@@ -4,6 +4,8 @@ title: How a CogSci undergrad invented PageRank three years before Google
 layout: post
 author: Bradley C. Love
 image: /images/blog/figure.jpg
+comments: true
+
 ---
 
 
@@ -13,9 +15,13 @@ Three years prior in 1995, while an undergrad in Brown's Cognitive and Linguisti
 
 Returning to the centrality measure, the goal was to determine which parts of concepts were most central or important to people. The idea I had was that people view nodes in human concepts as more central to the extent that other nodes depend on them. For example, in the graph below of our concept of *Robin* (collected from human participants), *Beak* should be  somewhat central because *Eats* depends on it. Like PageRank, indirect connections also influence centrality. For example, *Eats* depends on *Beak* and *Living* depends on eats, i.e., *Living* → *Eats* → *Beak*, which should have the effect of making *Beak* even more central to our conception of a *Robin*. To take into account all of these influences, the centrality algorithm iteratively computes how central a node is, taking into account its place in the overall dependency graph. With some mathematics background, I worked out that this iterative algorithm converges to the Eigen vector with the largest Eigen value in the dependency matrix (all the links can be represented as a matrix).
 
-<div class="fig"><img src="{{ site.baseurl }}/images/blog/figure.jpg" title="An example dependency (link) graph from Love and Sloman (1995)." class="u-max-full-width">
+<figure class="fig"><img src="{{ site.baseurl }}/images/blog/figure.jpg" title="An example dependency (link) graph from Love and Sloman (1995)." class="u-max-full-width centered">
+<figcaption>
+<div class="inner-caption centered">
 An example dependency (link) graph from <a href="http://bradlove.org/papers/love_sloman_1995.pdf">Love and Sloman (1995)</a>.
 </div>
+</figcaption>
+</figure>
 
 PageRank is identical, but instead of working on a graph for a human concept it works on the links in the world wide web; simply replace concept node with webpage and dependency link with hyperlink. The goal of each algorithm is the same, to determine which nodes in a network are most central. [Here](http://www.ams.org/samplings/feature-column/fcarc-pagerank) is a good description of the math and ideas behind PageRank (i.e., the centrality algorithm) for those who want to know more.
 

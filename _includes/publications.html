@@ -1,0 +1,116 @@
+{% assign outputs = site.data.outputs | sort: 'Date' | reverse %}
+{% assign preprints = outputs | where:"Type","preprint" %}
+{% assign supplementals = outputs | where:"Type","supplemental" %}
+{% assign track_year = 0 %}
+{% assign current_year = 'now' | date: "%Y" %}
+
+{% for output in outputs %}
+
+  {% if output.Type == 'preprint' and output.Status == 'published' %}
+    {% continue %}
+  {% elsif output.Type == 'supplemental' %}
+    {% continue %}
+  {% endif %}
+
+{% comment %} Year headings {% endcomment %}
+  {% assign year = output.Date | date: "%Y"  %}
+  {% if track_year != year %}
+    {% assign year_text = output.Date | date: "%Y" %}
+    {% if year == current_year %}
+      {% assign year_text = year | append: " & in press" %}
+    {% endif %}
+    <a class="anchor year-anchor" id="{{ year }}"></a>
+    <h3 class="docs-header year-header"><a href="#{{ year }}">{{ year_text }} <i class="fas fa-link anchor-link"></i></a></h3>
+    {% assign track_year = year %}
+  {% endif %}
+
+  <div class="pub-item">
+
+    {% comment %} Authors {% endcomment %}
+    <span class="authors">{{ output.Authors }}</span>
+
+    {% comment %} Publication year or status {% endcomment %}
+    {% if output.Status == 'published' or  output.Type == 'preprint' %}
+      <span class="year">({{ output.Date | date: "%Y" }}).</span>
+    {% else %}
+      <span class="year">({{ output.Status }}).</span>
+    {% endif %}
+
+    {% comment %} Title {% endcomment %}
+    {% if output.Status == 'published' or output.Type == 'preprint' %}
+      {% if output['DOI Link'] %}
+        <span class="title"><a href="{{ output['DOI Link'] }}">{{ output.Title | strip }}</a>.</span>
+      {% elsif output['PDF Link'] %}
+        <span class="title"><a href="{{ output['PDF Link'] }}">{{ output.Title | strip }}</a>.</span>
+      {% endif %}
+    {% else %}
+      <span class="title">{{ output.Title | strip }}.</span>
+    {% endif %}
+
+    {% comment %} Journal Name {% endcomment %}
+    <span class="journal"><i>{{ output.Journal | strip }}</i>.</span>
+
+    {% comment %} A note that appears after the journal name {% endcomment %}
+    {% if output.Note %}
+      <span class="note">({{ output.Note | strip }}).</span>
+    {% endif %}
+
+
+    {% comment %} DOI Link {% endcomment %}
+    {% if output.Type != 'popular science' and output.Type != 'proceedings' and output.Type != 'popular science' %}
+      {% if output['DOI Link'] %}
+          <span class="doi-text"><a href="{{ output['DOI Link'] }}">https://doi.org/{{ output['DOI Link'] | remove:'https://' | remove:'http://' | remove:'doi.org/' | remove:'dx.doi.org/' | remove:'arxiv.org/abs/'}}</a></span>
+          <span class="doi icon" title="DOI"><a href="{{ output['DOI Link'] }}"><i class="ai ai-doi"></i></a></span>
+      {% endif %}
+    {% endif %}
+
+    {% comment %} PDF Link {% endcomment %}
+    {% if output['PDF Link'] %}
+      {% if output.Type == 'popular science' %}
+        <span class="doi"><a href="{{ output['PDF Link'] }}" >More</a></span>
+      {% else %}
+        <span class="pdf icon" title="PDF"><a href="{{ output['PDF Link'] }}" ><i class="far fa-file-pdf"></i></a></span>
+      {% endif %}
+    {% endif %}
+
+    {% comment %} GitHub Link {% endcomment %}
+    {% if output.GitHub %}
+      <span class="github icon" title="GitHub Repository"><a href = "{{ output.GitHub }}"><i class="fab fa-github"></i></a></span>
+    {% endif %}
+
+    {% comment %} OSF Link {% endcomment %}
+    {% if output.OSF %}
+      <span class="osf icon" title="OSF Repository"><a href = "{{ output.OSF }}"><i class="ai ai-osf"></i></a></span>
+    {% endif %}
+
+    {% if output.Type == 'journal article' %}
+      {% comment %} Associating preprints with current journal article {% endcomment %}
+      {% assign preprint = preprints | where:"Title",output.Title %}
+
+      {% assign preprint = preprint[0] %}
+      {% if preprint.Title == output.Title %}
+        {% assign server = preprint.Journal | downcase %}
+        <span class="preprint icon" title="{{ preprint.Journal }}">
+        {% if server == 'biorxiv' %}
+          <a href="{{ preprint['DOI Link'] }}"><i class="ai ai-biorxiv" aria-hidden="true"></i></a>
+        {% elsif server == 'arxiv' %}
+          <a href="{{ preprint['DOI Link'] }}"><i class="ai ai-arxiv" aria-hidden="true"></i></a>
+        {% elsif server == 'psyarxiv' %}
+          <a href="{{ preprint['DOI Link'] }}"><i class="ai ai-osf" aria-hidden="true"></i></a>
+        {% endif %}
+      </span>
+      {% endif %}
+
+      {% comment %} Associating supplementals with current journal article {% endcomment %}
+      {% assign supplemental = supplementals | where:"Title",output.Title %}
+      {% assign supplemental = supplementals[0] %}
+      {% if supplemental.Title == output.Title %}
+        <span class="supplemental icon" title="Supplemental">
+          <a href="{{supplemental["PDF Link"]}}"><i class="far fa-file"></i></a>
+        </span>
+      {% endif %}
+    {% endif %}
+    <!-- <a class="tag" href="{{site.url}}/{{output.Theme | replace: ' ', '-' }}">{{output.Theme | replace: '-', ' ' }}</a> -->
+
+  </div>
+{% endfor %}

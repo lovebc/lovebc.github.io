@@ -5,20 +5,24 @@ layout: default
 <a class="anchor" id="welcome"></a>
 <div class="docs-section examples top">
       <h2><a href="#welcome">Welcome <i class="fas fa-link anchor-link"></i></a></h2>
-      <p>I am <a href="//www.ucl.ac.uk/pals/research/experimental-psychology/person/bradley-love/">Professor of Cognitive and Decision Sciences</a> in <a href="https://www.ucl.ac.uk/pals/research/experimental-psychology/">Experimental Psychology</a> at <a href="https://www.ucl.ac.uk/">UCL</a> and a fellow at <a href="https://turing.ac.uk/">The Alan Turing Institute</a> for data science. My <a href="{{ site.baseurl }}/lab">lab</a>'s research centers around human learning and decision making, integrating behavioural, computational, and neuroscience perspectives. My apologies for the perestroika kitsch.</p>
+      <p>I am <a href="//www.ucl.ac.uk/pals/research/experimental-psychology/person/bradley-love/">Professor of Cognitive and Decision Sciences</a> in <a href="https://www.ucl.ac.uk/pals/research/experimental-psychology/">Experimental Psychology</a> at <a href="https://www.ucl.ac.uk/">UCL</a> and a fellow at <a href="https://turing.ac.uk/">The Alan Turing Institute</a> for data science and AI, as well as the European Lab for Learning & Intelligent Systems <a href="https://ellis.eu/">(ELLIS)</a>. My <a href="{{ site.baseurl }}/lab">lab</a>'s research centers around human learning and decision making, integrating behavioural, computational, and neuroscience perspectives. My apologies for the perestroika kitsch.</p>
+
+      <div class="video-wrapper">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Khem2pktsFo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
 
 </div>
 
 <a class="anchor" id="lab"></a>
 <div class="docs-section examples">
       <h2><a href="#lab">Lab <i class="fas fa-link anchor-link"></i></a></h2>
-      <p>The <a href="{{ site.baseurl }}/lab">lab</a> consists of a <a href="{{ site.baseurl }}/lab#lab-manager">lab manager</a>, <a href="{{ site.baseurl }}/lab#postdocs">postdocs</a>, and <a href="{{ site.baseurl }}/lab#phd-students">PhD students</a>. Visit the <a href="{{ site.baseurl }}/lab">lab</a>'s website for more information.</p>
+      <p>The <a href="{{ site.baseurl }}/lab">UCL Love Lab</a> consists of <a href="{{ site.baseurl }}/lab#postdocs">postdocs</a> and <a href="{{ site.baseurl }}/lab#phd-students">PhD students</a>. Visit the <a href="{{ site.baseurl }}/lab">lab</a>'s website for more information.</p>
 </div>
 
 <a class="anchor" id="publications"></a>
 <div class="docs-section examples">
       <h2><a href="#publications">Publications <i class="fas fa-link anchor-link"></i></a></h2>
-      {% capture publications %}{% include publications.md %}{% endcapture %}{{ publications | markdownify }}
+      {% include publications.html %}
 </div>
 
 <a class="anchor" id="press"></a>

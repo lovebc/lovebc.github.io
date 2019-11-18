@@ -52,10 +52,12 @@ Olivia
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <!-- <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script> -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/github-prettify-theme.css">
+  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/css/github-prettify-theme.css"> -->
   <script src="{{ site.baseurl }}/js/site.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/academicons/css/academicons.css"/>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/getData.js"></script>
 
   <!--<script src="//fast.eager.io/esMA5nNN0C.js"></script>-->
 
@@ -65,6 +67,8 @@ Olivia
 
     <!-- Facebook/Twitter
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
   {% if page.url == '/lab' %}
      <meta property="og:image" content="{{site.url}}/images/mack_etal_2013.png" />
      <meta property="og:type" content="website" />
@@ -74,19 +78,25 @@ Olivia
       <meta property="og:type" content="blog" />
       <meta property="article:author" content="{{site.name}}">
       <meta property="article:section" content="blog">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:image" content="{{site.url}}{{ page.image }}">"
+
 
   {% else %}
+
       <meta property="og:image" content="{{site.url}}/images/banner.png" />
       <meta property="og:type" content="website" />
 
   {% endif %}
+  <meta name="twitter:site" content="@{{site.twitter}}">
+  <meta name="twitter:creator" content="@{{site.twitter}}">
 
   <meta property="og:locale" content="en">
   <meta property="og:site_name" content="{{site.name}}">
   <meta property="og:url" content="{{site.url}}{{ page.url }}">
 
   <meta name="twitter:domain" content="{{site.url}}">
-  <meta name="twitter:url" content="{{ page.url }}">
+  <meta name="twitter:url" content="{site.url}}{{ page.url }}">
   <meta name="twitter:site" content="{{site.url}}">
   <link rel="canonical" href="{{ page.url }}">
 
@@ -95,9 +105,9 @@ Olivia
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:title" content="{{ site.name }}">
   {% else %}
-    <meta name="twitter:description" content="{{ page.content | strip_html}}">
-    <meta property="og:description" content="{{ page.content | strip_html }}">
-    <meta property="og:title" content="{{ site.name }}: {{ page.title }}">
+    <meta name="twitter:description" content="{{ page.content | truncatewords:70 | strip_html}}">
+    <meta property="og:description" content="{{ page.content | truncatewords:70 | strip_html}}">
+    <meta property="og:title" content="{{ page.title }} — {{ site.name }}">
   {% endif %}
 
 
@@ -129,9 +139,10 @@ Olivia
 <!-- Google Analytics -->
 {% include analytics.html %}
 
+{% include mathjax.html %}
+
 <!-- Discus coment count script -->
 <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
-
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
