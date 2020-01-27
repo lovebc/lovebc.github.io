@@ -2,7 +2,7 @@
 firstname: Daniel
 surname: Barry
 role: postdocs
-order: 8
+order: 5
 
 email: daniel.barry@ucl.ac.uk
 
