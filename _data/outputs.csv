@@ -1,7 +1,6 @@
 Date,Type,Status,Title,Authors,Journal,DOI Link,PDF Link,Editors,Website,GitHub,OSF,categorization,fMRI,Added By,Note
 
 2020-04-01,journal article,published,How Decisions and the Desire for Coherency Shape Subjective Preferences Over Time,"Hornsby, A. N. & Love, B. C.",Cognition,https://doi.org/10.1016/j.cognition.2020.104244 ,https://www.sciencedirect.com/science/article/pii/S0010027720300639#s0135,,,https://github.com/anhornsby/coherent-representations,,,,Brad,
-
 2020-01-17,journal article,published,Learning as the unsupervised alignment of conceptual systems,"Roads, B. D., & Love., B. C.",Nature Machine Intelligence,https://doi.org/10.1038/s42256-019-0132-2,https://arxiv.org/pdf/1906.09012.pdf,,,,,,,Nick,
 2020-01-07,journal article,published,Ventromedial prefrontal cortex compression during concept learning,"Mack, M. L., Preston, A. R., & Love, B. C.",Nature Communications,https://doi.org/10.1038/s41467-019-13930-8,https://www.nature.com/articles/s41467-019-13930-8.pdf,,,,,,,Brad,
 2020-01-01,journal article,published,Model-based fMRI Analysis of Memory,"Love, B. C.",Current Opinion in Behavioral Sciences,https://www.journals.elsevier.com/current-opinion-in-behavioral-sciences,https://www.bradlove.org/papers/Love2020a.pdf,,,,,,,Brad,
@@ -26,7 +25,7 @@ Date,Type,Status,Title,Authors,Journal,DOI Link,PDF Link,Editors,Website,GitHub,
 2019-10-05, preprint,published,Measures of neural similarity,"Bobadilla-Suarez, S., Ahlheim, C., Mehrotra, A., Panos,  A., & Love, B. C.",bioRxiv (revised version -in press-  Computational Brain & Behavior),https://doi.org/10.1101/439893,https://www.biorxiv.org/content/early/2018/10/12/439893.full.pdf,,,,,,,Olivia,
 2019-10-13,preprint,published,A non-spatial account of place and grid cells based on clustering models of concept learning,"Mok, R. & Love, B. C.",bioRxiv (revised version -in press- Nature Communications),https://doi.org/10.1101/421842,https://www.biorxiv.org/content/early/2018/09/19/421842.1.full.pdf,,,,,,,Olivia,
 
-2020-02-14,preprint,unpublished,Abstract neural representations of category membership beyond information coding stimulus or response,"Mok, R. & Love, B. C.",https://doi.org/10.1101/2020.02.13.947341 ,https://www.biorxiv.org/content/10.1101/2020.02.13.947341v1.full.pdf,,,,,,,Brad,
+2020-02-14,preprint,unpublished,Abstract neural representations of category membership beyond information coding stimulus or response,"Mok, R. & Love, B. C.",bioRxiv,https://doi.org/10.1101/2020.02.13.947341 ,https://www.biorxiv.org/content/10.1101/2020.02.13.947341v1.full.pdf,,,,,,,Brad,
 
 
 2018-11-01,journal article,published,Occipitotemporal Representations Reflect Individual Differences in Conceptual Knowledge,"Braunlich, K. & Love, B. C.",Journal of Experimental Psychology: General,http://psycnet.apa.org/doi/10.1037/xge0000501,http://psycnet.apa.org/fulltext/2018-54995-001.pdf,,,,,,,Olivia,
