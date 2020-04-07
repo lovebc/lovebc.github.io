@@ -1,7 +1,11 @@
 Date,Type,Status,Title,Authors,Journal,DOI Link,PDF Link,Editors,Website,GitHub,OSF,categorization,fMRI,Added By,Note
 
 2020-04-01,journal article,published,How Decisions and the Desire for Coherency Shape Subjective Preferences Over Time,"Hornsby, A. N. & Love, B. C.",Cognition,https://doi.org/10.1016/j.cognition.2020.104244 ,https://www.sciencedirect.com/science/article/pii/S0010027720300639#s0135,,,https://github.com/anhornsby/coherent-representations,,,,Brad,
-2020-01-17,journal article,published,Learning as the unsupervised alignment of conceptual systems,"Roads, B. D., & Love., B. C.",Nature Machine Intelligence,https://doi.org/10.1038/s42256-019-0132-2,https://arxiv.org/pdf/1906.09012.pdf,,,,,,,Nick,
+
+2020-02-06,preprint,unpublished,The Costs and Benefits of Goal-Directed Attention in Deep Convolutional Neural Networks,"Luo, X., Roads, B. D., & Love, B. C.",arXiv,https://arxiv.org/pdf/2002.02342.pdf,,,,,,,,Ken
+
+2020-01-17,journal article,published,Learning as the unsupervised alignment of conceptual systems,"Roads, B. D., & Love., B. C.",Nature Machine Intelligence,https://doi.org/10.1038/s42256-019-0132-2,https://
+.org/pdf/1906.09012.pdf,,,,,,,Nick,
 2020-01-07,journal article,published,Ventromedial prefrontal cortex compression during concept learning,"Mack, M. L., Preston, A. R., & Love, B. C.",Nature Communications,https://doi.org/10.1038/s41467-019-13930-8,https://www.nature.com/articles/s41467-019-13930-8.pdf,,,,,,,Brad,
 2020-01-01,journal article,published,Model-based fMRI Analysis of Memory,"Love, B. C.",Current Opinion in Behavioral Sciences,https://www.journals.elsevier.com/current-opinion-in-behavioral-sciences,https://www.bradlove.org/papers/Love2020a.pdf,,,,,,,Brad,
 2019-12-12,journal article,published,A non-spatial account of place and grid cells based on clustering models of concept learning,"Mok, R. & Love, B. C.",Nature Communications,https://doi.org/10.1038/s41467-019-13760-8,https://www.nature.com/articles/s41467-019-13760-8.pdf,,,,,,,Brad,
