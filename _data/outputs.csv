@@ -1,5 +1,6 @@
 Date,Type,Status,Title,Authors,Journal,DOI Link,PDF Link,Editors,Website,GitHub,OSF,categorization,fMRI,Added By,Note
 ,,,,,,,,,,,,,,,
+2020-05-10,journal article,published, Variability in the analysis of a single neuroimaging dataset by many teams,"Many authors","Nature", https://www.biorxiv.org/content/10.1101/843193v1 , ,,, ,,,,Brad,
 2020-05-01,journal article,published, Category learning in rodents using touchscreen-based tasks,"Broschard, M., Kim, J. Love, B.C., & Freeman, J.","Genes, Brain and Behavior",  , ,,, ,,,,Brad,
 2020-04-01,journal article,published,How Decisions and the Desire for Coherency Shape Subjective Preferences Over Time,"Hornsby, A. N. & Love, B. C.",Cognition,https://doi.org/10.1016/j.cognition.2020.104244 ,https://www.sciencedirect.com/science/article/pii/S0010027720300639#s0135,,,https://github.com/anhornsby/coherent-representations,,,,Brad,
 2020-02-06,preprint,unpublished,The Costs and Benefits of Goal-Directed Attention in Deep Convolutional Neural Networks,"Luo, X., Roads, B. D., & Love, B. C.",arXiv,https://arxiv.org/abs/2002.02342,https://arxiv.org/pdf/2002.02342.pdf,,,,,,,Ken,
