@@ -6,7 +6,7 @@ order: 1
 
 email: kaarina.aho.18@ucl.ac.uk
 
-website: https://github.com/kaarinaaho
+website: 
 twitter: kaarinaho
 researchgate: 
 impactstory: 
