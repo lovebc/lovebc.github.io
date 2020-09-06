@@ -1,5 +1,7 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
 
+
+* BBC frontpage article on consumer decision making,  <a href="https://www.bbc.co.uk/news/business-47357292"> here</a>, March 2019.
 * British Neuroscience (BNA) Bulletin <a href="http://bradlove.org/images/BNA2018.pdf"> interview</a>, Summer 2018.
 * 10 Years of Nudge: <a href="https://www.bbc.co.uk/programmes/b0b90xc6"> Radio 4 </a>.
 * AI hype: <a href="http://www.theregister.co.uk/2016/10/25/will_ai_spell_the_end_of_humanity_the_tech_industry_wants_you_to_think_so/"> The Register</a>.
