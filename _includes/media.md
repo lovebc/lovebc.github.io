@@ -1,6 +1,6 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
 
-
+* Royal Instituiton  <a href="https://soundcloud.com/royal-institution/a-generalist-ai-ri-science-podcast-45"> event</a> on generalist AI.
 * BBC frontpage article on consumer decision making,  <a href="https://www.bbc.co.uk/news/business-47357292"> here</a>, March 2019.
 * British Neuroscience (BNA) Bulletin <a href="http://bradlove.org/images/BNA2018.pdf"> interview</a>, Summer 2018.
 * 10 Years of Nudge: <a href="https://www.bbc.co.uk/programmes/b0b90xc6"> Radio 4 </a>.
