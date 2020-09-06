@@ -1,7 +1,7 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
 
 * Brain Inspired Podcast,  <a href="https://braininspired.co/podcast/70/"> How we learn comcepts</a>.
-* Cognitive Revolution Podcast,  <a href="https://www.codykommers.com/post/23-brad-love-on-lifelong-exploration"> Lifelong learning</a>.
+* Cognitive Revolution Podcast,  <a href="https://www.codykommers.com/post/23-brad-love-on-lifelong-exploration"> Lifelong Exploration</a>.
 * Changing Minds Webinar,  <a href="https://www.youtube.com/watch?v=2qQG9oiM3QY"> Big data, smart analyses</a>.
 * Royal Instituiton  <a href="https://soundcloud.com/royal-institution/a-generalist-ai-ri-science-podcast-45"> event</a> on generalist AI.
 * BBC frontpage article on consumer decision making,  <a href="https://www.bbc.co.uk/news/business-47357292"> here</a>, March 2019.
