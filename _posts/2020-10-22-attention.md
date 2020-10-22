@@ -9,7 +9,7 @@ mathjax: true
 
 ---
 
-#### Inspired by the brain, we find a goal-directed attention approach to feature reuse beats a commonly used machine learning strategy (<a href="https://arxiv.org/abs/2002.02342">Luo et al., 2020</a>). In particular, attentional modulation of mid-level features in deep convolutional neural networks is more effective than retraining the last layer to transfer to a new task.
+Inspired by the brain, we find a goal-directed attention approach to feature reuse bests a commonly used machine learning strategy (<a href="https://arxiv.org/abs/2002.02342">Luo et al., 2020</a>). In particular, attentional modulation of mid-level features in deep convolutional neural networks is more effective than retraining the last layer to transfer to a new task.
 
 Neuroscience and machine learning have been enjoying a virtuous cycle in which advances in one field spurs advances in the other. For example, deep convolutional neural networks (DCNNs) were motivated by the organisation of the visual cortex. In this blog, we highlight another success for neuroscience-inspired approaches, namely using goal-directed attention to repurpose an existing network for a new task.
 
@@ -74,7 +74,7 @@ All three tests follow the same procedure involving both target and non-target i
 
 [We found](https://arxiv.org/abs/2002.02342) that the goal-directed attention approach generally outperformed (i.e., higher $d^\prime$) the widely used transfer learning approach in all three tasks.
 
-One explanation is that even though the attention layer had fewer tunable parameters ($512$ vs. $4,096,000$ parameters) than the retraining approach, the cascading effects through subsequent networks layers provided the needed flexibility to match the task goal. The results suggest that this neuroscience-inspired approach can enable the model to more effectively adapt to new tasks at a relatively low cost. Additionally, since each attention weight has a unique correspondence to the entire feature map from the preceding layer, this goal-directed mechanism can potentially be more interpretable than the fully connected weights. 
+One explanation is that even though the attention layer had fewer tunable parameters ($512$ vs. $4,096,000$ parameters) than the retraining approach, the cascading effects through subsequent network layers provided the needed flexibility to match the task goal. The results suggest that this neuroscience-inspired approach can enable the model to more effectively adapt to new tasks at a relatively low cost. Additionally, since each attention weight has a unique correspondence to the entire feature map from the preceding layer, this goal-directed mechanism can potentially be more interpretable than the fully connected weights. 
 
 
 
