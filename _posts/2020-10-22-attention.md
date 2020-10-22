@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: A neuroscience-inspired approach to transfer learning
 layout: post
 author: Xiaoliang Luo, Brett D. Roads, Bradley C. Love
