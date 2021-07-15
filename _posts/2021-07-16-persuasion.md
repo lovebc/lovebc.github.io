@@ -3,7 +3,7 @@ published: true
 title: The Psychology of Persuasion
 layout: post
 author: Bradley C. Love
-image: /images/blog/attention_layer.png
+image: /images/blog/leftRight.png
 comments: false
 mathjax: true
 
