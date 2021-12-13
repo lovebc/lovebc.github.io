@@ -4,14 +4,15 @@ Date,Type,Status,Title,Authors,Journal,DOI Link,PDF Link,Editors,Website,GitHub,
 ,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,
 2021-07-03,preprint,unpublished,Directly interfacing brain and deep networks exposes non-hierarchical visual processing,"Sexton, N. J. & Love, B. C.",bioRxiv,https://www.biorxiv.org/content/10.1101/2021.06.28.450213v2.abstract,https://www.biorxiv.org/content/10.1101/2021.06.28.450213v2.full.pdf,,,,,,,Brad,
-
 2021-12-03,preprint,unpublished,Human learning follows the dynamics of gradient descent,"Barry, D. N. & Love, B. C.",PsyArXiv,https://psyarxiv.com/75e4t/,https://psyarxiv.com/75e4t/download,,,,,,,Brad,
-
-
 2021-05-26,preprint,unpublished,A neural network account of memory replay and knowledge consolidation,"Barry, D. N. & Love, B. C.",bioRxiv,https://www.biorxiv.org/content/10.1101/2021.05.25.445587v1,https://www.biorxiv.org/content/10.1101/2021.05.25.445587v1.full.pdf,,,,,,,Brad,
 2021-10-28,preprint,unpublished,When unsupervised training benefits category learning,"Broker, F., Love, B. C. & Dayan, P.",Cognition (in press),https://psyarxiv.com/k5pzu/,https://psyarxiv.com/k5pzu/download,,,,,,,Brad,
 2021-11-15,journal article,published,A Deep Learning Account of How Language Affects Thought,"Luo, X., Sexton, N. J. & Love, B. C.",Language Cognition & Neuroscience,https://www.tandfonline.com/doi/full/10.1080/23273798.2021.2001023,https://psyarxiv.com/9xwjh/download,,,https://github.com/don-tpanic/DeepLangThought,,,,Nick,
 2021-02-15,preprint,unpublished,A Too-Good-to-be-True Prior to Reduce Shortcut Reliance,"Dagaev, N., Roads, B. D., Luo, X., Barry, D.N., Patil, K.R. & Love, B. C.",arXiv,https://arxiv.org/abs/2102.06406,https://arxiv.org/pdf/2102.06406.pdf,,,,,,,Brad,
+
+2021-12-13,preprint,unpublished,A Too-Good-to-be-True Prior to Reduce Shortcut Reliance,"Aho, K., Roads, B. D. & Love, B. C.",PsyArXiv,https://psyarxiv.com/pm3ay,https://psyarxiv.com/pm3ay/download,,,,,,,Brad,
+
+
 2005-01-10,book chapter,published,Modeling Learning Under the Influence of Culture,"Love, B. C. & Gureckis, T. M.",Categorization inside and outside the laboratory: Essays in honor of Douglas L. Medin,https://doi.org/10.1037/11156-013,http://bradlove.org/papers/LoveGureckis2005.pdf,"W.-k. Ahn, R. L. Goldstone, B. C. Love, A. B. Markman, & P. Wolff ",,,,,,Brad,
 2020-11-23,journal,published,Abstract neural representations of category membership beyond information coding stimulus or response,"Mok, R. & Love, B. C.",Journal of Cognitive Neuroscience,https://doi.org/10.1162/jocn_a_01651,https://direct.mit.edu/jocn/article-pdf/doi/10.1162/jocn_a_01651/1888652/jocn_a_01651.pdf,,,,,,,Brad,
 2008-10-15,journal article,published,Prediction Markets are only Human: Subadditivity in Probability Judgments,"Love, B. C.",Journal of Me,http://bradlove.org/papers/election.pdf,http://bradlove.org/papers/election.pdf,,,,,,,Brad,
