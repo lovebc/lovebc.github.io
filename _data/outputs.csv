@@ -6,7 +6,11 @@ Date,Type,Status,Title,Authors,Journal,DOI Link,PDF Link,Editors,Website,GitHub,
 2021-07-03,preprint,unpublished,Directly interfacing brain and deep networks exposes non-hierarchical visual processing,"Sexton, N. J. & Love, B. C.",bioRxiv,https://www.biorxiv.org/content/10.1101/2021.06.28.450213v2.abstract,https://www.biorxiv.org/content/10.1101/2021.06.28.450213v2.full.pdf,,,,,,,Brad,
 2021-12-03,preprint,unpublished,Human learning follows the dynamics of gradient descent,"Barry, D. N. & Love, B. C.",PsyArXiv,https://psyarxiv.com/75e4t/,https://psyarxiv.com/75e4t/download,,,,,,,Brad,
 2021-05-26,preprint,unpublished,A neural network account of memory replay and knowledge consolidation,"Barry, D. N. & Love, B. C.",bioRxiv,https://www.biorxiv.org/content/10.1101/2021.05.25.445587v1,https://www.biorxiv.org/content/10.1101/2021.05.25.445587v1.full.pdf,,,,,,,Brad,
-2021-10-28,preprint,unpublished,When unsupervised training benefits category learning,"Broker, F., Love, B. C. & Dayan, P.",Cognition (in press),https://psyarxiv.com/k5pzu/,https://psyarxiv.com/k5pzu/download,,,,,,,Brad,
+
+
+2022-04-01,journal article,published,When unsupervised training benefits category learning,"Broker, F., Love, B. C. & Dayan, P.",Cognition ,https://doi.org/10.1016/j.cognition.2021.104984,https://www.sciencedirect.com/science/article/pii/S0010027721004078/pdfft?md5=f26cd3aaae4b443e8645528b71c41e46&pid=1-s2.0-S0010027721004078-main.pdf,,,,,,,Brad,
+
+2021-10-28,preprint,published,When unsupervised training benefits category learning,"Broker, F., Love, B. C. & Dayan, P.",Cognition (in press),https://psyarxiv.com/k5pzu/,https://psyarxiv.com/k5pzu/download,,,,,,,Brad,
 2021-11-15,journal article,published,A Deep Learning Account of How Language Affects Thought,"Luo, X., Sexton, N. J. & Love, B. C.",Language Cognition & Neuroscience,https://www.tandfonline.com/doi/full/10.1080/23273798.2021.2001023,https://psyarxiv.com/9xwjh/download,,,https://github.com/don-tpanic/DeepLangThought,,,,Nick,
 2021-02-15,preprint,unpublished,A Too-Good-to-be-True Prior to Reduce Shortcut Reliance,"Dagaev, N., Roads, B. D., Luo, X., Barry, D.N., Patil, K.R. & Love, B. C.",arXiv,https://arxiv.org/abs/2102.06406,https://arxiv.org/pdf/2102.06406.pdf,,,,,,,Brad,
 
