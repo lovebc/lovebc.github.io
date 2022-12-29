@@ -1,6 +1,6 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
 
-* <a href="https://www.bbc.co.uk/programmes/w3ct1j0m](https://knowingneurons.com/podcast-2/)"> Knowing Neurons Podcast (12-12-2022)</a>.
+* <a href="https://knowingneurons.com/podcast-2/"> Knowing Neurons Podcast (12-12-2022)</a>.
 * <a href="https://www.bbc.co.uk/programmes/w3ct1j0m"> BBC's from Nudge to Sludge</a>.
 * Brain Inspired Podcast,  <a href="https://braininspired.co/podcast/70/"> How we learn comcepts</a>.
 * Cognitive Revolution Podcast,  <a href="https://www.codykommers.com/post/23-brad-love-on-lifelong-exploration"> Lifelong Exploration</a>.
