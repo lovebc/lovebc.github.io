@@ -1,16 +1,10 @@
 Date,Type,Status,Title,Authors,Journal,DOI Link,PDF Link,Editors,Website,GitHub,OSF,categorization,fMRI,Added By,Note
-
-
-2022-01-11,preprint,unpublished,Do Invariances in Deep Neural Networks Align with Human Perception? "Nanda, V., Majumdar, A., Kolling, C., Dickerson, J. P., Gummadi, K. P., Love, B. C., & Weller",AAAI,https://arxiv.org/abs/2111.14726,https://arxiv.org/pdf/2111.14726,,,,,,,Brad,
-
-2022-01-11,preprint,unpublished,Do Invariances in Deep Neural Networks Align with Human Perception? "Nanda, V., Majumdar, A., Kolling, C., Dickerson, J. P., Gummadi, K. P., Love, B. C., & Weller",AAAI,https://arxiv.org/abs/2111.14726,https://arxiv.org/pdf/2111.14726,,,,,,,Brad,
-
-2022-12-21,journal,published,A Too-Good-to-be-True Prior to Reduce Shortcut Reliance,"Dagaev, N., Roads, B. D., Luo, X., Barry, D.N., Patil, K.R. & Love, B. C.",Pattern Recognition Letters,https://www.sciencedirect.com/science/article/abs/pii/S0167865522003841,https://arxiv.org/pdf/2102.06406.pdf,,,,,,,Brad,
-
-2022-12-21,journal,published,TITLE,"Dagaev, N., Roads, B. D., Luo, X., Barry, D.N., Patil, K.R. & Love, B. C.",Pattern Recognition Letters,https://www.sciencedirect.com/science/article/abs/pii/S0167865522003841,https://arxiv.org/pdf/2102.06406.pdf,,,,,,,Brad,
-
+,,,,,,,,,,,,,,,
 2021-09-23,journal,published,Prelimbic cortex maintains attention to category-relevant information and flexibly updates category representations,"Broschard, M.B., Kim, J., Love, B.C., Wasserman, E.A., & Freeman, J.H.",Neurobiology of Learning and Memory,https://doi.org/10.1016/j.nlm.2021.107524,https://reader.elsevier.com/reader/sd/pii/S1074742721001465?token=87814BB5C42E1F6A4E02442A967FC549090F4467BE548189D85DFB007A5F71B11CD9E183B6E2BAFD8106C0F5E2F71CA4&originRegion=eu-west-1&originCreation=20210923212445,,,,,,,Brad,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
 2022-06-09,preprint,unpublished,A multi-level account of hippocampal function from behaviour to neurons,"Mok, R. & Love, B. C.",bioRxiv,https://doi.org/10.1101/2022.06.09.495367,https://www.biorxiv.org/content/10.1101/2022.06.09.495367v1.full.pdf,,,,,,,Brad,
+
 2021-11-15,journal article,published,A Deep Learning Account of How Language Affects Thought,"Luo, X., Sexton, N. J. & Love, B. C.",Language Cognition & Neuroscience,https://www.tandfonline.com/doi/full/10.1080/23273798.2021.2001023,https://psyarxiv.com/9xwjh/download,,,https://github.com/don-tpanic/DeepLangThought,,,,Nick,
 2022-06-05,journal article,published,Reassessing hierarchical correspondences between brain and deep networks through direct interface,"Sexton, N. J. & Love, B. C.",Reassessing hierarchical correspondences between brain and deep networks through direct interface. Science Advances,https://www.science.org/doi/10.1126/sciadv.abm2219,https://www.science.org/doi/epdf/10.1126/sciadv.abm2219,,,,,,Brad, 
 2021-07-03,preprint,published,Directly interfacing brain and deep networks exposes non-hierarchical visual processing,"Sexton, N. J. & Love, B. C.",bioRxiv,https://www.biorxiv.org/content/10.1101/2021.06.28.450213v2.abstract,https://www.biorxiv.org/content/10.1101/2021.06.28.450213v2.full.pdf,,,,,,,Brad,
@@ -20,6 +14,7 @@ Date,Type,Status,Title,Authors,Journal,DOI Link,PDF Link,Editors,Website,GitHub,
 2022-04-01,journal article,published,When unsupervised training benefits category learning,"Broker, F., Love, B. C. & Dayan, P.",Cognition ,https://doi.org/10.1016/j.cognition.2021.104984,https://www.sciencedirect.com/science/article/pii/S0010027721004078/pdfft?md5=f26cd3aaae4b443e8645528b71c41e46&pid=1-s2.0-S0010027721004078-main.pdf,,,,,,,Brad,
 2021-10-28,preprint,published,When unsupervised training benefits category learning,"Broker, F., Love, B. C. & Dayan, P.",Cognition (in press),https://psyarxiv.com/k5pzu/,https://psyarxiv.com/k5pzu/download,,,,,,,Brad,
 2021-02-15,preprint,published,A Too-Good-to-be-True Prior to Reduce Shortcut Reliance,"Dagaev, N., Roads, B. D., Luo, X., Barry, D.N., Patil, K.R. & Love, B. C.",arXiv,https://arxiv.org/abs/2102.06406,https://arxiv.org/pdf/2102.06406.pdf,,,,,,,Brad,
+2022-12-21,journal,published,A Too-Good-to-be-True Prior to Reduce Shortcut Reliance,"Dagaev, N., Roads, B. D., Luo, X., Barry, D.N., Patil, K.R. & Love, B. C.",Pattern Recognition Letters,https://www.sciencedirect.com/science/article/abs/pii/S0167865522003841,https://arxiv.org/pdf/2102.06406.pdf,,,,,,,Brad,
 2022-05-30,preprint,published,System alignment supports cross-domain learning and zero-shot generalisation,"Aho, K., Roads, B. D. & Love, B. C.",Cognition (in press),https://psyarxiv.com/pm3ay,https://psyarxiv.com/pm3ay/download,,,,,,,Brad,
 2022-10-10,journal,published,System alignment supports cross-domain learning and zero-shot generalisation,"Aho, K., Roads, B. D. & Love, B. C.",Cognition,https://doi.org/10.1016/j.cognition.2022.105200,https://www.sciencedirect.com/science/article/pii/S0010027722001883/pdfft?md5=fef324a50d82203e9f8cf4118e3708eb&pid=1-s2.0-S0010027722001883-main.pdf,,,,,,,Brad,
 2005-01-10,book chapter,published,Modeling Learning Under the Influence of Culture,"Love, B. C. & Gureckis, T. M.",Categorization inside and outside the laboratory: Essays in honor of Douglas L. Medin,https://doi.org/10.1037/11156-013,http://bradlove.org/papers/LoveGureckis2005.pdf,"W.-k. Ahn, R. L. Goldstone, B. C. Love, A. B. Markman, & P. Wolff ",,,,,,Brad,
