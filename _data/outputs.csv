@@ -6,6 +6,9 @@ Date,Type,Status,Title,Authors,Journal,DOI Link,PDF Link,Editors,Website,GitHub,
 
 2023-02-06,journal article,published,"Dorsomedial striatum, but not dorsolateral striatum, is necessary for rat category learning","Broschard, M., Kim, J. Love, B.C., & Freeman, J.","Neurobiology of Learning and Memory",http://www.sciencedirect.com/science/journal/10747427, http://www.sciencedirect.com/science/journal/10747427,,, ,,,,Brad,
 
+2023-07-13,journal article,published,"Confound-leakage: Confound Removal in Machine Learning Leads to Leakage","Sami Hamdan, Bradley C. Love, Georg G. von Polier, Susanne Weis, Holger Schwender, Simon B. Eickhoff, Kaustubh R. Patil","GigaScience (in press)",https://arxiv.org/abs/2210.09232, https://arxiv.org/pdf/2210.09232,,, ,,,,Brad,
+
+
 2023-06-15,journal article,published,"Human-in-the-Loop Mixup","Katherine M. Collins, Umang Bhatt, Weiyang Liu, Vihari Piratla, Ilia Sucholutsky, Bradley C. Love, Adrian Weller","Uncertainty in Artificial Intelligence (UAI)",https://openreview.net/forum?id=BW6oQ0qZl0El, https://openreview.net/pdf?id=BW6oQ0qZl0El,,, ,,,,Brad,
 
 2023-01-18,preprint,unpublished,A controller-peripheral architecture and costly energy principle for learning,"Luo, X., Mok, R.M., Roads, B.D., & Love, B. C.",bioRxiv,https://doi.org/10.1101/2023.01.16.524194,https://www.biorxiv.org/content/10.1101/2023.01.16.524194v1.full.pdf,,,,,,,Brad,
