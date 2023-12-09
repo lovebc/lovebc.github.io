@@ -2,10 +2,10 @@ Date,Type,Status,Title,Authors,Journal,DOI Link,PDF Link,Editors,Website,GitHub,
 ,,,,,,,,,,,,,,,
 
 
+2023-12-03,preprint,unpublished,"Adaptive stretching of representations across brain regions and deep learning model layers","Xin-Ya Zhang, View ORCID ProfileSebastian Bobadilla-Suarez, View ORCID ProfileXiaoliang Luo, Marilena Lemonari, Scott L. Brincat, Markus Siegel, Earl K. Miller, Bradley C. Love",bioRxiv,https://doi.org/10.1101/2023.12.01.569615 ,https://www.biorxiv.org/content/10.1101/2023.12.01.569615v1.full.pdf,,,,,,,Brad,
+
 
 2023-09-11,preprint,unpublished,"The Past, Present, and Future of the Brain Imaging Data Structure (BIDS)","Russell A Poldrack, **lots of people** & Krzysztof J Gorgolewski",arXiv,https://arxiv.org/abs/2309.05768,https://arxiv.org/pdf/2309.05768.pdf,,,,,,,Brad,
-
-
 2023-10-18,preprint,unpublished,Getting aligned on representational alignment,"Ilia Sucholutsky, **lots of people**, Thomas L Griffiths",arXiv,https://arxiv.org/abs/2310.13018,https://arxiv.org/pdf/2310.13018.pdf,,,,,,,Brad,
 2023-12-06,journal,published,You can't play 20 questions with nature and win redux,"Love, B.C., & Mok, R.M.",Behavioral and Brain Sciences ,https://doi.org/10.1017/S0140525X23001747,https://osf.io/xaemv/download/,,,,,,,Brad,
 2023-11-07,preprint,unpublished,On Leakage in Machine Learning Pipelines,"Leonard Sasse, Eliana Nicolaisen-Sobesky, Juergen Dukart, Simon B Eickhoff, Michael Götz, Sami Hamdan, Vera Komeyer, Abhijit Kulkarni, Juha Lahnakoski, Bradley C Love, Federico Raimondo, & Kaustubh R Patil",arXiv,https://arxiv.org/abs/2311.04179,https://arxiv.org/pdf/2311.04179.pdf,,,,,,,Brad,
