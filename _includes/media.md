@@ -4,7 +4,7 @@ Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love La
 * <a href="https://www.economist.com/science-and-technology/2023/05/24/artificial-brains-are-helping-scientists-study-the-real-thing"> The Economist, "Artificial brains are helping scientists study the real thing" (24-5-2023)</a>.
 * <a href="https://knowingneurons.com/podcast-2/"> Knowing Neurons Podcast (12-12-2022)</a>.
 * <a href="https://www.bbc.co.uk/programmes/w3ct1j0m"> BBC's from Nudge to Sludge</a>.
-* Brain Inspired Podcast,  <a href="https://braininspired.co/podcast/70/"> How we learn comcepts</a>.
+* Brain Inspired Podcast,  <a href="https://braininspired.co/podcast/70/"> How we learn concepts</a>.
 * Cognitive Revolution Podcast,  <a href="https://www.codykommers.com/post/23-brad-love-on-lifelong-exploration"> Lifelong Exploration</a>.
 * Changing Minds Webinar,  <a href="https://www.youtube.com/watch?v=2qQG9oiM3QY"> Big data, smart analyses</a>.
 * Royal Instituiton  <a href="https://soundcloud.com/royal-institution/a-generalist-ai-ri-science-podcast-45"> event</a> on generalist AI.
