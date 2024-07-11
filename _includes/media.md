@@ -1,5 +1,5 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
-* <a href="[https://www.youtube.com/watch?v=EA44JEJPrc0](https://www.youtube.com/watch?v=tNRMWNfrkxc)"> Dan Shipper's AI and I Podcast (10-7-2024)</a>.
+* <a href="https://www.youtube.com/watch?v=tNRMWNfrkxc"> Dan Shipper's AI and I Podcast (10-7-2024)</a>.
 * <a href="https://www.youtube.com/watch?v=EA44JEJPrc0"> Love & Philosophy, Beyond Dichotomy Podcast (24-5-2024)</a>.
 * <a href="https://www.economist.com/science-and-technology/2023/05/24/artificial-brains-are-helping-scientists-study-the-real-thing"> The Economist, "Artificial brains are helping scientists study the real thing" (24-5-2023)</a>.
 * <a href="https://knowingneurons.com/podcast-2/"> Knowing Neurons Podcast (12-12-2022)</a>.
