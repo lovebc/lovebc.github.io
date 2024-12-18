@@ -1,4 +1,5 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
+* <a href="https://www.youtube.com/watch?v=Qgrl3JSWWDE"> Sabine Hossenfelder</a> on <a href="https://www.nature.com/articles/s41562-024-02046-9">BrainGPT paper<a>.
 * <a href="https://www.nature.com/articles/s41562-024-02046-9/metrics"> Index to BrainGPT press on first paper</a>.
 * <a href="https://www.youtube.com/watch?v=tNRMWNfrkxc"> Dan Shipper's AI and I Podcast (10-7-2024)</a>.
 * <a href="https://www.youtube.com/watch?v=EA44JEJPrc0"> Love & Philosophy, Beyond Dichotomy Podcast (24-5-2024)</a>.
