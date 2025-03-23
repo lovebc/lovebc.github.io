@@ -1,8 +1,7 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
 * <a href="https://doi.org/10.1038/s41593-024-01860-8"> AI beats neuroscientists’ predictions (Nature Neuroscience)</a>
 * <a href="https://touchneurology.com/podcast/braingpt-advancing-neuroscientific-research-with-ai/"> Podcast with Nicky Cartridge on how AI will impact science and healthcare</a>
-* <a href="https://www.theguardian.com/games/2024/dec/21/at-98-i-wouldnt-be-so-sharp-without-puzzles-do-crosswords-and-quizzes-really-boost-your-brain-power/">
-Some comments to The Guardian on how puzzles affect or don't affect cognition, focused on aging.</a>
+* <a href="https://www.theguardian.com/games/2024/dec/21/at-98-i-wouldnt-be-so-sharp-without-puzzles-do-crosswords-and-quizzes-really-boost-your-brain-power/"> Some comments to The Guardian on how puzzles affect or don't affect cognition, focused on aging.</a>
 * <a href="https://www.youtube.com/watch?v=Qgrl3JSWWDE"> Sabine Hossenfelder</a> on <a href="https://www.nature.com/articles/s41562-024-02046-9">BrainGPT paper<a>.
 * <a href="https://www.nature.com/articles/s41562-024-02046-9/metrics"> Index to BrainGPT press on first paper</a>.
 * <a href="https://www.youtube.com/watch?v=tNRMWNfrkxc"> Dan Shipper's AI and I Podcast (10-7-2024)</a>.
