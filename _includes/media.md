@@ -1,8 +1,16 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
-
+* <a href="https://doi.org/10.1038/s41593-024-01860-8"> AI beats neuroscientists’ predictions (Nature Neuroscience)</a>
+* <a href="https://touchneurology.com/podcast/braingpt-advancing-neuroscientific-research-with-ai/"> Podcast with Nicky Cartridge on how AI will impact science and healthcare</a>
+* <a href="https://www.theguardian.com/games/2024/dec/21/at-98-i-wouldnt-be-so-sharp-without-puzzles-do-crosswords-and-quizzes-really-boost-your-brain-power/"> Some comments to The Guardian on how puzzles affect or don't affect cognition, focused on aging.</a>
+* <a href="https://www.youtube.com/watch?v=Qgrl3JSWWDE"> Sabine Hossenfelder</a> on <a href="https://www.nature.com/articles/s41562-024-02046-9">BrainGPT paper<a>.
+* <a href="https://www.nature.com/articles/s41562-024-02046-9/metrics"> Index to BrainGPT press on first paper</a>.
+* <a href="https://www.youtube.com/watch?v=tNRMWNfrkxc"> Dan Shipper's AI and I Podcast (10-7-2024)</a>.
+* <a href="https://www.youtube.com/watch?v=EA44JEJPrc0"> Love & Philosophy, Beyond Dichotomy Podcast (24-5-2024)</a>.
+* <a href="https://youtu.be/7G4gR8LfI04?si=eVvP9vkShIYRO51P"> Foresight Neurotech program (28-8-2024)</a>.
+* <a href="https://www.economist.com/science-and-technology/2023/05/24/artificial-brains-are-helping-scientists-study-the-real-thing"> The Economist, "Artificial brains are helping scientists study the real thing" (24-5-2023)</a>.
 * <a href="https://knowingneurons.com/podcast-2/"> Knowing Neurons Podcast (12-12-2022)</a>.
 * <a href="https://www.bbc.co.uk/programmes/w3ct1j0m"> BBC's from Nudge to Sludge</a>.
-* Brain Inspired Podcast,  <a href="https://braininspired.co/podcast/70/"> How we learn comcepts</a>.
+* Brain Inspired Podcast,  <a href="https://braininspired.co/podcast/70/"> How we learn concepts</a>.
 * Cognitive Revolution Podcast,  <a href="https://www.codykommers.com/post/23-brad-love-on-lifelong-exploration"> Lifelong Exploration</a>.
 * Changing Minds Webinar,  <a href="https://www.youtube.com/watch?v=2qQG9oiM3QY"> Big data, smart analyses</a>.
 * Royal Instituiton  <a href="https://soundcloud.com/royal-institution/a-generalist-ai-ri-science-podcast-45"> event</a> on generalist AI.
