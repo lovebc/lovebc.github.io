@@ -1,5 +1,5 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
-* <a href="[https://doi.org/10.1038/s41593-024-01860-8](https://journals.lww.com/neurotodayonline/fulltext/2025/06050/can_large_language_models_eliminate_biases_in.5.aspx)"> Can Large Language Models Eliminate Biases in Health Care? (Neurology Today)</a>
+* <a href="https://journals.lww.com/neurotodayonline/fulltext/2025/06050/can_large_language_models_eliminate_biases_in.5.aspx"> Can Large Language Models Eliminate Biases in Health Care? (Neurology Today)</a>
 * <a href="https://doi.org/10.1038/s41593-024-01860-8"> AI beats neuroscientists’ predictions (Nature Neuroscience)</a>
 * <a href="https://touchneurology.com/podcast/braingpt-advancing-neuroscientific-research-with-ai/"> Podcast with Nicky Cartridge on how AI will impact science and healthcare</a>
 * <a href="https://www.theguardian.com/games/2024/dec/21/at-98-i-wouldnt-be-so-sharp-without-puzzles-do-crosswords-and-quizzes-really-boost-your-brain-power/"> Some comments to The Guardian on how puzzles affect or don't affect cognition, focused on aging.</a>
