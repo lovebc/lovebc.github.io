@@ -1,3 +1,0 @@
-<Files "*.pdf">
-    Header set Link "<https://bradlove.org/papers/%f>; rel=\"canonical\""
-</Files>
