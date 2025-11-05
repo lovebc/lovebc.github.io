@@ -1,4 +1,5 @@
 Selected mainstream media articles on the <a href="{{site.baseurl}}/lab">Love Lab</a>'s work:
+* a href="https://www.thetransmitter.org/machine-learning/how-neuroscientists-are-using-ai/"> How neuroscientists are using AI (The Transmitter) </a>
 * <a href="https://journals.lww.com/neurotodayonline/fulltext/2025/06050/can_large_language_models_eliminate_biases_in.5.aspx">Can Large Language Models Eliminate Biases in Health Care? (Neurology Today)</a>
 * <a href="https://doi.org/10.1038/s41593-024-01860-8"> AI beats neuroscientists’ predictions (Nature Neuroscience)</a>
 * <a href="https://touchneurology.com/podcast/braingpt-advancing-neuroscientific-research-with-ai/"> Podcast with Nicky Cartridge on how AI will impact science and healthcare</a>
