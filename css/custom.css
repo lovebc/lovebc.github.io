@@ -32,13 +32,17 @@
   padding-bottom: 4rem;
 }
 
+.docs-section.top {
+  padding-top: 1rem;
+}
+
 .contact-section {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 2rem;
   padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.25rem;
   margin: 0;
   border-top: 1px solid #eee;
 }
