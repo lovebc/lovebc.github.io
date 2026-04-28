@@ -10,42 +10,20 @@ layout: base
 
  <div class="section main">
      <div class="row">
-       <div class="three columns address">
+       <div class="twelve columns">
 
-            {% include address.html %}
-             {% include social.html %}
-
-
-           <div class = "funding top-column1"> <!-- giving it own class because we need to move to bottom on smaller screens -->
-             <h2 class="docs-header">Funded by</h2>
-                 {% include funding.html %}
-           </div>
-
-           <div class = "tweets"> <!-- giving it own class because we need to hide it on smaller screens -->
-          <!--- <h2 class="docs-header">Tweets</h2>  --->
-                {% include twitter.html %}
-           </div>
-
-       </div>
-
-       <div class="nine columns" >
+         <div class="contact-section">
+             <div class="contact-address">
+                 {% include address.html %}
+             </div>
+             <div class="contact-social">
+                 {% include social.html %}
+             </div>
+         </div>
 
          {{ content }}
 
-         <div class = "bottom-column2 docs-section examples"> <!-- giving it own class because we need to move to bottom on smaller screens -->
-             <h2>Tweets</h2>
-                 {% include twitter.html %}
-         </div>
-
-         <div class = "funding bottom-column2 docs-section examples"> <!-- giving it own class because we need to move to bottom on smaller screens -->
-             <h2>Funded by</h2>
-                 {% include funding.html %}
-         </div>
-
        </div>
      </div>
-
-
-
    </div>
 </div>
